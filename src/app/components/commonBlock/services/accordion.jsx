@@ -1,32 +1,33 @@
 import React, { useState } from "react";
-import plus from "../svg/plus";
+import plus from "../../svg/plus";
+import classes from "./services.module.css"
 
 const Accordion = ({ title, list }) => {
-    const [listClass, setListClass] = useState("list-hide");
+    const [listClass, setListClass] = useState(classes.listHide);
     const [btnClass, setBtnClass] = useState("");
     const [isListVisible, setIsListVisible] = useState(false);
     const handleClick = () => {
         if (isListVisible) {
-            setListClass("list-hide");
+            setListClass(classes.listHide);
             setBtnClass("");
         } else {
-            setListClass("list-show");
-            setBtnClass("rotateBtn");
+            setListClass(classes.listShow);
+            setBtnClass(classes.rotateBtn);
         }
         setIsListVisible((prevState) => !prevState);
     };
     return (
-        <div className="accordion">
-            <div className="accordion__header">
-                <div className="accordion__title">{title}</div>
+        <div className={classes.accordion}>
+            <div className={classes.accordion__header}>
+                <div className={classes.accordion__title}>{title}</div>
                 <button
-                    className={"openList " + btnClass}
+                    className={classes.openList + " " + btnClass}
                     onClick={handleClick}
                 >
                     {plus}
                 </button>
             </div>
-            <ul className={"accordion__list " + listClass}>
+            <ul className={classes.accordion__list + " " + listClass}>
                 {list.map((item) => (
                     <li key={item}>{item}</li>
                 ))}

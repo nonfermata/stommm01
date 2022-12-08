@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./consultForm.module.css"
 
 const Textarea = ({ onChange, placeholder, value, name, rows }) => {
     const handleChange = ({ target }) => {
@@ -6,7 +7,7 @@ const Textarea = ({ onChange, placeholder, value, name, rows }) => {
     };
     return (
         <textarea
-            className="form__textarea"
+            className={classes.form__textarea}
             id={name}
             value={value}
             rows={rows}

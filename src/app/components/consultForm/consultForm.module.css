@@ -1,0 +1,89 @@
+.totalWindow {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--base-color);
+    opacity: 0.85;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.frm__wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.form {
+    width: 500px;
+    background-color: var(--base-bg-color);
+    background-image: url(../../assets/images/bgr2.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    padding: 70px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.closeForm {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    color: var(--ex-light-beige-color);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.closeForm:hover {
+    color: var(--light-semi-grey-color);
+}
+
+.form__inputWrap {
+    position: relative;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid var(--light-grey-color);
+    background-color: transparent;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+    color: var(--light-grey-color);
+}
+
+.error {
+    position: absolute;
+    font-weight: 300;
+    bottom: -2em;
+    left: 5px;
+    font-size: 0.8em;
+    color: var(--red-color);
+    user-select: none;
+}
+
+.form__textarea {
+    margin-bottom: 40px;
+    background-color: var(--base-bg-color);
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid var(--semi-beige-color);
+    resize: none;
+    font-size: 0.9em;
+}

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import InputField from "./form/inputField";
+import InputField from "./inputField";
 import validator from "../../utils/validator";
-import SubmitButton from "./submitButton";
+import SubmitButton from "../common/submitButton";
 import EmptyBlock from "../../utils/emptyBlock";
-import Textarea from "./form/textarea";
+import Textarea from "./textarea";
 import close from "../svg/close";
+import classes from "./consultForm.module.css";
 
 const ConsultForm = ({ onClose }) => {
     const [windowClass, setWindowClass] = useState("hidden");
@@ -68,10 +69,10 @@ const ConsultForm = ({ onClose }) => {
 
     return (
         <>
-            <div className={"totalWindow " + windowClass}></div>
-            <div className="frm__wrap" onClick={onClose}>
-                <form className="form" onSubmit={handleSubmit}>
-                    {close}
+            <div className={classes.totalWindow + " " + windowClass}></div>
+            <div className={classes.frm__wrap} onClick={onClose}>
+                <form className={classes.form} onSubmit={handleSubmit}>
+                    <div className={classes.closeForm}>{close}</div>
                     <InputField
                         name="name"
                         value={data.name}

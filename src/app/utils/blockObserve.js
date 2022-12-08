@@ -2,7 +2,7 @@ const blockObserve = (block, action) => {
     function onEntry(entry) {
         entry.forEach((change) => {
             if (change.isIntersecting) {
-                action("show-common");
+                action("showCommon");
             }
         });
     }

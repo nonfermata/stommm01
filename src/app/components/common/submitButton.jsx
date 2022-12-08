@@ -1,9 +1,10 @@
 import React from "react";
+import classes from "./common.module.css"
 
 const SubmitButton = ({ disabled }) => {
     return (
         <button
-            className={"btn form-btn " + (disabled ? " btn-disabled" : "")}
+            className={classes.btn + " form-btn " + (disabled ? classes.btnDisabled : "")}
             disabled={disabled}
         >
             Отправить заявку

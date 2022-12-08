@@ -1,0 +1,12 @@
+.commonBlockOnly {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.photoBlockWrap {
+    background-color: var(--base-bg-color);
+    background-image: url(../../assets/images/photo-block/bgr.png);
+    background-size: cover;
+    background-position: center center;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import classes from "./consultForm.module.css";
 
 const InputField = ({ onChange, placeholder, value, error, name }) => {
     const [isFirstRender, setIsFirstRender] = useState(true);
@@ -7,15 +8,15 @@ const InputField = ({ onChange, placeholder, value, error, name }) => {
         onChange(name, target.value);
     };
     return (
-        <div className="form__input-wrap">
+        <div className={classes.form__inputWrap}>
             <input
                 type="text"
-                className="form__input"
+                className={classes.form__input}
                 onChange={handleChange}
                 placeholder={placeholder}
                 value={value}
             />
-            {error && !isFirstRender && <p className="error">{error}</p>}
+            {error && !isFirstRender && <p className={classes.error}>{error}</p>}
         </div>
     );
 };

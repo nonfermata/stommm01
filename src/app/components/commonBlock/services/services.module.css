@@ -1,0 +1,54 @@
+.accordion {
+    border-bottom: 1px solid var(--light-beige-color);
+    padding-bottom: 20px;
+}
+
+.accordion:first-child {
+    margin-top: 2em;
+    border-top: 1px solid var(--light-beige-color);
+}
+
+.accordion__header {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.accordion__title {
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.openList {
+    margin-right: 15px;
+    background-color: transparent;
+    height: fit-content;
+    border-radius: 50%;
+    padding: 0 2px;
+    color: var(--main-cyan-color);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.openList:hover {
+    background-color: var(--bg-turquoise-color);
+}
+
+.rotateBtn {
+    transform: rotate(45deg);
+}
+
+.accordion__list {
+    list-style: none;
+    font-size: 0.9em;
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+}
+
+.listHide {
+    max-height: 0;
+}
+
+.listShow {
+    max-height: 150px;
+}

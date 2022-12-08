@@ -1,0 +1,36 @@
+.photoBlock {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 5px;
+}
+
+.photoBlock1,
+.photoBlock2,
+.photoBlock3,
+.photoBlock4 {
+    background-size: cover;
+    background-position: center center;
+}
+
+.photoBlock1 {
+    background-image: url(../../../assets/images/photo-block/01.jpg);
+    grid-row: 1;
+}
+
+.photoBlock2 {
+    background-image: url(../../../assets/images/photo-block/02.jpg);
+    grid-row: 1/3;
+}
+
+.photoBlock3 {
+    background-image: url(../../../assets/images/photo-block/03.jpg);
+    grid-row: 2/4;
+}
+
+.photoBlock4 {
+    background-image: url(../../../assets/images/photo-block/04.jpg);
+    grid-row: 3;
+}

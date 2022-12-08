@@ -1,16 +1,29 @@
-import Header from "./components/header";
+import Header from "./components/header/header";
 import Main from "./components/main";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { connect } from "react-redux";
+import { isFullHeaderChange } from "../redux/isFullHeaderReducer";
 
-const App = () => {
+const App = ({ isFullHeader, isFullHeaderChange }) => {
+    const handleScroll = () => {
+        if (!isFullHeader) {
+            isFullHeaderChange();
+        }
+    };
     return (
-        <>
-            <Header />
+        <div className="main" onWheel={handleScroll}>
+            <Header isFullHeader={isFullHeader} />
             <Main />
             <ToastContainer />
-        </>
+        </div>
     );
 };
 
-export default App;
+const mapStateToProps = ({ isFullHeader }) => ({
+    isFullHeader
+});
+
+const mapDispatchToProps = { isFullHeaderChange };
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

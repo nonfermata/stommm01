@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import ConsultForm from "./consultForm";
+import ConsultForm from "../consultForm/consultForm";
 import { toast } from "react-toastify";
+import classes from "./common.module.css";
 
 const CommonBtn = () => {
     const [isConsult, setIsConsult] = useState(false);
@@ -22,7 +23,7 @@ const CommonBtn = () => {
     };
     return (
         <>
-            <button className="btn" onClick={handleClick}>
+            <button className={classes.btn} onClick={handleClick}>
                 Записаться на консультацию
             </button>
             {isConsult && <ConsultForm onClose={handleHideForm} />}

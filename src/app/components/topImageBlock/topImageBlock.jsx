@@ -2,13 +2,15 @@ import React from "react";
 import check from "../svg/check";
 import WipingBlock from "./wipingBlock";
 import CommonBtn from "../common/commonBtn";
+import classes from "./topImageBlock.module.css";
+import contacts from "../../data/contacts";
 
 const TopImageBlock = () => {
     return (
-        <div className="topImageBlock">
-            <div className="topImageBlock__content">
+        <div className={classes.topImageBlock}>
+            <div className={classes.topImageBlock__content}>
                 <WipingBlock timeout="300">
-                    <h1 className="mainTitle">
+                    <h1 className={classes.mainTitle}>
                         {check} Стоматология
                         <br />
                         {check} Косметология
@@ -17,11 +19,12 @@ const TopImageBlock = () => {
                     </h1>
                 </WipingBlock>
                 <WipingBlock timeout="550">
-                    <p className="subTitle">
+                    <p className={classes.subTitle}>
                         Центр «МЕДДЕНТА»
                         <br />
-                        г. Клин, ул. Чайковского, 105, корп. 3<br />
-                        +7 996 655 8190
+                        {contacts.address.city}, {contacts.address.street}
+                        <br />
+                        {contacts.phone}
                     </p>{" "}
                 </WipingBlock>
                 <WipingBlock timeout="800">

@@ -1,0 +1,49 @@
+.personalCards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.personalCard {
+    border-radius: 10px;
+    width: 35%;
+    border: 1px solid var(--semi-beige-color);
+    padding: 20px;
+}
+
+.personName {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.personDecription {
+    font-size: 0.8em;
+}
+
+.person1,
+.person2,
+.person3,
+.person4 {
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.person1 {
+    background-image: url(../../../assets/images/persons/fake-photo.png);
+}
+
+.person2 {
+    background-image: url(../../../assets/images/persons/fake-photo.png);
+}
+
+.person3 {
+    background-image: url(../../../assets/images/persons/fake-photo.png);
+}
+
+.person4 {
+    background-image: url(../../../assets/images/persons/fake-photo.png);
+}

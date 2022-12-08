@@ -1,0 +1,45 @@
+.topImageBlock {
+    background-image: url(../../assets/images/001_main.jpeg);
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topImageBlock__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainTitle {
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+    color: var(--main-cyan-color);
+}
+
+.subTitle {
+    margin-bottom: 40px;
+    font-weight: 300;
+    width: 500px;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.wipingHide {
+    margin-left: -100px;
+    opacity: 0;
+}
+
+.wipingShow {
+    transition: 1.5s ease all;
+    opacity: 1;
+    margin-left: 0;
+}

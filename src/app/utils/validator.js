@@ -10,43 +10,14 @@ const validator = (data, config) => {
                     statusValidate = data.trim() === "";
                 }
                 break;
-            case "isEmail": {
+            case "isEmail":
                 const emailRegExp = /^\S+@\S+\.\S+$/g;
                 statusValidate = !emailRegExp.test(data);
                 break;
-            }
-            case "isCapitalSymbol": {
-                const capitalRegExp = /[A-Z]+/g;
-                statusValidate = !capitalRegExp.test(data);
+            case "isPhone":
+                const phoneRegExp = /^(8|\+7|7)?[\d]{10,11}$/g;
+                statusValidate = !phoneRegExp.test(data);
                 break;
-            }
-            case "isDigit": {
-                const digitRegExp = /\d+/g;
-                statusValidate = !digitRegExp.test(data);
-                break;
-            }
-            case "min": {
-                statusValidate = data.length < config.value;
-                break;
-            }
-            case "hasDate": {
-                statusValidate = !data.day || !data.month || !data.year;
-                break;
-            }
-            case "isAdult": {
-                const date = new Date();
-                const day = date.getDate();
-                const month = date.getMonth() + 1;
-                const year = date.getFullYear();
-                statusValidate =
-                    year - Number(data.year) < 18 ||
-                    (year - Number(data.year) === 18 &&
-                        month < Number(data.month)) ||
-                    (year - Number(data.year) === 18 &&
-                        month === Number(data.month) &&
-                        day < Number(data.day));
-                break;
-            }
             default:
                 break;
         }

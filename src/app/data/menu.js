@@ -5,15 +5,15 @@ const menu = [
     },
     {
         anchor: "#services",
-        value: "Услуги"
+        value: "Услуги и цены"
     },
     {
         anchor: "#personal",
         value: "Специалисты"
     },
     {
-        anchor: "#pricelist",
-        value: "Прайс-лист"
+        anchor: "#reviews",
+        value: "Отзывы"
     },
     {
         anchor: "#contacts",

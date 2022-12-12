@@ -8,6 +8,9 @@ import about from "../data/about";
 import PersonalCards from "./commonBlock/personalCards/personalCards";
 import PhotoCollageBlock from "./commonBlockOnly/photoCollageBlock/photoCollageBlock";
 import Services from "./commonBlock/services/services";
+import Advantages from "./commonBlockOnly/advantages/advantages";
+import Reviews from "./commonBlock/reviews/reviews";
+import Contacts from "./commonBlock/contacts/contacts";
 
 const Main = () => {
     return (
@@ -16,7 +19,10 @@ const Main = () => {
             <CommonBlock addingClass="about" title="О нас">
                 <p className="fs1_1 whiteColor">{about}</p>
             </CommonBlock>
-            <CommonBlock addingClass="services" title="Наши услуги">
+            <CommonBlockOnly wrapClass="advantagesWrap">
+                <Advantages />
+            </CommonBlockOnly>
+            <CommonBlock addingClass="services" title="Услуги и цены">
                 <p className="fs1_1">
                     Мы предлагаем нашим клиентам следующие виды услуг:
                 </p>
@@ -25,16 +31,18 @@ const Main = () => {
                     <CommonBtn />
                 </div>
             </CommonBlock>
-            <CommonBlockOnly addingClass="photoBlockWrap">
+            <CommonBlockOnly wrapClass="photoBlockWrap">
                 <PhotoCollageBlock />
             </CommonBlockOnly>
             <CommonBlock addingClass="personal" title="Наши специалисты">
                 <PersonalCards />
             </CommonBlock>
-            <CommonBlock
-                addingClass="pricelist"
-                title="Наши цены"
-            ></CommonBlock>
+            <CommonBlock title="Отзывы" addingClass="reviews">
+                <Reviews />
+            </CommonBlock>
+            <CommonBlock title="Контакты" addingClass="contacts">
+                <Contacts />
+            </CommonBlock>
         </>
     );
 };

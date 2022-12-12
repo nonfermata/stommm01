@@ -1,0 +1,39 @@
+.advantages {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.advantage {
+    width: 48%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.textBlock {
+    padding-right: 30px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 1.15em;
+    color: var(--main-cyan-color);
+    margin-bottom: .2em;
+}
+
+.description {
+    color: var(--semi-grey-color);
+    font-size: .85em;
+    line-height: 1.3em;
+}
+
+.imgBlock {
+    width: 100px;
+}
+
+.imgBlock img {
+    width: 100%;
+}

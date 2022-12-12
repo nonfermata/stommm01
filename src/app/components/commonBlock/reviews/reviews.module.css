@@ -1,0 +1,69 @@
+.mainWindow {
+    position: relative;
+    padding: 0 50px;
+}
+
+.reviewsWindow {
+    width: 100%;
+    overflow: hidden;
+}
+
+.reviews {
+    display: flex;
+    transition: all 1s ease;
+    background-color: white;
+}
+
+.reviewWrap {
+    width: 20%;
+    padding: 40px;
+}
+
+.review {
+    height: 200px;
+}
+
+.reviewHeaderWrap {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.reviewAva {
+    width: 70px;
+    border-radius: 50%;
+    border: var(--light-beige-border);
+}
+
+.reviewName {
+    font-weight: 500;
+}
+
+.reviewContent {
+    font-size: .85em;
+}
+
+.leftArrow,
+.rightArrow {
+    position: absolute;
+    font-weight: 300;
+    font-size: 50px;
+    top: calc(50% - 20px);
+    color: var(--light-beige-color);
+    cursor: pointer;
+    transform: scaleX(1.5);
+    user-select: none;
+}
+
+.leftArrow {
+    left: 10px;
+}
+
+.rightArrow {
+    right: 10px;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+    color: var(--semi-beige-color);
+}

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import blockObserve from "../../utils/blockObserve";
 import classes from "./commonBlockOnly.module.css";
 
-const CommonBlockOnly = ({ addingClass, children }) => {
+const CommonBlockOnly = ({ wrapClass, children }) => {
     const [wipeClass, setWipeClass] = useState("hideCommon");
     const wipingBlock = useRef();
     useEffect(() => {
@@ -10,7 +10,7 @@ const CommonBlockOnly = ({ addingClass, children }) => {
     }, []);
     return (
         <div
-            className={classes.commonBlockOnly + " " + classes[addingClass] + " " + wipeClass}
+            className={classes.commonBlockOnly + " " + classes[wrapClass] + " " + wipeClass}
             ref={wipingBlock}
         >
             {children}

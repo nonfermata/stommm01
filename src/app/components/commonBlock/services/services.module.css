@@ -31,7 +31,7 @@
 }
 
 .openList:hover {
-    background-color: var(--bg-turquoise-color);
+    background-color: var(--base-bg-color);
 }
 
 .rotateBtn {

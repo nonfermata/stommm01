@@ -1,0 +1,45 @@
+.yandexMap {
+    position: relative;
+    overflow: hidden;
+    border: var(--light-beige-border);
+}
+
+.yandexMap iframe {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.contactsItem {
+    margin-bottom: 1em;
+}
+
+.itemKey {
+    color: var(--main-cyan-color);
+}
+
+.instaWrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.instaLogo {
+    width: 45px;
+}
+
+.instaWrap a {
+    color: var(--main-cyan-color);
+    text-decoration: underline;
+}
+
+.instaWrap a:hover {
+    text-decoration: none;
+}
+
+.btnWrap {
+    margin: 30px auto 40px;
+    width: fit-content;
+}

@@ -19,6 +19,7 @@
 
 .about__content {
     max-width: 900px;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -27,18 +28,37 @@
 }
 
 .services {
-    background-color: var(--base-bg-color);
+    background-color: var(--ex-light-beige-color);
 }
 
 .personal {
-    background-color: var(--base-bg-color);
+    background-color: var(--ex-light-beige-color);
 }
 
 .personal__content {
     width: 100%;
     max-width: 1200px;
+    padding: 0 10px;
 }
 
 .pricelist {
     background-color: var(--ex-light-beige-color);
+}
+
+.reviews__content {
+    width: 100%;
+    padding: 0 10px;
+    max-width: 1200px;
+}
+
+.contacts {
+    background-color: var(--ex-light-beige-color);
+    border-top: var(--light-beige-border);
+}
+
+.contacts__content {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 10px;
 }

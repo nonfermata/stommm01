@@ -8,7 +8,7 @@ import close from "../svg/close";
 import classes from "./consultForm.module.css";
 
 const ConsultForm = ({ onClose }) => {
-    const [windowClass, setWindowClass] = useState("hidden");
+    const [windowClass, setWindowClass] = useState("transparent");
     useEffect(() => {
         setWindowClass("");
     }, []);
@@ -44,6 +44,9 @@ const ConsultForm = ({ onClose }) => {
         phone: {
             isRequired: {
                 message: "Телефон обязателен для заполнения"
+            },
+            isPhone: {
+                message: "Некорректный номер телефона"
             }
         }
     };
@@ -69,8 +72,8 @@ const ConsultForm = ({ onClose }) => {
 
     return (
         <>
-            <div className={classes.totalWindow + " " + windowClass}></div>
-            <div className={classes.frm__wrap} onClick={onClose}>
+            <div className={"darkTotalWindow " + windowClass}></div>
+            <div className="transparentTotalWindow" onClick={onClose}>
                 <form className={classes.form} onSubmit={handleSubmit}>
                     <div className={classes.closeForm}>{close}</div>
                     <InputField
@@ -84,7 +87,7 @@ const ConsultForm = ({ onClose }) => {
                         name="phone"
                         value={data.phone}
                         onChange={handleChangeData}
-                        placeholder="Телефон для связи"
+                        placeholder="Ваш телефон (только цифры без пробелов)"
                         error={errors.phone}
                     />
                     <InputField
@@ -98,8 +101,8 @@ const ConsultForm = ({ onClose }) => {
                         name="message"
                         value={data.message}
                         onChange={handleChangeData}
-                        placeholder="Предпочтительная дата и время визита"
-                        rows="3"
+                        placeholder="Предпочтительная дата и время визита, другие вопросы или пожелания"
+                        rows="4"
                     />
                     <EmptyBlock height="20" />
                     <SubmitButton disabled={!isValid}>

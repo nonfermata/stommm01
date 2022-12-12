@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/stommm01/static/css/main.b1ede97a.css",
-    "main.js": "/stommm01/static/js/main.5687f682.js",
+    "main.css": "/stommm01/static/css/main.9afb898d.css",
+    "main.js": "/stommm01/static/js/main.0ec302ad.js",
     "static/js/787.d37aa97c.chunk.js": "/stommm01/static/js/787.d37aa97c.chunk.js",
     "static/media/bgr.png": "/stommm01/static/media/bgr.56b8ab058317592dc240.png",
     "static/media/001_main.jpeg": "/stommm01/static/media/001_main.ca2af3eacef1f246180d.jpeg",
-    "static/media/01.jpg": "/stommm01/static/media/01.18fcd02561d1976156da.jpg",
-    "static/media/04.jpg": "/stommm01/static/media/04.8b96ecc33410692cd249.jpg",
-    "static/media/03.jpg": "/stommm01/static/media/03.dc24033e1c34cfaf04bd.jpg",
     "static/media/02.jpg": "/stommm01/static/media/02.1e0bf5df74fe1b98b125.jpg",
-    "static/media/bgr2.png": "/stommm01/static/media/bgr2.9e5e6e891a7c36278890.png",
+    "static/media/01.jpg": "/stommm01/static/media/01.500a00a0482342c330b6.jpg",
+    "static/media/04.jpg": "/stommm01/static/media/04.13f7340a4732320dd759.jpg",
+    "static/media/03.jpg": "/stommm01/static/media/03.41be841ea087f90643b4.jpg",
+    "static/media/bgr2.png": "/stommm01/static/media/bgr2.149cc8e169002b57f042.png",
+    "static/media/05.jpg": "/stommm01/static/media/05.a8f920b0c3f422ec171b.jpg",
+    "static/media/insta_logo.png": "/stommm01/static/media/insta_logo.9ab454a2359752555aa3.png",
+    "static/media/004.png": "/stommm01/static/media/004.cae185907d5b080cc760.png",
+    "static/media/001.png": "/stommm01/static/media/001.200ebe1a719ad33958d5.png",
     "static/media/logo.png": "/stommm01/static/media/logo.22c9d33f176b15819523.png",
+    "static/media/003.png": "/stommm01/static/media/003.90e5f90f4497d1b2d304.png",
+    "static/media/002.png": "/stommm01/static/media/002.9b92affacef0e4b7ac1f.png",
+    "static/media/06.jpg": "/stommm01/static/media/06.fa3c4363234f6566f0e8.jpg",
     "static/media/fake-photo.png": "/stommm01/static/media/fake-photo.2cb5517a6a63795474e5.png",
     "index.html": "/stommm01/index.html",
-    "main.b1ede97a.css.map": "/stommm01/static/css/main.b1ede97a.css.map",
-    "main.5687f682.js.map": "/stommm01/static/js/main.5687f682.js.map",
+    "main.9afb898d.css.map": "/stommm01/static/css/main.9afb898d.css.map",
+    "main.0ec302ad.js.map": "/stommm01/static/js/main.0ec302ad.js.map",
     "787.d37aa97c.chunk.js.map": "/stommm01/static/js/787.d37aa97c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1ede97a.css",
-    "static/js/main.5687f682.js"
+    "static/css/main.9afb898d.css",
+    "static/js/main.0ec302ad.js"
   ]
 }

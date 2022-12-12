@@ -23,11 +23,8 @@
     font-size: 0.8em;
 }
 
-.person1,
-.person2,
-.person3,
-.person4 {
-    height: 300px;
+.person {
+    height: 25vw;
     background-size: cover;
     background-position: center center;
 }
@@ -46,4 +43,14 @@
 
 .person4 {
     background-image: url(../../../assets/images/persons/fake-photo.png);
+}
+
+@media screen and (max-width: 640px) {
+    .personalCard {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .person {
+        height: 80vw;
+    }
 }

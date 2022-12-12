@@ -1,12 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./reviews.module.css";
 import reviews from "../../../data/reviews";
 
 const Reviews = () => {
     const [commentsPosition, setCommentsPosition] = useState(0);
+    const countReviews = reviews.length;
+    const [sliderRatio, setSliderRatio] = useState(50);
     const handleMovePosition = (direction) => {
-        setCommentsPosition((prevState) => prevState + 50 * direction);
+        setCommentsPosition((prevState) => prevState + sliderRatio * direction);
     };
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            if (window.innerWidth <= 960) {
+                setSliderRatio(100);
+            } else setSliderRatio(50);
+            setCommentsPosition(0);
+        });
+    }, []);
     return (
         <div className={classes.mainWindow}>
             <div
@@ -21,7 +31,7 @@ const Reviews = () => {
             <div
                 className={
                     classes.rightArrow +
-                    (commentsPosition === -(reviews.length - 2) * 50
+                    (commentsPosition === 100 - countReviews * sliderRatio
                         ? " hidden"
                         : "")
                 }
@@ -35,11 +45,17 @@ const Reviews = () => {
                     className={classes.reviews}
                     style={{
                         marginLeft: commentsPosition + "%",
-                        width: reviews.length * 50 + "%"
+                        width: countReviews * sliderRatio + "%"
                     }}
                 >
                     {reviews.map((comment) => (
-                        <div key={comment.name} className={classes.reviewWrap}>
+                        <div
+                            key={comment.name}
+                            className={classes.reviewWrap}
+                            style={{
+                                width: (sliderRatio * 2) / countReviews + "%"
+                            }}
+                        >
                             <div className={classes.review}>
                                 <div className={classes.reviewHeaderWrap}>
                                     <img

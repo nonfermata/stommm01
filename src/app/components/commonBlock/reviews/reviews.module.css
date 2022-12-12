@@ -3,6 +3,13 @@
     padding: 0 50px;
 }
 
+.mobile {
+    display: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
 .reviewsWindow {
     width: 100%;
     overflow: hidden;
@@ -15,7 +22,6 @@
 }
 
 .reviewWrap {
-    width: 20%;
     padding: 40px;
 }
 
@@ -66,4 +72,10 @@
 .leftArrow:hover,
 .rightArrow:hover {
     color: var(--semi-beige-color);
+}
+
+@media screen and (max-width: 960px) {
+    .mobile {
+        display: block;
+    }
 }

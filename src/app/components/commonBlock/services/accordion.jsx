@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import plus from "../../svg/plus";
+import plus from "../../common/svg/plus";
+import chevron from "../../common/svg/chevron";
 import classes from "./services.module.css"
 
 const Accordion = ({ title, list }) => {
@@ -29,7 +30,7 @@ const Accordion = ({ title, list }) => {
             </div>
             <ul className={classes.accordion__list + " " + listClass}>
                 {list.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li key={item}>{chevron} {item}</li>
                 ))}
             </ul>
         </div>

@@ -1,25 +1,37 @@
+.topImageBlockWrap {
+    position: relative;
+}
+
 .topImageBlock {
-    background-image: url(../../assets/images/001_main.jpeg);
+    background-image: url(../../assets/images/001_main.png);
     height: 100vh;
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.topImageBlock__content {
+    position: absolute;
+    left: calc(50% - 600px);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-@media screen and (max-width: 960px) {
+.logoWrap {
+    width: 40vw;
+    margin: 0 auto;
+    display: none;
+    margin-bottom: 20px;
 }
 
-.topImageBlock__content {
-    max-width: 1200px;
-    padding: 0 10px;
-}
-
-.leftBlockWrap {
-    width: 45%;
+.logoWrap img {
+    width: 100%;
 }
 
 .mainTitle {
@@ -27,11 +39,11 @@
     font-weight: 500;
     font-size: 2.2em;
     line-height: 1.3em;
-    color: var(--main-cyan-color);
+    color: var(--main-peach-color);
 }
 
 .subTitle {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 300;
     font-size: 1.4em;
     line-height: 1.5em;
@@ -46,4 +58,60 @@
     transition: 1.5s ease all;
     opacity: 1;
     margin-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .topImageBlock__content {
+        left: 0;
+    }
+    .mainTitle {
+        font-size: 3.3vw;
+    }
+    .subTitle {
+        font-size: 2.1vw;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .topImageBlock {
+        background-image: url(../../assets/images/001_main_mobile.png);
+        height: 70vw;
+    }
+
+    .topImageBlock__content {
+        position: relative;
+        padding: 30px;
+    }
+
+    .mainTitle {
+        font-size: 5vw;
+    }
+
+    .subTitle {
+        font-size: 3vw;
+    }
+    .btnWrap {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .topImageBlock__content {
+        padding: 20px 20px 30px;
+    }
+
+    .mainTitle {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .subTitle {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .logoWrap {
+        display: block;
+    }
 }

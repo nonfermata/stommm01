@@ -17,13 +17,13 @@
 .burgerMenu {
     list-style: none;
     background-color: var(--base-bg-color);
-    opacity: .85;
+    opacity: .94;
     display: none;
     flex-direction: column;
     align-items: flex-end;
     padding: 30px;
     text-transform: uppercase;
-    border-radius: 5px;
+    color: var(--main-brown-color);
 }
 
 .burgerMenuVisible {
@@ -31,11 +31,16 @@
 }
 
 .burgerMenu li {
-    margin-bottom: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.burgerMenu li:last-child {
+    margin-bottom: 0;
 }
 
 .burgerMenu li a:hover {
-    color: var(--main-cyan-color);
+    color: var(--base-color);
 }
 
 @media screen and (max-width: 960px) {

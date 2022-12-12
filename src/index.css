@@ -3,7 +3,10 @@
 :root {
     --base-color: #111;
     --base-bg-color: #fffff7;
-    --main-cyan-color: #0088cc;
+    --main-brown-color: #a8977b;
+    --main-peach-color: #d7b56d;
+    --main-light-peach-color: #ecd096;
+    /*--main-cyan-color: #0088cc;*/
     --gold-color: #edb12f;
     --bg-turquoise-color: #deffee;
     --ex-light-grey-color: hsl(50, 10%, 90%);
@@ -11,7 +14,8 @@
     --light-semi-grey-color: #aaa;
     --semi-grey-color: #888;
     --dark-grey-color: #646464;
-    --ex-light-beige-color: #f5f5e9;
+    --ex-light-beige-color: #faf2e1;
+    /*--ex-light-beige-color: #f5f5e9;*/
     --light-beige-color: #e0e0d1;
     --semi-beige-color: #d4d4c6;
     --brown-grey-color: #665c47;
@@ -57,16 +61,24 @@ a {
     text-decoration: none;
 }
 
-.fs1_1 {
-    font-size: 1.1em;
+.mainBrownColor {
+    color: var(--main-brown-color);
 }
 
-.whiteColor {
-    color: var(--base-bg-color);
+.mainPeachColor {
+    color: var(--main-peach-color);
 }
 
 .hidden {
     display: none;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.no_wrap {
+    white-space: nowrap;
 }
 
 .darkTotalWindow {
@@ -81,10 +93,6 @@ a {
     z-index: 2;
 }
 
-.no_wrap {
-    white-space: nowrap;
-}
-
 .transparentTotalWindow {
     position: fixed;
     top: 0;
@@ -95,10 +103,6 @@ a {
     justify-content: center;
     align-items: center;
     z-index: 3;
-}
-
-.transparent {
-    opacity: 0;
 }
 
 .hideCommon {
@@ -115,5 +119,11 @@ a {
 @media screen and (max-width: 960px) {
     html {
         -webkit-text-size-adjust: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .transparentTotalWindow {
+        position: absolute;
     }
 }

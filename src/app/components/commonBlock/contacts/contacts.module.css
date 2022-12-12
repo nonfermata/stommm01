@@ -15,7 +15,8 @@
 }
 
 .itemKey {
-    color: var(--main-cyan-color);
+    color: var(--main-peach-color);
+    font-weight: 500;
 }
 
 .instaWrap {
@@ -31,7 +32,8 @@
 }
 
 .instaWrap a {
-    color: var(--main-cyan-color);
+    color: var(--main-peach-color);
+    font-weight: 500;
     text-decoration: underline;
 }
 

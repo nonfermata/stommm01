@@ -34,3 +34,21 @@
     background-image: url(../../../assets/images/photo-block/04.jpg);
     grid-row: 3;
 }
+
+@media screen and (max-width: 960px) {
+    .photoBlock {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .photoBlock {
+        grid-template-columns: 1fr;
+    }
+    .photoBlock1,
+    .photoBlock2,
+    .photoBlock3,
+    .photoBlock4 {
+        grid-row: initial;
+    }
+}

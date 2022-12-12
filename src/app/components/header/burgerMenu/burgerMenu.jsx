@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import classes from "./burgerMenu.module.css";
-import burger from "../../svg/burger";
+import burger from "../../common/svg/burger";
 import menu from "../../../data/menu";
-import closeMenu from "../../svg/closeMenu";
+import closeMenu from "../../common/svg/closeMenu";
 
 const BurgerMenu = () => {
     const [isMenuActive, setIsMenuActive] = useState(false);
@@ -23,7 +23,7 @@ const BurgerMenu = () => {
             >
                 {menu.map(({ anchor, value }) => (
                     <li key={anchor}>
-                        <a href={anchor}>{value}</a>
+                        <a href={anchor} onClick={handleMenuStatus}>{value}</a>
                     </li>
                 ))}
             </ul>

@@ -1,6 +1,6 @@
 .anchorPoint {
-    position: absolute;
-    top: -80px;
+    margin-top: -150px;
+    height: 150px;
 }
 
 .btn {
@@ -10,14 +10,14 @@
     cursor: pointer;
     width: fit-content;
     color: var(--base-bg-color);
-    border: 1px solid var(--main-cyan-color);
-    background-color: var(--main-cyan-color);
+    border: 1px solid var(--main-peach-color);
+    background-color: var(--main-peach-color);
     transition: all 0.15s ease;
 }
 
 .btn:hover {
-    color: var(--main-cyan-color);
-    border: 1px solid var(--main-cyan-color);
+    color: var(--main-peach-color);
+    border: 1px solid var(--main-peach-color);
     background-color: var(--base-bg-color);
 }
 
@@ -32,4 +32,18 @@
     color: var(--light-grey-color);
     border: 1px solid var(--semi-beige-color);
     background-color: var(--base-bg-color);
+}
+
+@media screen and (max-width: 960px) {
+    .anchorPoint {
+        margin-top: -70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .anchorPoint {
+        margin-top: -50px;
+        height: 50px;
+    }
 }

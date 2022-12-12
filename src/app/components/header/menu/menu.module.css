@@ -13,7 +13,7 @@
 }
 
 .menu li a:hover {
-    color: var(--main-cyan-color);
+    color: var(--main-brown-color);
 }
 
 .menu li a:after {
@@ -21,7 +21,7 @@
     position: absolute;
     top: 110%;
     left: 50%;
-    background-color: var(--main-cyan-color);
+    background-color: var(--main-brown-color);
     width: 0;
     height: 2px;
     transition: all 0.2s ease;

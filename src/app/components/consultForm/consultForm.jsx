@@ -4,7 +4,7 @@ import validator from "../../utils/validator";
 import SubmitButton from "../common/submitButton";
 import EmptyBlock from "../../utils/emptyBlock";
 import Textarea from "./textarea";
-import close from "../svg/close";
+import close from "../common/svg/close";
 import classes from "./consultForm.module.css";
 
 const ConsultForm = ({ onClose }) => {
@@ -87,7 +87,7 @@ const ConsultForm = ({ onClose }) => {
                         name="phone"
                         value={data.phone}
                         onChange={handleChangeData}
-                        placeholder="Ваш телефон (только цифры без пробелов)"
+                        placeholder="Телефон (цифры без пробелов)"
                         error={errors.phone}
                     />
                     <InputField

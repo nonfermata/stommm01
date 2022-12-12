@@ -21,6 +21,7 @@
 
 .personDecription {
     font-size: 0.8em;
+    line-height: 1.6em;
 }
 
 .person {
@@ -43,6 +44,12 @@
 
 .person4 {
     background-image: url(../../../assets/images/persons/fake-photo.png);
+}
+
+@media screen and (max-width: 960px) {
+    .personalCards {
+        gap: 5vw;
+    }
 }
 
 @media screen and (max-width: 640px) {

@@ -5,7 +5,7 @@ import reviews from "../../../data/reviews";
 const Reviews = () => {
     const [commentsPosition, setCommentsPosition] = useState(0);
     const countReviews = reviews.length;
-    const [sliderRatio, setSliderRatio] = useState(50);
+    const [sliderRatio, setSliderRatio] = useState(window.innerWidth <= 960 ? 100 : 50);
     const handleMovePosition = (direction) => {
         setCommentsPosition((prevState) => prevState + sliderRatio * direction);
     };

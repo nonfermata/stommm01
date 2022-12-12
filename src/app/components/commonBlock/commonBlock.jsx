@@ -10,11 +10,9 @@ const CommonBlock = ({ addingClass, title, children }) => {
         blockObserve(wipingBlock.current, setWipeClass);
     }, []);
     return (
-        // common: flex, center;  adding: background
         <div className={classes.commonBlock + " " + classes[addingClass]}>
             <AnchorPoint anchor={addingClass} />
             <div
-                // adding__content: max-width, text-align
                 className={classes[addingClass + "__content"] + " " + wipeClass}
                 ref={wipingBlock}
             >

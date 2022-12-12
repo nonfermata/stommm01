@@ -20,7 +20,7 @@
 .title {
     font-weight: 500;
     font-size: 1.15em;
-    color: var(--main-cyan-color);
+    color: var(--main-brown-color);
     margin-bottom: .2em;
 }
 
@@ -32,6 +32,7 @@
 
 .imgBlock {
     width: 100px;
+    margin: 0 auto;
 }
 
 .imgBlock img {
@@ -42,5 +43,18 @@
     .advantage {
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .advantage {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+    .imgBlock {
+        grid-row: 1;
+        width: 75px;
     }
 }

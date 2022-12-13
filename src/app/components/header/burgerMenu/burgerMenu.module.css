@@ -17,17 +17,20 @@
 .burgerMenu {
     list-style: none;
     background-color: var(--base-bg-color);
-    opacity: .94;
-    display: none;
+    opacity: 0;
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 30px;
     text-transform: uppercase;
     color: var(--main-brown-color);
+    transition: all .5s ease;
+    margin-right: -100%;
 }
 
 .burgerMenuVisible {
-    display: flex;
+    margin-right: 0;
+    opacity: .92;
 }
 
 .burgerMenu li {

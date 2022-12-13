@@ -40,6 +40,10 @@
     background-color: var(--base-bg-color);
 }
 
+.openList:active {
+    background: none;
+}
+
 .rotateBtn {
     transform: rotate(45deg);
 }

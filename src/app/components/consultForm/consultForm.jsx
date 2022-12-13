@@ -9,8 +9,10 @@ import classes from "./consultForm.module.css";
 
 const ConsultForm = ({ onClose }) => {
     const [windowClass, setWindowClass] = useState("transparent");
+    const [formClass, setFormClass] = useState("")
     useEffect(() => {
         setWindowClass("");
+        setFormClass(classes.formNormal);
     }, []);
     const initialState = {
         name: "",
@@ -73,9 +75,13 @@ const ConsultForm = ({ onClose }) => {
     return (
         <>
             <div className={"darkTotalWindow " + windowClass}></div>
-            <div className="transparentTotalWindow" onClick={onClose}>
+            <div
+                className="transparentTotalWindow"
+                onClick={onClose}
+                style={{ top: window.scrollY, left: "0" }}
+            >
                 <form
-                    className={classes.form}
+                    className={classes.form + " " + formClass}
                     // action="../../../../public/send.php"
                     // method="POST"
                     onSubmit={handleSubmit}

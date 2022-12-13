@@ -81,7 +81,7 @@
 
     .topImageBlock__content {
         background-color: var(--base-bg-color);
-        position: relative;
+        position: static;
         padding: 30px;
     }
 

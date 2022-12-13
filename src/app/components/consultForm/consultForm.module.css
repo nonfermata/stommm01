@@ -73,11 +73,13 @@
 @media screen and (max-width: 960px) {
     .form {
         margin-top: 35px;
-        padding: 20px 20px 30px;
     }
 }
 
 @media screen and (max-width: 640px) {
+    .form {
+        padding: 30px;
+    }
     .form__inputWrap {
         margin-bottom: 20px;
     }

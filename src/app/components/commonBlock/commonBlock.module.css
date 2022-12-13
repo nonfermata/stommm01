@@ -47,7 +47,7 @@
 
 /* Отзывы */
 .reviews {
-    background-color: #ffffffef;
+    /*background-color: #ffffffef;*/
 }
 
 .reviews__content {
@@ -61,6 +61,7 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
+    opacity: .07;
     top: 0;
     left: 0;
     background-image: url(../../assets/images/bgr-reviews.png);

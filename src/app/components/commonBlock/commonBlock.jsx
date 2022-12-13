@@ -5,14 +5,23 @@ import classes from "./commonBlock.module.css";
 
 const CommonBlock = ({ addingClass, title, children }) => {
     const [wipeClass, setWipeClass] = useState("hideCommon");
+    const [backIngClass, setBackImgClass] = useState("hidden");
     const wipingBlock = useRef();
+    function showBlocks() {
+        setWipeClass("showCommon");
+        if (addingClass === "reviews") {
+            setBackImgClass("");
+        }
+    }
     useEffect(() => {
-        blockObserve(wipingBlock.current, setWipeClass);
+        blockObserve(wipingBlock.current, showBlocks);
     }, []);
     return (
         <div className={classes.commonBlock + " " + classes[addingClass]}>
             {addingClass === "reviews" && (
-                <div className={classes.backImageBlock}></div>
+                <div
+                    className={classes.backImageBlock + " " + backIngClass}
+                ></div>
             )}
             <AnchorPoint anchor={addingClass} />
             <h2 className={classes.title}>{title}</h2>

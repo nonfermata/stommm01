@@ -11,6 +11,9 @@ const CommonBlock = ({ addingClass, title, children }) => {
         setWipeClass("showCommon");
         if (addingClass === "reviews") {
             setBackImgClass("");
+            setTimeout(() => {
+                setBackImgClass(classes.showBackImageBlock);
+            }, 20);
         }
     }
     useEffect(() => {

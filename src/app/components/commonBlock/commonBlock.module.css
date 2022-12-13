@@ -61,7 +61,7 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    opacity: .07;
+    opacity: 0;
     top: 0;
     left: 0;
     background-image: url(../../assets/images/bgr-reviews.png);
@@ -69,6 +69,11 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.showBackImageBlock {
+    transition: 1.5s ease opacity;
+    opacity: .07;
 }
 
 /* Контакты */

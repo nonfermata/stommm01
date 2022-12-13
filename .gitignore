@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+
+# my files
 /working
+/public/send.php
 
 # testing
 /coverage

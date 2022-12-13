@@ -74,7 +74,12 @@ const ConsultForm = ({ onClose }) => {
         <>
             <div className={"darkTotalWindow " + windowClass}></div>
             <div className="transparentTotalWindow" onClick={onClose}>
-                <form className={classes.form} onSubmit={handleSubmit}>
+                <form
+                    className={classes.form}
+                    // action="../../../../public/send.php"
+                    // method="POST"
+                    onSubmit={handleSubmit}
+                >
                     <div className={classes.closeForm}>{close}</div>
                     <InputField
                         name="name"
@@ -105,9 +110,7 @@ const ConsultForm = ({ onClose }) => {
                         rows="4"
                     />
                     <EmptyBlock height="20" />
-                    <SubmitButton disabled={!isValid}>
-                        Отправить заявку
-                    </SubmitButton>
+                    <SubmitButton disabled={!isValid} />
                 </form>
             </div>
         </>

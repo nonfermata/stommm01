@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stommm01/static/css/main.665ac80c.css",
+    "main.css": "/stommm01/static/css/main.5f6565b3.css",
     "main.js": "/stommm01/static/js/main.fd1eb2a0.js",
     "static/js/787.d37aa97c.chunk.js": "/stommm01/static/js/787.d37aa97c.chunk.js",
     "static/media/001_main.png": "/stommm01/static/media/001_main.e0e9616d434cc2d1cead.png",
     "static/media/bgr.png": "/stommm01/static/media/bgr.eb58a6b8afdd0a1fb8c2.png",
     "static/media/001_main_mobile.png": "/stommm01/static/media/001_main_mobile.099a389929ee390619ec.png",
+    "static/media/bgr-reviews.png": "/stommm01/static/media/bgr-reviews.2f6286dec94e75decfd4.png",
     "static/media/02.jpg": "/stommm01/static/media/02.1e0bf5df74fe1b98b125.jpg",
     "static/media/01.jpg": "/stommm01/static/media/01.500a00a0482342c330b6.jpg",
     "static/media/04.jpg": "/stommm01/static/media/04.13f7340a4732320dd759.jpg",
     "static/media/03.jpg": "/stommm01/static/media/03.41be841ea087f90643b4.jpg",
-    "static/media/bgr-reviews.png": "/stommm01/static/media/bgr-reviews.787fd19f473de2009bed.png",
     "static/media/bgr2.png": "/stommm01/static/media/bgr2.149cc8e169002b57f042.png",
     "static/media/05.jpg": "/stommm01/static/media/05.a8f920b0c3f422ec171b.jpg",
     "static/media/insta_logo.png": "/stommm01/static/media/insta_logo.9ab454a2359752555aa3.png",
@@ -22,12 +22,12 @@
     "static/media/06.jpg": "/stommm01/static/media/06.fa3c4363234f6566f0e8.jpg",
     "static/media/fake-photo.png": "/stommm01/static/media/fake-photo.2cb5517a6a63795474e5.png",
     "index.html": "/stommm01/index.html",
-    "main.665ac80c.css.map": "/stommm01/static/css/main.665ac80c.css.map",
+    "main.5f6565b3.css.map": "/stommm01/static/css/main.5f6565b3.css.map",
     "main.fd1eb2a0.js.map": "/stommm01/static/js/main.fd1eb2a0.js.map",
     "787.d37aa97c.chunk.js.map": "/stommm01/static/js/787.d37aa97c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.665ac80c.css",
+    "static/css/main.5f6565b3.css",
     "static/js/main.fd1eb2a0.js"
   ]
 }

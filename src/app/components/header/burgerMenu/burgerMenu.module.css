@@ -21,14 +21,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 30px;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
     text-transform: uppercase;
     color: var(--main-brown-color);
-    transition: all .5s ease;
+    margin-top: -100px;
     margin-right: -100%;
+    transition: all .4s ease;
 }
 
 .burgerMenuVisible {
+    padding: 30px;
+    height: auto;
+    margin-top: 0;
     margin-right: 0;
     opacity: .92;
 }

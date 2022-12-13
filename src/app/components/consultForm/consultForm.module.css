@@ -70,11 +70,14 @@
     resize: none;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 960px) {
     .form {
         margin-top: 35px;
         padding: 20px 20px 30px;
     }
+}
+
+@media screen and (max-width: 640px) {
     .form__inputWrap {
         margin-bottom: 20px;
     }
@@ -83,6 +86,6 @@
     }
     .form__input::placeholder,
     .form__textarea::placeholder {
-        font-size: .8em;
+        font-size: 0.8em;
     }
 }

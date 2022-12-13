@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
     padding: 70px 0;
 }
 
@@ -14,8 +13,9 @@
     color: var(--main-brown-color);
 }
 
+/* О нас */
 .about {
-    /*background-color: var(--main-brown-color);*/
+    background-color: var(--base-bg-color);
     background-image: url(../../assets/images/photo-block/bgr.png);
 }
 
@@ -25,10 +25,7 @@
     text-align: center;
 }
 
-.about .title {
-    /*color: var(--base-bg-color);*/
-}
-
+/* Услуги и цены */
 .services {
     background-color: var(--ex-light-beige-color);
 }
@@ -37,6 +34,7 @@
     padding: 0 10px;
 }
 
+/* Специалисты */
 .personal {
     background-color: var(--ex-light-beige-color);
 }
@@ -47,16 +45,32 @@
     padding: 0 10px;
 }
 
-.pricelist {
-    background-color: var(--ex-light-beige-color);
+/* Отзывы */
+.reviews {
+    background-color: #ffffffef;
 }
 
 .reviews__content {
     width: 100%;
-    padding: 0 10px;
     max-width: 1200px;
+    padding: 0 10px;
 }
 
+.backImageBlock {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: url(../../assets/images/bgr-reviews.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Контакты */
 .contacts {
     background-color: var(--ex-light-beige-color);
     border-top: var(--light-beige-border);

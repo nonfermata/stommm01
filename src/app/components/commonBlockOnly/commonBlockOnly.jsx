@@ -9,11 +9,10 @@ const CommonBlockOnly = ({ wrapClass, children }) => {
         blockObserve(wipingBlock.current, setWipeClass);
     }, []);
     return (
-        <div
-            className={classes.commonBlockOnly + " " + classes[wrapClass] + " " + wipeClass}
-            ref={wipingBlock}
-        >
-            {children}
+        <div className={classes.commonBlockOnly}>
+            <div className={classes[wrapClass] + " " + wipeClass} ref={wipingBlock}>
+                {children}
+            </div>
         </div>
     );
 };

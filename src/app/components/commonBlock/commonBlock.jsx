@@ -11,12 +11,15 @@ const CommonBlock = ({ addingClass, title, children }) => {
     }, []);
     return (
         <div className={classes.commonBlock + " " + classes[addingClass]}>
+            {addingClass === "reviews" && (
+                <div className={classes.backImageBlock}></div>
+            )}
             <AnchorPoint anchor={addingClass} />
+            <h2 className={classes.title}>{title}</h2>
             <div
                 className={classes[addingClass + "__content"] + " " + wipeClass}
                 ref={wipingBlock}
             >
-                <h2 className={classes.title}>{title}</h2>
                 {children}
             </div>
         </div>

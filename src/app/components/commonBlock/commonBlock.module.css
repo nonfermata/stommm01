@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .title {
     padding-bottom: 30px;
     font-weight: 500;
+    font-size: 1.5em;
     text-align: center;
-    text-transform: uppercase;
     color: var(--main-brown-color);
 }
 

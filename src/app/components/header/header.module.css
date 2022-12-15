@@ -18,7 +18,7 @@
 
 .headerFullShow {
     opacity: 1;
-    box-shadow: 0 0 45px 0 var(--light-grey-color);
+    box-shadow: 0 0 25px 0 var(--semi-beige-color);
 }
 
 .header__content {
@@ -28,7 +28,7 @@
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .logoBox {
@@ -39,9 +39,9 @@
     height: 100%;
 }
 
-.menuAndPhoneWrap {
+.menuAndCalcWrap {
     display: flex;
-    gap: 25px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -52,14 +52,16 @@
 
 @media screen and (max-width: 960px) {
     .header {
-        opacity: 1;
-        background: transparent;
-        box-shadow: none;
+        height: 60px;
     }
-    .menuAndPhoneWrap {
-        display: none;
+    .headerShow {
+        opacity: 1;
+        box-shadow: 0 0 25px 0 var(--semi-beige-color);
+    }
+    .header__content {
+        padding: 0 10px;
     }
     .logoBox {
-        display: none;
+        height: 50px;
     }
 }

@@ -1,22 +1,22 @@
 const menu = [
     {
-        anchor: "#about",
+        anchor: "about",
         value: "О нас"
     },
     {
-        anchor: "#services",
+        anchor: "services",
         value: "Услуги и цены"
     },
     {
-        anchor: "#personal",
+        anchor: "personal",
         value: "Специалисты"
     },
     {
-        anchor: "#reviews",
+        anchor: "reviews",
         value: "Отзывы"
     },
     {
-        anchor: "#contacts",
+        anchor: "contacts",
         value: "Контакты"
     }
 ];

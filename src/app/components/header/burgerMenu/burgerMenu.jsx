@@ -3,27 +3,44 @@ import classes from "./burgerMenu.module.css";
 import burger from "../../common/svg/burger";
 import menu from "../../../data/menu";
 import closeMenu from "../../common/svg/closeMenu";
+import { setVisible } from "../../../../redux/visibleCompReducer";
+import { connect } from "react-redux";
+import { isFullHeaderChange } from "../../../../redux/isFullHeaderReducer";
+import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
 
-const BurgerMenu = () => {
-    const [isMenuActive, setIsMenuActive] = useState(false);
-    const [burgerMenuClass, setBurgerMenuClass] = useState("");
-    const handleMenuStatus = () => {
-        setIsMenuActive((prevState) => !prevState);
+const BurgerMenu = ({
+    isFullHeader,
+    isFullHeaderChange,
+    visibleComp,
+    setVisible,
+    isBurgerActiveChange,
+    isBurgerActive
+}) => {
+    const handleMenuClick = () => {
+        isBurgerActiveChange();
+        if (visibleComp !== "main") {
+            setVisible("main");
+        }
+        if (!isFullHeader) {
+            isFullHeaderChange();
+        }
     };
     return (
         <div className={classes.burgerMenuWrap}>
-            <div className={classes.burger} onClick={handleMenuStatus}>
-                {isMenuActive ? closeMenu : burger}
+            <div className={classes.burger} onClick={isBurgerActiveChange}>
+                {isBurgerActive ? closeMenu : burger}
             </div>
             <ul
                 className={
                     classes.burgerMenu +
-                    (isMenuActive ? " " + classes.burgerMenuVisible : "")
+                    (isBurgerActive ? " " + classes.burgerMenuVisible : "")
                 }
             >
                 {menu.map(({ anchor, value }) => (
                     <li key={anchor}>
-                        <a href={anchor} onClick={handleMenuStatus}>{value}</a>
+                        <a href={"#" + anchor} onClick={handleMenuClick}>
+                            {value}
+                        </a>
                     </li>
                 ))}
             </ul>
@@ -31,4 +48,16 @@ const BurgerMenu = () => {
     );
 };
 
-export default BurgerMenu;
+const mapStateToProps = ({ isFullHeader, visibleComp, isBurgerActive }) => ({
+    isFullHeader,
+    visibleComp,
+    isBurgerActive
+});
+
+const mapDispatchToProps = {
+    isFullHeaderChange,
+    setVisible,
+    isBurgerActiveChange
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(BurgerMenu);

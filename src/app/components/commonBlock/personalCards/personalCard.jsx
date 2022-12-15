@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "./personalCards.module.css";
 
-const PersonalCard = ({ personClass, name, desription }) => {
+const PersonalCard = ({ name, photo, role, description }) => {
     return (
         <div className={classes.personalCard}>
-            <div className={classes.person + " " + classes[personClass]}></div>
-            <h3 className={classes.personName}>{name}</h3>
-            <p className={classes.personDecription}>{desription}</p>
+            <img className={classes.photo} src={photo} alt={name} />
+            <h3 className={classes.name}>{name}</h3>
+            <div className={classes.role}>{role}</div>
+            <p className={classes.description}>{description}</p>
         </div>
     );
 };

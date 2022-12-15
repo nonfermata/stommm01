@@ -1,0 +1,175 @@
+.mainWrap {
+    padding: 140px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.totalPriceFixedBlock {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    padding: 10px;
+    font-size: 0.8em;
+    opacity: 0.9;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: right;
+    background-color: var(--ex-light-beige-color);
+}
+
+.totalPrice {
+    font-weight: 500;
+}
+
+.fixedBlockHidden {
+    opacity: 0;
+    transition: 0.4s ease all;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--main-brown-color);
+}
+
+.subTitleTop,
+.subTitleBottom {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 15px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+.subTitleTop {
+    margin: 0 0 30px 0;
+}
+
+.subTitleBottom {
+    margin: 20px 0 0 0;
+}
+
+.pricelist,
+.listHeader,
+.listFooter {
+    width: 100%;
+    max-width: 900px;
+    font-size: 0.77em;
+    line-height: 1.3em;
+}
+
+.pricelist {
+    overflow: auto;
+    border-bottom: 2px solid var(--light-grey-color);
+}
+
+.pricelist li,
+.listHeader,
+.listFooter {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 7px 15px;
+    border-bottom: var(--light-beige-border);
+}
+
+.pricelist li:nth-child(odd) {
+    background-color: var(--exx-light-grey-color);
+}
+
+.pricelist li:nth-child(even) {
+    background-color: var(--ex-light-grey-color);
+}
+
+.pricelist li:first-child {
+    border-top: var(--light-beige-border);
+}
+
+.pricelist li:last-child {
+    /*border-bottom: 2px solid var(--light-grey-color);*/
+}
+
+.listHeader {
+    border-top: 2px solid var(--light-grey-color);
+    border-bottom: 2px solid var(--light-grey-color);
+}
+
+.listFooter {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.nameTitle,
+.priceTitle {
+    font-weight: 600;
+}
+
+.price {
+    padding: 0;
+}
+
+.priceAndActionWrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    padding: 0 2px;
+    border-radius: 4px;
+    border: var(--light-beige-border);
+    transition: 0.1s all ease;
+    background-color: var(--base-bg-color);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btnAdded {
+    background-color: var(--green-color);
+    color: var(--base-bg-color);
+}
+
+.btn:hover,
+.btnAdded:hover {
+    opacity: 1;
+    border-color: var(--light-grey-color);
+}
+
+.btnHidden {
+    opacity: 0;
+}
+
+.spanLink {
+    color: var(--main-brown-color);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.spanLink:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .mainWrap {
+        padding: 120px 50px 50px;
+    }
+    .totalPriceFixedBlock {
+        right: 0;
+        top: 70px;
+    }
+    .btnHidden {
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mainWrap {
+        padding: 110px 0 50px;
+    }
+}

@@ -1,0 +1,16 @@
+.optionsBlock {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.option {
+    padding-top: 8px;
+    transition: 0.1s all ease;
+    cursor: pointer;
+    color: var(--semi-grey-color);
+}
+
+.option:hover {
+    color: var(--main-brown-color);
+}

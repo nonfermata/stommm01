@@ -6,12 +6,10 @@ import classes from "./personalCards.module.css";
 const PersonalCards = () => {
     return (
         <div className={classes.personalCards}>
-            {persons.map(({ name, description, personClass }) => (
+            {persons.map((person) => (
                 <PersonalCard
-                    key={personClass}
-                    personClass={personClass}
-                    name={name}
-                    desription={description}
+                    key={person.name}
+                    {...person}
                 />
             ))}
         </div>

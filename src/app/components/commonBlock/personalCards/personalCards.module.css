@@ -1,63 +1,50 @@
 .personalCards {
-    margin-top: 30px;
+    margin: 30px auto;
+    max-width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 70px;
+    justify-content: space-evenly;
+    row-gap: 6vw;
 }
 
 .personalCard {
     border-radius: 10px;
-    width: 35%;
+    width: 40%;
     border: 1px solid var(--semi-beige-color);
     padding: 20px;
     background-color: var(--base-bg-color);
+    line-height: 1.2em;
 }
 
-.personName {
+.photo {
+    width: 100%;
+}
+
+.name {
     font-weight: 600;
     font-size: 0.9em;
 }
 
-.personDecription {
+.role {
+    font-weight: 500;
     font-size: 0.8em;
-    line-height: 1.6em;
 }
 
-.person {
-    height: 25vw;
-    background-size: cover;
-    background-position: center center;
-}
-
-.person1 {
-    background-image: url(../../../assets/images/persons/fake-photo.png);
-}
-
-.person2 {
-    background-image: url(../../../assets/images/persons/fake-photo.png);
-}
-
-.person3 {
-    background-image: url(../../../assets/images/persons/fake-photo.png);
-}
-
-.person4 {
-    background-image: url(../../../assets/images/persons/fake-photo.png);
-}
-
-@media screen and (max-width: 960px) {
-    .personalCards {
-        gap: 5vw;
-    }
+.description {
+    padding-top: 8px;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 640px) {
     .personalCard {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
-    .person {
-        height: 80vw;
+}
+
+@media screen and (max-width: 480px) {
+    .personalCard {
+        width: 90%;
+        margin: 0 auto;
     }
 }

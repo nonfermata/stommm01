@@ -74,6 +74,10 @@
 }
 
 @media screen and (max-width: 960px) {
+    .topImageBlockWrap {
+        margin-top: 60px;
+    }
+
     .topImageBlock {
         background-image: url(../../assets/images/001_main_mobile.png);
         height: 70vw;

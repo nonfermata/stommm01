@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TopImageBlock from "./topImageBlock/topImageBlock";
 import CommonBlock from "./commonBlock/commonBlock";
 import CommonBlockOnly from "./commonBlockOnly/commonBlockOnly";
@@ -14,31 +14,24 @@ const Main = () => {
     return (
         <>
             <TopImageBlock />
-
             <CommonBlock addingClass="about" title="О нас">
                 <About />
             </CommonBlock>
-
             <CommonBlockOnly wrapClass="advantagesWrap">
                 <Advantages />
             </CommonBlockOnly>
-
             <CommonBlock addingClass="services" title="Услуги и цены">
                 <Services />
             </CommonBlock>
-
             <CommonBlockOnly wrapClass="photoBlockWrap">
                 <PhotoCollageBlock />
             </CommonBlockOnly>
-
             <CommonBlock addingClass="personal" title="Наши специалисты">
                 <PersonalCards />
             </CommonBlock>
-
             <CommonBlock addingClass="reviews" title="Отзывы">
                 <Reviews />
             </CommonBlock>
-
             <CommonBlock addingClass="contacts" title="Контакты">
                 <Contacts />
             </CommonBlock>

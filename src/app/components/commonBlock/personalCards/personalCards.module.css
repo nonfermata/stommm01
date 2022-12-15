@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 6vw;
+    row-gap: 60px;
 }
 
 .personalCard {
@@ -33,6 +33,12 @@
 .description {
     padding-top: 8px;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 960px) {
+    .personalCards {
+        row-gap: 6vw;
+    }
 }
 
 @media screen and (max-width: 640px) {

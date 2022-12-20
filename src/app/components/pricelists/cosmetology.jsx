@@ -20,7 +20,7 @@ const Cosmetology = () => {
     };
     return (
         <div className={classes.mainWrap}>
-            <div className={classes.title + " " + classes.alwaysDisplayed}>Стоматология</div>
+            <div className={classes.title + " " + classes.alwaysDisplayed}>Косметология</div>
             <div className={classes.subtitle + " " + classes.alwaysDisplayed}>прайс-лист</div>
             <div className={classes.listHeader + " " + classes.static}>
                 <div className={classes.nameTitle}>Услуга</div>

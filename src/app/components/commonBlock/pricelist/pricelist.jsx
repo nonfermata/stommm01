@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./pricelist.module.css";
-import pricelistItems from "../../../data/pricelistItems";
+import services from "../../../data/services";
 import { setVisible } from "../../../../redux/visibleCompReducer";
 import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
 import { connect } from "react-redux";
@@ -18,7 +18,7 @@ const PriceList = ({
     };
     return (
         <div className={classes.pricelistCards}>
-            {pricelistItems.map(({ id, name, icon }) => (
+            {services.map(({ id, name, icon }) => (
                 <div
                     key={id}
                     onClick={() => {

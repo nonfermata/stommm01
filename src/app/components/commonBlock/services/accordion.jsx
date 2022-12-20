@@ -3,7 +3,7 @@ import plus from "../../common/svg/plus";
 import chevron from "../../common/svg/chevron";
 import classes from "./services.module.css"
 
-const Accordion = ({ title, list }) => {
+const Accordion = ({ title, list, id }) => {
     const [listClass, setListClass] = useState(classes.listHide);
     const [btnClass, setBtnClass] = useState("");
     const [isListVisible, setIsListVisible] = useState(false);
@@ -30,8 +30,9 @@ const Accordion = ({ title, list }) => {
             </div>
             <ul className={classes.accordion__list + " " + listClass}>
                 {list.map((item) => (
-                    <li key={item}>{chevron} {item}</li>
+                    <li key={item}>{chevron}&nbsp;&nbsp;{item}</li>
                 ))}
+                <li><a className={classes.spanLink} href="#pricelist">посмотреть весь прайс-лист »</a></li>
             </ul>
         </div>
     );

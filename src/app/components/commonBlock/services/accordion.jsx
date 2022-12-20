@@ -30,9 +30,9 @@ const Accordion = ({ title, list, id }) => {
             </div>
             <ul className={classes.accordion__list + " " + listClass}>
                 {list.map((item) => (
-                    <li key={item}>{chevron}&nbsp;&nbsp;{item}</li>
+                    <li key={item}>{id !== "analysis" && chevron} {item}</li>
                 ))}
-                <li><a className={classes.spanLink} href="#pricelist">посмотреть весь прайс-лист »</a></li>
+                <li className={classes.spanLink}><a href="#pricelist">посмотреть весь прайс-лист »</a></li>
             </ul>
         </div>
     );

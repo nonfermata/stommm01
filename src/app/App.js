@@ -5,9 +5,10 @@ import { ToastContainer } from "react-toastify";
 import { connect } from "react-redux";
 import { isFullHeaderChange } from "../redux/isFullHeaderReducer";
 import Analysis from "./components/pricelists/analysis";
-import MyList from "./components/pricelists/myList";
+import Selected from "./components/pricelists/selected";
 import Stomatology from "./components/pricelists/stomatology";
 import Cosmetology from "./components/pricelists/cosmetology";
+import { Route, Switch } from "react-router-dom";
 
 const App = ({ isFullHeader, isFullHeaderChange, visibleComp }) => {
     const handleScroll = () => {
@@ -18,19 +19,20 @@ const App = ({ isFullHeader, isFullHeaderChange, visibleComp }) => {
     return (
         <div className="main" onWheel={handleScroll} onTouchMove={handleScroll}>
             <Header isFullHeader={isFullHeader} />
-            {visibleComp === "main" && <Main />}
-            {visibleComp === "analysis" && <Analysis />}
-            {visibleComp === "stomatology" && <Stomatology />}
-            {visibleComp === "cosmetology" && <Cosmetology />}
-            {visibleComp === "mylist" && <MyList />}
+            <Switch>
+                <Route exact path="/" component={Main} />
+                <Route path="/stomatology" component={Stomatology} />
+                <Route path="/analysis" component={Analysis} />
+                <Route path="/cosmetology" component={Cosmetology} />
+                <Route path="/selected" component={Selected} />
+            </Switch>
             <ToastContainer />
         </div>
     );
 };
 
-const mapStateToProps = ({ isFullHeader, visibleComp }) => ({
-    isFullHeader,
-    visibleComp
+const mapStateToProps = ({ isFullHeader }) => ({
+    isFullHeader
 });
 
 const mapDispatchToProps = { isFullHeaderChange };

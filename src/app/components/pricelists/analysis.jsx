@@ -3,21 +3,16 @@ import classes from "./pricelists.module.css";
 import { isAddedChange } from "../../../redux/analysisPricesReducer";
 import { connect } from "react-redux";
 import addedToList from "../common/svg/addedToList";
-import { setVisible } from "../../../redux/visibleCompReducer";
 import { isOpenCatChange } from "../../../redux/analysisPricesReducer";
 import addToList from "../common/svg/addToList";
 import caretDown from "../common/svg/caretDown";
 import caretRight from "../common/svg/caretRight";
 import options from "../../data/options";
 import TotalPriceFixedBlock from "./totalPriceFixedBlock";
+import { Link } from "react-router-dom";
 
-const Analysis = ({
-    analysisPrices,
-    isAddedChange,
-    setVisible,
-    isOpenCatChange
-}) => {
-    const myListTitle = options.find((item) => item.id === "mylist").name;
+const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
+    const myListTitle = options.find((item) => item.id === "selected").name;
     const [myList, setMyList] = useState();
     const [fixedBlockClass, setFixedBlockClass] = useState("");
     useEffect(() => {
@@ -56,14 +51,11 @@ const Analysis = ({
             <div className={classes.title}>Медицинские анализы</div>
             <div className={classes.subtitle}>прайс-лист</div>
             <div className={classes.subTitleTop}>
-                Выберите нужные вам исследования и узнайте общую стоимость. Посмотреть список выбранного вы можете в
-                разделе{" "}
-                <span
-                    className={classes.spanLink}
-                    onClick={() => setVisible("mylist")}
-                >
+                Выберите нужные вам исследования и узнайте общую стоимость.
+                Посмотреть список выбранного вы можете в разделе{" "}
+                <Link to="/selected" className={classes.spanLink}>
                     "{myListTitle}"
-                </span>
+                </Link>
             </div>
             <div className={classes.listHeader}>
                 <div className={classes.nameTitle}>Исследование</div>
@@ -188,12 +180,11 @@ const Analysis = ({
                 )}
             </ul>
             <div className={classes.subTitleBottom}>
-                <span
+                <Link to="/selected"
                     className={classes.spanLink}
-                    onClick={() => setVisible("mylist")}
                 >
                     Перейти в "{myListTitle}"
-                </span>
+                </Link>
             </div>
         </div>
     );
@@ -203,6 +194,6 @@ const mapStateToProps = ({ analysisPrices }) => ({
     analysisPrices
 });
 
-const mapDispatchToProps = { isAddedChange, setVisible, isOpenCatChange };
+const mapDispatchToProps = { isAddedChange, isOpenCatChange };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Analysis);

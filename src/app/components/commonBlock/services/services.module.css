@@ -26,6 +26,7 @@
 }
 
 .spanLink {
+    margin-top: 10px;
     color: var(--main-brown-color);
     text-decoration: underline;
     cursor: pointer;

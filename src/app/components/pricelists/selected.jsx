@@ -1,18 +1,14 @@
 import React, { useEffect, useState } from "react";
 import classes from "./pricelists.module.css";
 import { isAddedChange } from "../../../redux/analysisPricesReducer";
-import { setVisible } from "../../../redux/visibleCompReducer";
 import { connect } from "react-redux";
 import MyListItem from "./myListItem";
 import addToList from "../common/svg/addToList";
 import options from "../../data/options";
-// import realPriceList from "../../data/realPriceList";
-// import { makeArray } from "../../data/realPriceList";
-// import { prices } from "../../data/realPriceList";
+import { Link } from "react-router-dom";
 
-const MyList = ({ analysisPrices, isAddedChange, setVisible }) => {
-    // makeArray(realPriceList, prices);
-    const servicesTitle = options.find((item) => item.id === "mylist").name;
+const Selected = ({ analysisPrices, isAddedChange }) => {
+    const servicesTitle = options.find((item) => item.id === "selected").name;
     const [myList, setMyList] = useState();
     useEffect(() => {
         const newList = [];
@@ -70,12 +66,9 @@ const MyList = ({ analysisPrices, isAddedChange, setVisible }) => {
                         className={classes.subTitleBottom}
                         style={{ margin: "20px 0 0 0" }}
                     >
-                        <span
-                            className={classes.spanLink}
-                            onClick={() => setVisible("analysis")}
-                        >
+                        <Link to="/analysis" className={classes.spanLink}>
                             Добавить другие исследования
-                        </span>
+                        </Link>
                     </div>
                 </>
             ) : (
@@ -83,12 +76,9 @@ const MyList = ({ analysisPrices, isAddedChange, setVisible }) => {
                     Вы пока ничего не выбрали.
                     <br />
                     Зайдите в наш{" "}
-                    <span
-                        className={classes.spanLink}
-                        onClick={() => setVisible("analysis")}
-                    >
+                    <Link to="/analysis" className={classes.spanLink}>
                         онлайн-калькулятор
-                    </span>{" "}
+                    </Link>{" "}
                     и выберите исследования, которые вам нужны.
                 </div>
             )}
@@ -100,6 +90,6 @@ const mapStateToProps = ({ analysisPrices }) => ({
     analysisPrices
 });
 
-const mapDispatchToProps = { isAddedChange, setVisible };
+const mapDispatchToProps = { isAddedChange };
 
-export default connect(mapStateToProps, mapDispatchToProps)(MyList);
+export default connect(mapStateToProps, mapDispatchToProps)(Selected);

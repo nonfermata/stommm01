@@ -1,6 +1,6 @@
 import React from "react";
 
-const mylist = (
+const selected = (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
@@ -13,4 +13,4 @@ const mylist = (
         </svg>
 );
 
-export default mylist;
+export default selected;

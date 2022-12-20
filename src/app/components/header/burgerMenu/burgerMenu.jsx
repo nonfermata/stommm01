@@ -1,30 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./burgerMenu.module.css";
 import burger from "../../common/svg/burger";
 import menu from "../../../data/menu";
 import closeMenu from "../../common/svg/closeMenu";
-import { setVisible } from "../../../../redux/visibleCompReducer";
 import { connect } from "react-redux";
-import { isFullHeaderChange } from "../../../../redux/isFullHeaderReducer";
 import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
+import { HashLink } from "react-router-hash-link";
 
-const BurgerMenu = ({
-    isFullHeader,
-    isFullHeaderChange,
-    visibleComp,
-    setVisible,
-    isBurgerActiveChange,
-    isBurgerActive
-}) => {
-    const handleMenuClick = () => {
-        isBurgerActiveChange();
-        if (visibleComp !== "main") {
-            setVisible("main");
-        }
-        if (!isFullHeader) {
-            isFullHeaderChange();
-        }
-    };
+const BurgerMenu = ({ isBurgerActiveChange, isBurgerActive }) => {
     return (
         <div className={classes.burgerMenuWrap}>
             <div className={classes.burger} onClick={isBurgerActiveChange}>
@@ -38,9 +21,12 @@ const BurgerMenu = ({
             >
                 {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
-                        <a href={"#" + anchor} onClick={handleMenuClick}>
+                        <HashLink
+                            to={"/#" + anchor}
+                            onClick={isBurgerActiveChange}
+                        >
                             {menu_name}
-                        </a>
+                        </HashLink>
                     </li>
                 ))}
             </ul>
@@ -48,15 +34,11 @@ const BurgerMenu = ({
     );
 };
 
-const mapStateToProps = ({ isFullHeader, visibleComp, isBurgerActive }) => ({
-    isFullHeader,
-    visibleComp,
+const mapStateToProps = ({ isBurgerActive }) => ({
     isBurgerActive
 });
 
 const mapDispatchToProps = {
-    isFullHeaderChange,
-    setVisible,
     isBurgerActiveChange
 };
 

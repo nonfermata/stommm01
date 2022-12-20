@@ -1,5 +1,5 @@
 import calculator from "../components/common/svg/calculator";
-import mylist from "../components/common/svg/mylist";
+import selected from "../components/common/svg/selected";
 
 
 const options = [
@@ -9,8 +9,8 @@ const options = [
         name: "Онлайн-калькулятор стоимости анализов"
     },
     {
-        id: "mylist",
-        icon: mylist,
+        id: "selected",
+        icon: selected,
         name: "Выбранные услуги"
     }
 ];

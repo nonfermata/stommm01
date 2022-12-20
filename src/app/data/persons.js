@@ -1,15 +1,30 @@
-import person01 from "../assets/images/persons/person01.png"
-import person02 from "../assets/images/persons/person02.png"
-import person03 from "../assets/images/persons/person03.png"
-import person04 from "../assets/images/persons/person04.png"
+import React from "react";
+
+import person01 from "../assets/images/persons/person01.png";
+import person02 from "../assets/images/persons/person02.png";
+import person03 from "../assets/images/persons/person03.png";
+import person04 from "../assets/images/persons/person04.png";
 
 const persons = [
     {
         name: "Мурадян Жанна Микаеловна",
         role: "директор клиники, врач стоматолог-терапевт, ортопед",
         photo: person01,
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum enim exercitationem, ipsam laudantium natus nemo quos sed soluta! Doloremque minima optio veniam voluptas! Dolor quod ratione reiciendis sequi vitae."
+        description: (
+            <>
+                Закончила Тверской государственный медицинский университет по
+                специальности врач-стоматолог общей практики. Через два года
+                получила узкую специализацию - врач-стоматолог ортопед.
+                <br />
+                Постоянно обновляет и совершенствует свои навыки. В работе
+                требовательна,профессиональная , аккуратна. Доктор отзывчивый и
+                относится с заботой к каждому пациенту, с которыми всегда
+                устанавливаются доверительные отношения.
+                <br />
+                «С пациентом мы в одной команде, поэтому оба должны приложить
+                усилия для достижения наилучшего результата».
+            </>
+        )
     },
     {
         name: "Шуплецов Андрей Дмитриевич",

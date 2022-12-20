@@ -1,27 +1,44 @@
 import React, { useEffect, useState } from "react";
-import classes from "./calculator.module.css";
-import { isAddedChange } from "../../../redux/pricelistReducer";
+import classes from "./pricelists.module.css";
+import { isAddedChange } from "../../../redux/analysisPricesReducer";
 import { setVisible } from "../../../redux/visibleCompReducer";
 import { connect } from "react-redux";
 import MyListItem from "./myListItem";
 import addToList from "../common/svg/addToList";
+import options from "../../data/options";
+// import realPriceList from "../../data/realPriceList";
+// import { makeArray } from "../../data/realPriceList";
+// import { prices } from "../../data/realPriceList";
 
-const MyList = ({ pricelist, isAddedChange, setVisible }) => {
+const MyList = ({ analysisPrices, isAddedChange, setVisible }) => {
+    // makeArray(realPriceList, prices);
+    const servicesTitle = options.find((item) => item.id === "mylist").name;
     const [myList, setMyList] = useState();
     useEffect(() => {
-        setMyList(pricelist.filter((item) => item.isAdded));
-    }, [pricelist]);
+        const newList = [];
+        for (const cat of analysisPrices) {
+            for (const subcat of cat.value) {
+                for (const item of subcat.value) {
+                    if (item.isAdded) {
+                        newList.push(item);
+                    }
+                }
+            }
+        }
+        setMyList(newList);
+    }, [analysisPrices]);
     let totalPrice;
     if (myList && myList.length > 0) {
         totalPrice = myList.reduce((acc, item) => acc + item.price, 0);
     }
     return (
         <div className={classes.mainWrap}>
-            <div className={classes.title}>Выбранные услуги</div>
+            <div className={classes.title}>{servicesTitle}</div>
+            <div className={classes.subtitle}></div>
             {myList && myList.length > 0 ? (
                 <>
                     <div className={classes.subTitleTop}>
-                        Вы добавили следующие услуги:
+                        Вы добавили следующие исследования:
                     </div>
                     <ul className={classes.pricelist}>
                         {myList.map(({ name, price, _id }) => (
@@ -55,9 +72,9 @@ const MyList = ({ pricelist, isAddedChange, setVisible }) => {
                     >
                         <span
                             className={classes.spanLink}
-                            onClick={() => setVisible("calculator")}
+                            onClick={() => setVisible("analysis")}
                         >
-                            Добавить ещё услуги
+                            Добавить другие исследования
                         </span>
                     </div>
                 </>
@@ -68,19 +85,19 @@ const MyList = ({ pricelist, isAddedChange, setVisible }) => {
                     Зайдите в наш{" "}
                     <span
                         className={classes.spanLink}
-                        onClick={() => setVisible("calculator")}
+                        onClick={() => setVisible("analysis")}
                     >
                         онлайн-калькулятор
                     </span>{" "}
-                    и выберите услуги, которые вам нужны.
+                    и выберите исследования, которые вам нужны.
                 </div>
             )}
         </div>
     );
 };
 
-const mapStateToProps = ({ pricelist }) => ({
-    pricelist
+const mapStateToProps = ({ analysisPrices }) => ({
+    analysisPrices
 });
 
 const mapDispatchToProps = { isAddedChange, setVisible };

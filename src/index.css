@@ -3,23 +3,25 @@
 :root {
     --base-color: #111;
     --base-bg-color: #fffff7;
+    --brown-grey-color: #665c47;
     --main-brown-color: #a8977b;
     --main-peach-color: #d7b56d;
     --main-light-peach-color: #ecd096;
     /*--main-cyan-color: #0088cc;*/
     --gold-color: #edb12f;
     --bg-turquoise-color: #deffee;
+    --dark-grey-color: #646464;
+    --semi-grey-color: #888;
+    --light-semi-grey-color: hsl(50, 10%, 67%);
+    --light-grey-color: hsl(50, 10%, 75%);
+    --lighter-grey-color: hsl(50, 10%, 85%);
     --ex-light-grey-color: hsl(50, 20%, 95%);
     --exx-light-grey-color: hsl(50, 20%, 97%);
-    --light-grey-color: hsl(50, 10%, 75%);
-    --light-semi-grey-color: #aaa;
-    --semi-grey-color: #888;
-    --dark-grey-color: #646464;
-    --ex-light-beige-color: #faf2e1;
     /*--ex-light-beige-color: #f5f5e9;*/
     --light-beige-color: #e0e0d1;
+    --lighter-beige-color: #ebebdf;
+    --ex-light-beige-color: #faf2e1;
     --semi-beige-color: #d4d4c6;
-    --brown-grey-color: #665c47;
     --light-orange-color: #ffd580;
     --semi-orange-color: #ffbb33;
     --red-color: #ff0000;

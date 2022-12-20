@@ -6,7 +6,7 @@ import person04 from "../assets/images/persons/person04.png"
 const persons = [
     {
         name: "Мурадян Жанна Микаеловна",
-        role: "стоматолог терапевт, ортопед",
+        role: "директор клиники, врач стоматолог-терапевт, ортопед",
         photo: person01,
         description:
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum enim exercitationem, ipsam laudantium natus nemo quos sed soluta! Doloremque minima optio veniam voluptas! Dolor quod ratione reiciendis sequi vitae."
@@ -20,13 +20,13 @@ const persons = [
     },
     {
         name: "Мачульникова Анна Андреевна",
-        role: "процедурная медсестра, косметолог",
+        role: "косметолог-эстетист, медицинская медсестра",
         photo: person03,
         description:
             "Consequatur dicta doloremque et ipsam quia tempore temporibus vero. Consequuntur deserunt dolorem est eum expedita ipsum omnis perferendis perspiciatis totam, voluptate. A adipisci assumenda at autem dicta eos eum eveniet illum labore nihil."
     },
     {
-        name: "Person 4",
+        name: "Щёголева Ксения Сергеевна",
         role: "ортодонт",
         photo: person04,
         description:

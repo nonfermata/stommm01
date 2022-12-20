@@ -22,10 +22,10 @@ const Menu = ({
     return (
         <nav className={classes.nav}>
             <ul className={classes.menu}>
-                {menu.map(({ anchor, value }) => (
+                {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
                         <a href={"#" + anchor} onClick={handleMenuClick}>
-                            {value}
+                            {menu_name}
                         </a>
                     </li>
                 ))}

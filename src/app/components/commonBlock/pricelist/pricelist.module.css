@@ -1,0 +1,44 @@
+.pricelistCards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricelistCard {
+    cursor: pointer;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-brown-color);
+}
+
+.pricelistCard:hover {
+    color: var(--brown-grey-color);
+}
+
+.pricelistCard img {
+    width: 90px;
+}
+
+.priceName {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+@media screen and (max-width: 640px) {
+    .pricelistCards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .priceName {
+        margin-top: 10px;
+    }
+    .pricelistCard img {
+        width: 70px;
+    }
+}

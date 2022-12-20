@@ -76,6 +76,18 @@
     opacity: .1;
 }
 
+/* Прайс-лист */
+.pricelist {
+    background-color: var(--base-bg-color);
+    border-bottom: var(--light-beige-border);
+}
+
+.pricelist__content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
 /* Контакты */
 .contacts {
     background-color: var(--ex-light-beige-color);

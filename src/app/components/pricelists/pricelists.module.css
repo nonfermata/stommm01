@@ -29,11 +29,15 @@
 }
 
 .title {
-    margin-bottom: 30px;
     font-weight: 500;
     font-size: 1.5em;
     text-align: center;
     color: var(--main-brown-color);
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .subTitleTop,
@@ -60,6 +64,24 @@
     max-width: 900px;
     font-size: 0.77em;
     line-height: 1.3em;
+}
+
+.catBlock {
+    background-color: var(--light-beige-color);
+    padding: 12px 15px;
+    cursor: default;
+    border-bottom: 1px solid var(--base-bg-color);
+    font-weight: 500;
+}
+
+.subcatBlock {
+    font-weight: 500;
+    background-color: var(--lighter-beige-color);
+    padding: 12px 15px;
+}
+
+.smallerDescription {
+    font-size: 0.9em;
 }
 
 .pricelist {
@@ -92,6 +114,15 @@
 
 .pricelist li:last-child {
     /*border-bottom: 2px solid var(--light-grey-color);*/
+}
+
+.pricelist li.static,
+.static {
+    padding: 12px 15px;
+}
+
+.subcatStatic {
+    font-weight: 600;
 }
 
 .listHeader {
@@ -169,7 +200,16 @@
 }
 
 @media screen and (max-width: 640px) {
-    .mainWrap {
-        padding: 110px 0 50px;
+    .title,
+    .subtitle,
+    .smallerDescription {
+        display: none;
     }
+    .mainWrap {
+        padding: 90px 0 30px;
+    }
+}
+
+.alwaysDisplayed {
+    display: block;
 }

@@ -36,10 +36,10 @@ const BurgerMenu = ({
                     (isBurgerActive ? " " + classes.burgerMenuVisible : "")
                 }
             >
-                {menu.map(({ anchor, value }) => (
+                {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
                         <a href={"#" + anchor} onClick={handleMenuClick}>
-                            {value}
+                            {menu_name}
                         </a>
                     </li>
                 ))}

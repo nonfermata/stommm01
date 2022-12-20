@@ -1,23 +1,29 @@
 const menu = [
     {
         anchor: "about",
-        value: "О нас"
+        menu_name: "О нас"
     },
     {
         anchor: "services",
-        value: "Услуги и цены"
+        menu_name: "Услуги",
+        title_name: "Наши услуги"
     },
     {
         anchor: "personal",
-        value: "Специалисты"
+        menu_name: "Специалисты",
+        title_name: "Наши специалисты"
+    },
+    {
+        anchor: "pricelist",
+        menu_name: "Прайс-лист"
     },
     {
         anchor: "reviews",
-        value: "Отзывы"
+        menu_name: "Отзывы"
     },
     {
         anchor: "contacts",
-        value: "Контакты"
+        menu_name: "Контакты"
     }
 ];
 

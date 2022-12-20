@@ -7,10 +7,7 @@ const PersonalCards = () => {
     return (
         <div className={classes.personalCards}>
             {persons.map((person) => (
-                <PersonalCard
-                    key={person.name}
-                    {...person}
-                />
+                <PersonalCard key={person.name} {...person} />
             ))}
         </div>
     );

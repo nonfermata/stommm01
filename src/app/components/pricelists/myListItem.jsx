@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./calculator.module.css";
+import classes from "./pricelists.module.css";
 import removeFromList from "../common/svg/removeFromList";
 
 const MyListItem = ({ name, price, id, onClick }) => {

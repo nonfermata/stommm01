@@ -15,7 +15,6 @@
 .topImageBlock__content {
     position: absolute;
     left: calc(50% - 600px);
-    width: 100%;
     height: 100%;
     top: 0;
     padding: 0 20px;

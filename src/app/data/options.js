@@ -4,9 +4,9 @@ import mylist from "../components/common/svg/mylist";
 
 const options = [
     {
-        id: "calculator",
+        id: "analysis",
         icon: calculator,
-        name: "Онлайн-калькулятор стоимости услуг"
+        name: "Онлайн-калькулятор стоимости анализов"
     },
     {
         id: "mylist",

@@ -41,13 +41,6 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-    .personalCard {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
 @media screen and (max-width: 640px) {
     .personalCard {
         width: 70%;
@@ -55,5 +48,12 @@
     }
     .description {
         font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .personalCard {
+        width: 90%;
+        margin: 0 auto;
     }
 }

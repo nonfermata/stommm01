@@ -1,18 +1,22 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import check from "../common/svg/check";
 import WipingBlock from "./wipingBlock";
 import CommonBtn from "../common/commonBtn";
 import classes from "./topImageBlock.module.css";
 import contacts from "../../data/contacts";
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo.png";
 
 const TopImageBlock = () => {
+    const [blockClass, setBlockClass] = useState("");
+    useEffect(() => {
+        setBlockClass(classes.topBlockVisible)
+    },[])
     return (
-        <div className={classes.topImageBlockWrap}>
+        <div className={classes.topImageBlockWrap + " " + blockClass}>
             <div className={classes.topImageBlock}></div>
             <div className={classes.topImageBlock__content}>
                 <div className={classes.logoWrap}>
-                    <img src={logo} alt="logo"/>
+                    <img src={logo} alt="logo" />
                 </div>
                 <div>
                     <WipingBlock timeout="300">

@@ -68,7 +68,6 @@ const ConsultForm = ({ onClose }) => {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!validate()) return;
-        console.log(data);
         onClose(event);
     };
 

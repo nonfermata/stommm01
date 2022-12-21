@@ -1,5 +1,11 @@
 .topImageBlockWrap {
     position: relative;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.topBlockVisible {
+    opacity: 1;
 }
 
 .topImageBlock {
@@ -78,7 +84,7 @@
     }
 
     .topImageBlock {
-        background-image: url(../../assets/images/001_main_mobile.png);
+        background-image: url(../../assets/images/001_main_pad.png);
         height: 70vw;
     }
 
@@ -102,6 +108,9 @@
 }
 
 @media screen and (max-width: 640px) {
+    .topImageBlock {
+        background-image: url(../../assets/images/001_main_mobile.png);
+    }
     .topImageBlock__content {
         padding: 20px 20px 30px;
     }

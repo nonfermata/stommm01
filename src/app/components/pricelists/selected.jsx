@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./pricelists.module.css";
 import { isAddedChange } from "../../../redux/analysisPricesReducer";
 import { connect } from "react-redux";
-import MyListItem from "./myListItem";
+import SelectedItem from "./selectedItem";
 import addToList from "../common/svg/addToList";
 import options from "../../data/options";
 import { Link } from "react-router-dom";
@@ -38,7 +38,7 @@ const Selected = ({ analysisPrices, isAddedChange }) => {
                     </div>
                     <ul className={classes.pricelist}>
                         {myList.map(({ name, price, _id }) => (
-                            <MyListItem
+                            <SelectedItem
                                 key={_id}
                                 name={name}
                                 price={price}
@@ -66,6 +66,14 @@ const Selected = ({ analysisPrices, isAddedChange }) => {
                         className={classes.subTitleBottom}
                         style={{ margin: "20px 0 0 0" }}
                     >
+                        <p style={{ marginBottom: "10px"}}>
+                            <span style={{ color: "var(--orange-color)"}}>
+                                *
+                            </span>{" "}
+                            к общей стоимости добавляются также услуги
+                            медсестры (забор крови, забор мазка), в зависимости
+                            от вида исследований – от 100 до 200 руб.
+                        </p>
                         <Link to="/analysis" className={classes.spanLink}>
                             Добавить другие исследования
                         </Link>

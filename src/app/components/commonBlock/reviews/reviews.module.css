@@ -18,7 +18,7 @@
 }
 
 .review {
-    height: 200px;
+    /*max-height: 200px;*/
 }
 
 .reviewHeaderWrap {
@@ -46,7 +46,7 @@
     position: absolute;
     font-weight: 300;
     font-size: 50px;
-    top: calc(50% - 20px);
+    top: 80px;
     color: var(--light-beige-color);
     cursor: pointer;
     transform: scaleX(1.5);

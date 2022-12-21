@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from "./pricelists.module.css";
 import removeFromList from "../common/svg/removeFromList";
 
-const MyListItem = ({ name, price, id, onClick }) => {
+const SelectedItem = ({ name, price, id, onClick }) => {
     const [btnClass, setButtonClass] = useState(classes.btnHidden);
     const showRemoveButton = () => {
         setButtonClass("");
@@ -29,4 +29,4 @@ const MyListItem = ({ name, price, id, onClick }) => {
     );
 };
 
-export default MyListItem;
+export default SelectedItem;

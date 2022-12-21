@@ -1,47 +1,66 @@
-import photo1 from "../assets/images/comments-persons/01.jpg";
-import photo2 from "../assets/images/comments-persons/02.jpg";
-import photo3 from "../assets/images/comments-persons/03.jpg";
-import photo4 from "../assets/images/comments-persons/04.jpg";
-import photo5 from "../assets/images/comments-persons/05.jpg";
-import photo6 from "../assets/images/comments-persons/06.jpg";
+// import photo1 from "../assets/images/comments-persons/01.jpg";
+// import photo2 from "../assets/images/comments-persons/02.jpg";
+// import photo3 from "../assets/images/comments-persons/03.jpg";
+// import photo4 from "../assets/images/comments-persons/04.jpg";
+// import photo5 from "../assets/images/comments-persons/05.jpg";
+// import photo6 from "../assets/images/comments-persons/06.jpg";
 
 const reviews = [
     {
-        name: "Фунтик",
-        photo: photo1,
+        name: "От пациента Карпова П.Н.",
         content:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum enim exercitationem, ipsam laudantium natus nemo quos sed soluta! Doloremque minima optio veniam voluptas! Dolor quod ratione reiciendis sequi vitae."
+            "Волшебница Жанна Микаеловна! Благодарю Вас за молниеносный ремонт, скола моста. Желаю Вам здоровья и финансовой стабильности."
     },
     {
-        name: "Пуговка",
-        photo: photo2,
+        name: "От пациентки Красниковой Л.Н.",
         content:
-            "Aliquid assumenda atque consequatur cum cumque debitis dolore dolorem ducimus enim, ex explicabo fugiat libero magnam molestiae nesciunt nisi numquam officia officiis omnis pariatur quisquam quos recusandae reprehenderit saepe sequi, sit tempora tempore ut veniam voluptas."
+            "Хочу выразить огромную благодарность доктору Мурадян Жанне Микаеловне за ее лечение, внимание, отзывчивость. Очень внимательный доктор. Профессионал своего дела. Очень рада, что попала на прием к этому доктору. Еще раз спасибо!!!"
     },
     {
-        name: "Марио",
-        photo: photo3,
+        name: "От пациента Соколова М.Н.",
         content:
-            "Consequatur dicta doloremque et ipsam quia tempore temporibus vero. Consequuntur deserunt dolorem est eum expedita ipsum omnis perferendis perspiciatis totam, voluptate. A adipisci assumenda at autem dicta eos eum eveniet illum labore nihil."
+            "Огромное спасибо доктору  Жанне Микаеловне Мурадян. Отлично и профессионально восстановила зубы. Еще раз огромное спасибо!!!"
     },
     {
-        name: "Темирбек",
-        photo: photo4,
+        name: "От пациентки Лобановой Н.В.",
         content:
-            "Maiores nobis sint sit ullam vero. Alias amet animi asperiores aspernatur delectus deleniti dicta dignissimos dolor eaque earum eos esse eum facere hic id inventore ipsam, iusto laboriosam laudantium libero magni maxime"
+            "Хочу выразить огромную благодарность стоматологу  ортопеду Мурадян Жанее Микаеловне за прекрасно выполненную работу. Это просто врач с большой буквы. Профессионал своего дела. Буду рекомендовать ее всем своим родным, знакомым, друзьям."
     },
     {
-        name: "Макатумба",
-        photo: photo5,
+        name: "От пациентки Ивановой Т.Ю.",
         content:
-            "Quia tempore temporibus vero. Consequuntur deserunt dolorem est eum expedita ipsum omnis perferendis perspiciatis totam, voluptate a adipisci."
+            "Хочу выразить огромную благодарность своему лечащему врачу Мурадян Жанне Микаеловне за ее труд. Спасибо, что спасли зуб, теперь только к ней. Огромное спасибо!!!"
     },
     {
-        name: "Шаолиньский пряник",
-        photo: photo6,
+        name: "От пациентов Гордеевых",
         content:
-            "Dolor sit amet, consectetur adipisicing elit. Dignissimos earum enim exercitationem, ipsam laudantium natus! Atque consequatur cum cumque debitis  laboriosam laudantium libero magni."
-    }
+            "Огромное спасибо Жанне Микаеловне за удаление  двух зубов у ребенка! Выходим улыбаясь, с хорошим настроением!"
+    },
+    {
+        name: "От пациента Жидкова Ю.П.",
+        content: "Спасибо  доктору Мурадян Жанне Микаеловне за очень хорошую работу и отношение к пациенту. Удачи и здоровья!"
+    },
+    {
+        name: "От пациента Барышниковой Марии",
+        content: "Жанна – настоящий профессионал и просто ангел! Спасибо, что вы такие есть и что лечите нас в выходные и праздники!"
+    },
+    {
+        name: "От пациентки Пушкиной Виктории",
+        content: "Замечательный врач!! Мурадян Жанна Микаевловна!!! Тот самый случай, когда посещение стоматолога оказалось приятным!!! Успехов и процветания!!!"
+    },
+    {
+        name: "От пациентки Башмаковой В.Р.",
+        content: "Я очень благодарна Жанне Микаеловне за столь профессиональную работу, спасибо огромное за безболезненное лечение и качество. Ходим к Вам всей семьей и только к Вам. Вы супер!!! СПАСИБО!!! "
+    },
+    {
+        name: "От пациентки Тулягановой Олеси",
+        content: "Нет таких слов, чтобы выразить благодарность Жанне Микаевловне. Это врач от бога!!! Она потрясающая кудесница, грамотная, терпеливая и просто лучшая из лучших. Я в восторге от проделанной работы, Жанна сделала невозможное. Я теперь могу улыбаться Урааааа! Спасибо 1000 раз."
+    },
+    {
+        name: "От пациентки Кальчужной Натальи",
+        content: "Огромная благодарность Жанне Микаеловне за прекрасную работу. Все пломбы стоят, делать было не больно. Очень заботливый  врач. Качественная и великолепная работа. Спасибо!"
+    },
+
 ];
 
 export default reviews;

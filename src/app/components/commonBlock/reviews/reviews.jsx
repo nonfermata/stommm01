@@ -61,11 +61,11 @@ const Reviews = () => {
                             >
                                 <div className={classes.review}>
                                     <div className={classes.reviewHeaderWrap}>
-                                        <img
-                                            className={classes.reviewAva}
-                                            src={comment.photo}
-                                            alt="photo"
-                                        />
+                                        {/*<img*/}
+                                        {/*    className={classes.reviewAva}*/}
+                                        {/*    src={comment.photo}*/}
+                                        {/*    alt="photo"*/}
+                                        {/*/>*/}
                                         <div className={classes.reviewName}>
                                             {comment.name}
                                         </div>

@@ -31,6 +31,8 @@ const TopImageBlock = () => {
                             {contacts.address.city}, {contacts.address.street}
                             <br />
                             {contacts.phones[0]}
+                            <br />
+                            {contacts.phones[1]}
                         </p>{" "}
                     </WipingBlock>
                     <WipingBlock timeout="800">

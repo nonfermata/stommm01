@@ -1,15 +1,15 @@
 <?php
 /* Здесь проверяется существование переменных */
-if (isset($_POST['name'])) {$phone = $_POST['name'];}
-if (isset($_POST['phone'])) {$name = $_POST['phone'];}
-if (isset($_POST['email'])) {$name = $_POST['email'];}
-if (isset($_POST['message'])) {$name = $_POST['message'];}
+if (isset($_POST['name'])) {$name = $_POST['name'];}
+if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
+if (isset($_POST['email'])) {$email = $_POST['email'];}
+if (isset($_POST['message'])) {$message = $_POST['message'];}
 
 /* Сюда впишите свою эл. почту */
 $myaddres  = "i-say@yandex.ru";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
-$mes = "На сайте meddenta-klin.ru была оформлена новая заявка – запись на консультацию.\nИмя: $name\nТелефон: $phone\nE-mail: $email\nСообщение: $message\n";
+$mes = "На сайте meddenta-klin.ru была оформлена новая заявка – запись на консультацию.\n\nИмя: $name\nТелефон: $phone\nE-mail: $email\nСообщение: $message\n";
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
 $sub='Запись на консультацию. Заявка с сайта meddenta-klin.ru'; // Тема письма
@@ -26,10 +26,10 @@ header('Refresh: 3; URL=index.html');
 <title>Спасибо!</title>
 <meta name="generator">
 <script type="text/javascript">
-setTimeout('location.replace("/index.html")', 5000);
+setTimeout('location.replace("/")', 2000);
 </script>
 </head>
 <body>
-<h1>Спасибо! Мы свяжемся с вами!</h1>
+<h2 style="text-align: center; margin-top: 50px; color: #008c75">Спасибо за вашу заявку! Мы свяжемся с вами в ближайшее время.</h2>
 </body>
 </html>

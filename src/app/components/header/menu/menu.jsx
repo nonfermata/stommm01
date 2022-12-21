@@ -16,7 +16,7 @@ const Menu = ({ isFullHeader, isFullHeaderChange }) => {
             <ul className={classes.menu}>
                 {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
-                        <HashLink to={"/#" + anchor} onClick={handleMenuClick}>
+                        <HashLink to={"/main#" + anchor} onClick={handleMenuClick}>
                             {menu_name}
                         </HashLink>
                     </li>

@@ -20,12 +20,11 @@ const App = ({ isFullHeader, isFullHeaderChange, visibleComp }) => {
         <div className="main" onWheel={handleScroll} onTouchMove={handleScroll}>
             <Header isFullHeader={isFullHeader} />
             <Switch>
-                <Route exact path="/main" component={Main} />
+                <Route exact path="/" component={Main} />
                 <Route path="/stomatology" component={Stomatology} />
                 <Route path="/analysis" component={Analysis} />
                 <Route path="/cosmetology" component={Cosmetology} />
                 <Route path="/selected" component={Selected} />
-                <Redirect from="/" to="/main" />
             </Switch>
             <ToastContainer />
         </div>

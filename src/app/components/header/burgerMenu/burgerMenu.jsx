@@ -22,7 +22,7 @@ const BurgerMenu = ({ isBurgerActiveChange, isBurgerActive }) => {
                 {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
                         <HashLink
-                            to={"/main#" + anchor}
+                            to={"/#" + anchor}
                             onClick={isBurgerActiveChange}
                         >
                             {menu_name}

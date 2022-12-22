@@ -65,11 +65,11 @@ const ConsultForm = ({ onClose }) => {
 
     const isValid = Object.keys(errors).length === 0;
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        if (!validate()) return;
-        onClose(event);
-    };
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     if (!validate()) return;
+    //     onClose(event);
+    // };
 
     return (
         <>
@@ -81,9 +81,9 @@ const ConsultForm = ({ onClose }) => {
             >
                 <form
                     className={classes.form + " " + formClass}
-                    // action="../../../../public/send.php"
-                    // method="POST"
-                    onSubmit={handleSubmit}
+                    action="https://meddenta-klin.ru/send.php"
+                    method="POST"
+                    // onSubmit={handleSubmit}
                 >
                     <div className={classes.closeForm}>{close}</div>
                     <InputField

@@ -7,16 +7,21 @@ import menu from "../../data/menu";
 const CommonBlock = ({ name, children }) => {
     const menuItem = menu.find((item) => item.anchor === name);
     const title = menuItem.title_name || menuItem.menu_name;
-    const [wipeClass, setWipeClass] = useState("hideCommon");
+    const [wipeClass, setWipeClass] = useState(
+        localStorage.getItem(name) || "hideCommon"
+    );
     const [backIngClass, setBackImgClass] = useState("hidden");
     const wipingBlock = useRef();
     function showBlocks() {
-        setWipeClass("showCommon");
-        if (name === "reviews") {
-            setBackImgClass("");
-            setTimeout(() => {
-                setBackImgClass(classes.showBackImageBlock);
-            }, 1000);
+        if (!localStorage.getItem(name)) {
+            setWipeClass("showCommon");
+            localStorage.setItem(name, "showCommon");
+            if (name === "reviews") {
+                setBackImgClass("");
+                setTimeout(() => {
+                    setBackImgClass(classes.showBackImageBlock);
+                }, 1000);
+            }
         }
     }
     useEffect(() => {

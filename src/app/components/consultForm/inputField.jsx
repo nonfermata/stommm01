@@ -10,6 +10,7 @@ const InputField = ({ onChange, placeholder, value, error, name }) => {
     return (
         <div className={classes.form__inputWrap}>
             <input
+                name={name}
                 type="text"
                 className={classes.form__input}
                 onChange={handleChange}

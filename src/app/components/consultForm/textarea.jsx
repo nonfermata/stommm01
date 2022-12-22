@@ -8,7 +8,7 @@ const Textarea = ({ onChange, placeholder, value, name, rows }) => {
     return (
         <textarea
             className={classes.form__textarea}
-            id={name}
+            name={name}
             value={value}
             rows={rows}
             onChange={handleChange}

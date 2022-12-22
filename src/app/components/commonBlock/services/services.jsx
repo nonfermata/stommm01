@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <div>
             <div className={classes.subtitle}>
-                Мы предлагаем нашим клиентам следующие виды услуг:
+                Мы предлагаем нашим пациентам следующие виды услуг:
             </div>
             {services.map(({ name, list, id }) => (
                 <Accordion key={id} title={name} list={list} id={id} />

@@ -34,6 +34,12 @@ const Contacts = () => {
                     ))}
                 </div>
             </div>
+            <div className={classes.contactsItem}>
+                <div className={classes.itemKey}>E-mail:</div>
+                <div>
+                    <a href={"mailto: " + contacts.email}>{contacts.email}</a>
+                </div>
+            </div>
             <div className={classes.instaWrap}>
                 <a
                     href="https://www.instagram.com/meddenta_klin/"

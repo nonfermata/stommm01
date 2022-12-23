@@ -14,6 +14,14 @@
     margin-bottom: 1em;
 }
 
+.contactsItem a {
+    text-decoration: underline;
+}
+
+.contactsItem a:hover {
+    text-decoration: none;
+}
+
 .itemKey {
     color: var(--main-peach-color);
     font-weight: 500;
@@ -23,7 +31,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    margin: 0 auto;
+    margin: 25px auto;
     width: fit-content;
 }
 

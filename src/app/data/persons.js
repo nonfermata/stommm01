@@ -4,6 +4,8 @@ import person01 from "../assets/images/persons/person01.png";
 import person02 from "../assets/images/persons/person02.png";
 import person03 from "../assets/images/persons/person03.png";
 import person04 from "../assets/images/persons/person04.png";
+import person05 from "../assets/images/persons/person05.png";
+import person06 from "../assets/images/persons/person06.png";
 
 const persons = [
     {
@@ -43,6 +45,18 @@ const persons = [
         name: "Щёголева Ксения Сергеевна",
         role: "врач стоматолог-ортодонт",
         photo: person04,
+        description: ""
+    },
+    {
+        name: "Серобабова Светлана Владимировна",
+        role: "медицинская сестра",
+        photo: person05,
+        description: ""
+    },
+    {
+        name: "Кириченко Юлия Андреевна",
+        role: "администратор",
+        photo: person06,
         description: ""
     }
 ];

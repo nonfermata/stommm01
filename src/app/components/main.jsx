@@ -10,6 +10,7 @@ import Reviews from "./commonBlock/reviews/reviews";
 import Contacts from "./commonBlock/contacts/contacts";
 import About from "./commonBlock/about/about";
 import PriceList from "./commonBlock/pricelist/pricelist";
+import Developer from "./developer/developer";
 
 const Main = () => {
     return (
@@ -38,6 +39,7 @@ const Main = () => {
             </CommonBlock>
             <CommonBlock name="contacts">
                 <Contacts />
+            <Developer/>
             </CommonBlock>
         </>
     );

@@ -16,12 +16,12 @@ const CommonBlock = ({ name, children }) => {
         if (!localStorage.getItem(name)) {
             setWipeClass("showCommon");
             localStorage.setItem(name, "showCommon");
-            if (name === "reviews") {
-                setBackImgClass("");
-                setTimeout(() => {
-                    setBackImgClass(classes.showBackImageBlock);
-                }, 1000);
-            }
+        }
+        if (name === "reviews") {
+            setBackImgClass("");
+            setTimeout(() => {
+                setBackImgClass(classes.showBackImageBlock);
+            }, 1000);
         }
     }
     useEffect(() => {

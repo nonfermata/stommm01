@@ -6,6 +6,7 @@ import person03 from "../assets/images/persons/person03.png";
 import person04 from "../assets/images/persons/person04.png";
 import person05 from "../assets/images/persons/person05.png";
 import person06 from "../assets/images/persons/person06.png";
+import person07 from "../assets/images/persons/person07.png";
 
 const persons = [
     {
@@ -57,6 +58,12 @@ const persons = [
         name: "Кириченко Юлия Андреевна",
         role: "администратор",
         photo: person06,
+        description: ""
+    },
+    {
+        name: "Кныш Наталья Николаевна",
+        role: "администратор",
+        photo: person07,
         description: ""
     }
 ];

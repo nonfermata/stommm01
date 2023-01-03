@@ -9,7 +9,7 @@ import classes from "./consultForm.module.css";
 
 const ConsultForm = ({ onClose }) => {
     const [windowClass, setWindowClass] = useState("transparent");
-    const [formClass, setFormClass] = useState("")
+    const [formClass, setFormClass] = useState("");
     useEffect(() => {
         setWindowClass("");
         setFormClass(classes.formNormal);
@@ -23,11 +23,36 @@ const ConsultForm = ({ onClose }) => {
     const [data, setData] = useState(initialState);
     const [errors, setErrors] = useState({});
 
+    const formatPhone = (value) => {
+        let newValue =
+            value.length < 3 && value.length > 1
+                ? ""
+                : value.replace("+7 ", "");
+        newValue = newValue.trim();
+        if (isNaN(newValue)) {
+            const arr = [];
+            for (const i of newValue) {
+                if (i !== " " && !isNaN(i)) {
+                    arr.push(i);
+                }
+            }
+            newValue = arr.join("");
+        }
+        return newValue;
+    };
+
     const handleChangeData = (name, value) => {
-        setData((prevState) => ({
-            ...prevState,
-            [name]: value
-        }));
+        if (name === "phone") {
+            setData((prevState) => ({
+                ...prevState,
+                phone: "+7 " + formatPhone(value)
+            }));
+        } else {
+            setData((prevState) => ({
+                ...prevState,
+                [name]: value
+            }));
+        }
     };
     const validatorConfig = {
         name: {
@@ -41,14 +66,6 @@ const ConsultForm = ({ onClose }) => {
             },
             isEmail: {
                 message: "Некорректный e-mail"
-            }
-        },
-        phone: {
-            isRequired: {
-                message: "Телефон обязателен для заполнения"
-            },
-            isPhone: {
-                message: "Некорректный номер телефона"
             }
         }
     };
@@ -97,14 +114,13 @@ const ConsultForm = ({ onClose }) => {
                         name="phone"
                         value={data.phone}
                         onChange={handleChangeData}
-                        placeholder="Телефон (цифры без пробелов)"
-                        error={errors.phone}
+                        placeholder="Ваш телефон"
                     />
                     <InputField
                         name="email"
                         value={data.email}
                         onChange={handleChangeData}
-                        placeholder="E-mail"
+                        placeholder="Ваш e-mail"
                         error={errors.email}
                     />
                     <Textarea
@@ -115,7 +131,9 @@ const ConsultForm = ({ onClose }) => {
                         rows="4"
                     />
                     <EmptyBlock height="20" />
-                    <SubmitButton disabled={!isValid} />
+                    <SubmitButton
+                        disabled={!isValid || data.phone.length !== 13}
+                    />
                 </form>
             </div>
         </>

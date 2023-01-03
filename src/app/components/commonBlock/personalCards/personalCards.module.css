@@ -1,15 +1,16 @@
 .personalCards {
     margin: 30px auto;
-    max-width: 900px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    column-gap: 5%;
     row-gap: 60px;
 }
 
 .personalCard {
     border-radius: 10px;
-    width: 40%;
+    width: 30%;
     border: 1px solid var(--semi-beige-color);
     padding: 20px;
     background-color: var(--base-bg-color);
@@ -38,6 +39,11 @@
 @media screen and (max-width: 960px) {
     .personalCards {
         row-gap: 6vw;
+        column-gap: 1%;
+        justify-content: space-evenly;
+    }
+    .personalCard {
+        width: 40%;
     }
 }
 

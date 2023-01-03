@@ -14,10 +14,6 @@ const validator = (data, config) => {
                 const emailRegExp = /^\S+@\S+\.\S+$/g;
                 statusValidate = !emailRegExp.test(data);
                 break;
-            case "isPhone":
-                const phoneRegExp = /^(8|\+7|7)?[\d]{10}$/g;
-                statusValidate = !phoneRegExp.test(data);
-                break;
             default:
                 break;
         }

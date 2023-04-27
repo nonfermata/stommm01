@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import classes from "./pricelists.module.css";
 import caretDown from "../common/svg/caretDown";
 import caretRight from "../common/svg/caretRight";
-// import stomatologyPrices, { st, pr, cd, re } from "../../data/stomatologyPrices";
 import stomatologyPrices from "../../data/stomatologyPrices";
 
 const Stomatology = () => {
-    // re(st, pr, cd);
     const initialState = stomatologyPrices.map((cat) => ({
         isOpen: false,
         _id: cat._id
@@ -22,8 +20,12 @@ const Stomatology = () => {
     };
     return (
         <div className={classes.mainWrap}>
-            <div className={classes.title + " " + classes.alwaysDisplayed}>Стоматология</div>
-            <div className={classes.subtitle + " " + classes.alwaysDisplayed}>прайс-лист</div>
+            <div className={classes.title + " " + classes.alwaysDisplayed}>
+                Стоматология
+            </div>
+            <div className={classes.subtitle + " " + classes.alwaysDisplayed}>
+                прайс-лист
+            </div>
             <div className={classes.listHeader + " " + classes.static}>
                 <div className={classes.nameTitle}>Услуга</div>
                 <div className={classes.priceAndActionWrap}>

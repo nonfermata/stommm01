@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./contacts.module.css";
 import YandexMap from "./yandexMap";
 import instaLogo from "../../../assets/images/insta_logo.png";
+import telegramLogo from "../../../assets/images/telegram_logo.png";
 import contacts from "../../../data/contacts";
 import CommonBtn from "../../common/commonBtn";
-import EmptyBlock from "../../../utils/emptyBlock";
 
 const Contacts = () => {
     return (
@@ -40,13 +40,14 @@ const Contacts = () => {
                     <a href={"mailto: " + contacts.email}>{contacts.email}</a>
                 </div>
             </div>
-            <div className={classes.instaWrap}>
+            <div className={classes.socialWrap}>
                 <a
                     href="https://www.instagram.com/meddenta_klin/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <img
-                        className={classes.instaLogo}
+                        className={classes.socialLogo}
                         src={instaLogo}
                         alt="Instagram"
                         title="Мы в Instagram"
@@ -56,8 +57,32 @@ const Contacts = () => {
                     <a
                         href="https://www.instagram.com/meddenta_klin/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Мы в Instagram
+                    </a>
+                </p>
+            </div>
+            <div className={classes.socialWrap}>
+                <a
+                    href="https://t.me/meddenta_klin"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        className={classes.socialLogo}
+                        src={telegramLogo}
+                        alt="Telegram"
+                        title="Мы в Telegram"
+                    />
+                </a>
+                <p>
+                    <a
+                        href="https://t.me/meddenta_klin"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Мы в Telegram
                     </a>
                 </p>
             </div>

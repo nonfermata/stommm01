@@ -37,7 +37,20 @@
 
 .subtitle {
     margin-bottom: 30px;
+    margin-top: 5px;
     text-align: center;
+}
+
+.subLink {
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: underline;
+    transition: all .15s ease;
+}
+
+.subLink:hover {
+    color: var(--main-brown-color);
+    text-decoration: none;
 }
 
 .subTitleTop,

@@ -6,6 +6,7 @@ import closeMenu from "../../common/svg/closeMenu";
 import { connect } from "react-redux";
 import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 const BurgerMenu = ({ isBurgerActiveChange, isBurgerActive }) => {
     return (
@@ -21,12 +22,18 @@ const BurgerMenu = ({ isBurgerActiveChange, isBurgerActive }) => {
             >
                 {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
-                        <HashLink
-                            to={"/#" + anchor}
-                            onClick={isBurgerActiveChange}
-                        >
-                            {menu_name}
-                        </HashLink>
+                        {anchor === "docs" ? (
+                            <Link to="/docs" onClick={isBurgerActiveChange}>
+                                {menu_name}
+                            </Link>
+                        ) : (
+                            <HashLink
+                                to={"/#" + anchor}
+                                onClick={isBurgerActiveChange}
+                            >
+                                {menu_name}
+                            </HashLink>
+                        )}
                     </li>
                 ))}
             </ul>

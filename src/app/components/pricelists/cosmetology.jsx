@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./pricelists.module.css";
-import cosmetologyPrices from "../../data/cosmetologyPrices";
+import cosmetologyPricesAnn from "../../data/cosmetologyPricesAnn";
 
 const Cosmetology = () => {
     return (
@@ -18,7 +18,7 @@ const Cosmetology = () => {
                 </div>
             </div>
             <ul className={classes.pricelist}>
-                {cosmetologyPrices.map(({ name, _id, price }) => (
+                {cosmetologyPricesAnn.map(({ name, _id, price }) => (
                     <li key={_id} className={classes.static}>
                         <div
                             className={

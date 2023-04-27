@@ -12,6 +12,18 @@ import TotalPriceFixedBlock from "./totalPriceFixedBlock";
 import { Link } from "react-router-dom";
 
 const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
+    // To make all prices higher for 50RUB
+    // const newArr = analysisPrices.map((item) => ({
+    //     ...item,
+    //     value: item.value.map((item2) => ({
+    //         ...item2,
+    //         value: item2.value.map((item3) => ({
+    //             ...item3,
+    //             price: item3.price + 50
+    //         }))
+    //     }))
+    // }));
+    // console.log(JSON.stringify(newArr));
     const myListTitle = options.find((item) => item.id === "selected").name;
     const [myList, setMyList] = useState();
     const [fixedBlockClass, setFixedBlockClass] = useState("");
@@ -180,9 +192,7 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
                 )}
             </ul>
             <div className={classes.subTitleBottom}>
-                <Link to="/selected"
-                    className={classes.spanLink}
-                >
+                <Link to="/selected" className={classes.spanLink}>
                     Перейти в "{myListTitle}"
                 </Link>
             </div>

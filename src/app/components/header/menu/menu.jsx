@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import classes from "./menu.module.css";
 import menu from "../../../data/menu";
 import { isFullHeaderChange } from "../../../../redux/isFullHeaderReducer";
@@ -16,9 +17,18 @@ const Menu = ({ isFullHeader, isFullHeaderChange }) => {
             <ul className={classes.menu}>
                 {menu.map(({ anchor, menu_name }) => (
                     <li key={anchor}>
-                        <HashLink to={"/#" + anchor} onClick={handleMenuClick}>
-                            {menu_name}
-                        </HashLink>
+                        {anchor === "docs" ? (
+                            <Link to="/docs" onClick={handleMenuClick}>
+                                {menu_name}
+                            </Link>
+                        ) : (
+                            <HashLink
+                                to={"/#" + anchor}
+                                onClick={handleMenuClick}
+                            >
+                                {menu_name}
+                            </HashLink>
+                        )}
                     </li>
                 ))}
             </ul>

@@ -39,7 +39,7 @@ const Main = () => {
             </CommonBlock>
             <CommonBlock name="contacts">
                 <Contacts />
-            <Developer/>
+                <Developer />
             </CommonBlock>
         </>
     );

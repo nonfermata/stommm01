@@ -6,6 +6,8 @@ import EmptyBlock from "../../utils/emptyBlock";
 import Textarea from "./textarea";
 import close from "../common/svg/close";
 import classes from "./consultForm.module.css";
+import CheckBoxField from "./checkBoxField";
+import policy from "../../assets/pdf/policy.pdf";
 
 const ConsultForm = ({ onClose }) => {
     const [windowClass, setWindowClass] = useState("transparent");
@@ -18,7 +20,8 @@ const ConsultForm = ({ onClose }) => {
         name: "",
         phone: "",
         email: "",
-        message: ""
+        message: "",
+        agreement: false
     };
     const [data, setData] = useState(initialState);
     const [errors, setErrors] = useState({});
@@ -66,6 +69,11 @@ const ConsultForm = ({ onClose }) => {
             },
             isEmail: {
                 message: "Некорректный e-mail"
+            }
+        },
+        agreement: {
+            isRequired: {
+                message: " "
             }
         }
     };
@@ -130,6 +138,20 @@ const ConsultForm = ({ onClose }) => {
                         placeholder="Предпочтительная дата и время визита, другие вопросы или пожелания"
                         rows="4"
                     />
+                    <CheckBoxField
+                        name="agreement"
+                        value={data.agreement}
+                        onChange={handleChangeData}
+                        error={errors.agreement}
+                    >
+                        Я ознакомился(-лась) с условиями{" "}
+                        <a href={policy} target="_blank">
+                            <span className={classes.form__policy}>
+                                Политики конфиденциальности
+                            </span>
+                        </a>{" "}
+                        и принимаю их
+                    </CheckBoxField>
                     <EmptyBlock height="20" />
                     <SubmitButton
                         disabled={!isValid || data.phone.length !== 13}

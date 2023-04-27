@@ -5,6 +5,7 @@
     --base-bg-color: #fffff7;
     --brown-grey-color: #665c47;
     --main-brown-color: #a8977b;
+    --dark-brown-color: #875f1d;
     --main-peach-color: #d7b56d;
     --main-light-peach-color: #ecd096;
     /*--main-cyan-color: #0088cc;*/
@@ -126,4 +127,12 @@ a {
          display: block;
          width: 100%;
      }
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
 }

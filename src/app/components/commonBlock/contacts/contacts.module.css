@@ -27,7 +27,7 @@
     font-weight: 500;
 }
 
-.instaWrap {
+.socialWrap {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -35,17 +35,17 @@
     width: fit-content;
 }
 
-.instaLogo {
+.socialLogo {
     width: 45px;
 }
 
-.instaWrap a {
+.socialWrap a {
     color: var(--main-peach-color);
     font-weight: 500;
     text-decoration: underline;
 }
 
-.instaWrap a:hover {
+.socialWrap a:hover {
     text-decoration: none;
 }
 

@@ -1,51 +1,3 @@
-// const pricelist = [
-//     {
-//         _id: "27013000",
-//         name: "Массаж локтя",
-//         price: 1500
-//     },
-//     {
-//         _id: "27013001",
-//         name: "Вырвать зуб",
-//         price: 2000
-//     },
-//     {
-//         _id: "27013002",
-//         name: "Вырвать зуб весело",
-//         price: 2200
-//     },
-//     {
-//         _id: "27013003",
-//         name: "Зайти погреться",
-//         price: 500
-//     },
-//     {
-//         _id: "27013004",
-//         name: "Просто спросить",
-//         price: 1000
-//     },
-//     {
-//         _id: "27013005",
-//         name: "Поговорить за жизнь",
-//         price: 3200
-//     },
-//     {
-//         _id: "27013006",
-//         name: "Послушать сказку про медведей",
-//         price: 3500
-//     },
-//     {
-//         _id: "27013007",
-//         name: "Сыграть в домино за кружкой пива",
-//         price: 5800
-//     },
-//     {
-//         _id: "27013008",
-//         name: "Чисто поржать над котиками",
-//         price: 1700
-//     }
-// ];
-
 const analysisPrices = [
     {
         cat_name: "ГЕМАТОЛОГИЯ",
@@ -59,49 +11,49 @@ const analysisPrices = [
                         _id: "0100001",
                         code: "01.00.001",
                         name: "СОЭ",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0100002",
                         code: "01.00.002",
                         name: "Клинический анализ крови без лейкоцитарной формулы",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "0100003",
                         code: "01.00.003",
                         name: "Клинический анализ крови с лейкоцитарной формулой (5DIFF)",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0100015",
                         code: "01.00.015",
                         name: "Анализ крови с формулой и цветным показателем  (5DIFF) + СОЭ",
-                        price: 500,
+                        price: 550,
                         isAdded: false
                     },
                     {
                         _id: "0100004",
                         code: "01.00.004",
                         name: "Ретикулоциты",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0100006",
                         code: "01.00.006",
                         name: "Карбоксигемоглобин",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0100007",
                         code: "01.00.007",
                         name: "Метгемоглобин",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     }
                 ]
@@ -114,14 +66,14 @@ const analysisPrices = [
                         _id: "0101003",
                         code: "01.01.003",
                         name: "Иммунофенотипирование с целью выявления лимфопролиферативных заболеваний*",
-                        price: 12000,
+                        price: 12050,
                         isAdded: false
                     },
                     {
                         _id: "0101005",
                         code: "01.01.005",
                         name: "Иммунофенотипическое исследование минимальной остаточной болезни при лимфопролиферативных заболеваниях",
-                        price: 12000,
+                        price: 12050,
                         isAdded: false
                     }
                 ]
@@ -140,42 +92,42 @@ const analysisPrices = [
                         _id: "2101001",
                         code: "21.01.001",
                         name: "Общий анализ мочи",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2101002",
                         code: "21.01.002",
                         name: "Анализ мочи по Нечипоренко",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "2101003",
                         code: "21.01.003",
                         name: "Анализ мочи по Зимницкому",
-                        price: 820,
+                        price: 870,
                         isAdded: false
                     },
                     {
                         _id: "2101004",
                         code: "21.01.004",
                         name: "2-х стаканная проба",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "2101005",
                         code: "21.01.005",
                         name: "3-х стаканная проба",
-                        price: 480,
+                        price: 530,
                         isAdded: false
                     },
                     {
                         _id: "2101006",
                         code: "21.01.006",
                         name: "Исследование химического состава конкремента (мочевого камня)",
-                        price: 4500,
+                        price: 4550,
                         isAdded: false
                     }
                 ]
@@ -188,77 +140,77 @@ const analysisPrices = [
                         _id: "2102001",
                         code: "21.02.001",
                         name: "Общий анализ кала (копрограмма)",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "2102002",
                         code: "21.02.002",
                         name: "Исследование кала на простейшие и яйца гельминтов методом обогащения (PARASEP)",
-                        price: 520,
+                        price: 570,
                         isAdded: false
                     },
                     {
                         _id: "2102003",
                         code: "21.02.003",
                         name: "Исследование соскоба на энтеробиоз",
-                        price: 320,
+                        price: 370,
                         isAdded: false
                     },
                     {
                         _id: "2102011",
                         code: "21.02.011",
                         name: "Исследование соскоба на энтеробиоз по методу Рабиновича",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2102004",
                         code: "21.02.004",
                         name: "Иcследование кала на простейших, яйца гельминтов",
-                        price: 320,
+                        price: 370,
                         isAdded: false
                     },
                     {
                         _id: "2102010",
                         code: "21.02.010",
                         name: "Исследование кала на геминолепидоз (яйца карликового цепня, Hymenolepis nana)",
-                        price: 320,
+                        price: 370,
                         isAdded: false
                     },
                     {
                         _id: "2102005",
                         code: "21.02.005",
                         name: "Исследование кала на скрытую кровь",
-                        price: 320,
+                        price: 370,
                         isAdded: false
                     },
                     {
                         _id: "2102006",
                         code: "21.02.006",
                         name: "Содержание углеводов в кале (в т.ч. лактоза)",
-                        price: 480,
+                        price: 530,
                         isAdded: false
                     },
                     {
                         _id: "2102007",
                         code: "21.02.007",
                         name: "Панкреатическая эластаза 1 в кале",
-                        price: 2380,
+                        price: 2430,
                         isAdded: false
                     },
                     {
                         _id: "2102008",
                         code: "21.02.008",
                         name: "Кальпротектин (в кале)",
-                        price: 2850,
+                        price: 2900,
                         isAdded: false
                     },
                     {
                         _id: "2102009",
                         code: "21.02.009",
                         name: 'Скрининг колоректального рака, тест "Colonview" (гемоглобин и гемоглобин-гаптоглобиновый комплекс в кале)',
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     }
                 ]
@@ -272,14 +224,14 @@ const analysisPrices = [
                         _id: "2103001",
                         code: "21.03.001",
                         name: "Микроскопическое исследование отделяемого уретры",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2103002",
                         code: "21.03.002",
                         name: "Микроскопическое исследование мазка-отпечатка головки полового члена",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -293,28 +245,28 @@ const analysisPrices = [
                         _id: "2104001",
                         code: "21.04.001",
                         name: "Микроскопическое исследование ногтевых пластинок на наличие патогенных грибов, скрининг",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2104002",
                         code: "21.04.002",
                         name: "Микроскопическое исследование соскобов кожи на наличие патогенных грибов, скрининг",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2104003",
                         code: "21.04.003",
                         name: "Микроскопическое исследование волос на наличие патогенных грибов, скрининг",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2104004",
                         code: "21.04.004",
                         name: "Микроскопическое исследование на Демодекс (Demodex)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     }
                 ]
@@ -328,35 +280,35 @@ const analysisPrices = [
                         _id: "2105001",
                         code: "21.05.001",
                         name: "Общий анализ мокроты",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "2105002",
                         code: "21.05.002",
                         name: "Общий анализ синовиальной жидкости (микроскопическое исследование+макроскопическое исследование+биохимическое исследование)",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2105003",
                         code: "21.05.003",
                         name: "Микроскопическое исследование назального секрета (на эозинофилы)",
-                        price: 260,
+                        price: 310,
                         isAdded: false
                     },
                     {
                         _id: "2105004",
                         code: "21.05.004",
                         name: "Микроскопическое исследование секрета предстательной железы",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "2105005",
                         code: "21.05.005",
                         name: "Микроскопическое исследование секрета предстательной железы в моче",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     }
                 ]
@@ -369,35 +321,35 @@ const analysisPrices = [
                         _id: "2106002",
                         code: "21.06.002",
                         name: "Спермограмма",
-                        price: 1650,
+                        price: 1700,
                         isAdded: false
                     },
                     {
                         _id: "2106003",
                         code: "21.06.003",
                         name: "Антиспермальные антитела класса IgA количественно (MAR-тест IgA)*",
-                        price: 990,
+                        price: 1040,
                         isAdded: false
                     },
                     {
                         _id: "2106004",
                         code: "21.06.004",
                         name: "Антиспермальные антитела класса IgG количественно (MAR-тест IgG)*",
-                        price: 990,
+                        price: 1040,
                         isAdded: false
                     },
                     {
                         _id: "2106005",
                         code: "21.06.005",
                         name: "Биохимия спермы: цинк",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "2106006",
                         code: "21.06.006",
                         name: "Биохимия спермы: фруктоза",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -410,7 +362,7 @@ const analysisPrices = [
                         _id: "2107001",
                         code: "21.07.001",
                         name: "Общий анализ желчи (3 порции)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -429,35 +381,35 @@ const analysisPrices = [
                         _id: "0200001",
                         code: "02.00.001",
                         name: "Группа крови + Резус-фактор",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0200002",
                         code: "02.00.002",
                         name: "Антитела к антигенам эритроцитов, суммарные (в т.ч. к Rh-фактору, кроме АТ по системе AB0) с определением титра",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "0200003",
                         code: "02.00.003",
                         name: "Антитела по системе AB0",
-                        price: 1400,
+                        price: 1450,
                         isAdded: false
                     },
                     {
                         _id: "0200004",
                         code: "02.00.004",
                         name: "Определение Kell антигена (K)",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "0200005",
                         code: "02.00.005",
                         name: "Фенотипирование антигенов эритроцитов (Rh (C, E, c, e) и Kell)",
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     }
                 ]
@@ -476,119 +428,119 @@ const analysisPrices = [
                         _id: "0300001",
                         code: "03.00.001",
                         name: "Фибриноген",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0300002",
                         code: "03.00.002",
                         name: "Протромбин (время, по Квику, МНО)",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0300003",
                         code: "03.00.003",
                         name: "Тромбиновое время",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0300004",
                         code: "03.00.004",
                         name: "АЧТВ",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0300005",
                         code: "03.00.005",
                         name: "Антитромбин III",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0300006",
                         code: "03.00.006",
                         name: "Волчаночный антикоагулянт (скрининг)",
-                        price: 820,
+                        price: 870,
                         isAdded: false
                     },
                     {
                         _id: "0300017",
                         code: "03.00.017",
                         name: "Волчаночный антикоагулянт (стандарт)",
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     },
                     {
                         _id: "0300019",
                         code: "03.00.019",
                         name: "Волчаночный антикоагулянт (расширенный)",
-                        price: 2200,
+                        price: 2250,
                         isAdded: false
                     },
                     {
                         _id: "0300007",
                         code: "03.00.007",
                         name: "Д-димер",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "0300008",
                         code: "03.00.008",
                         name: "Протеин С",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0300009",
                         code: "03.00.009",
                         name: "Протеин C Global",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "0300011",
                         code: "03.00.011",
                         name: "Активность Анти-Ха",
-                        price: 3300,
+                        price: 3350,
                         isAdded: false
                     },
                     {
                         _id: "0300012",
                         code: "03.00.012",
                         name: "Фактор Виллебранда",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "0300013",
                         code: "03.00.013",
                         name: "Фактор свертывания VII",
-                        price: 2700,
+                        price: 2750,
                         isAdded: false
                     },
                     {
                         _id: "0300014",
                         code: "03.00.014",
                         name: "Фактор свертывания VIII",
-                        price: 2700,
+                        price: 2750,
                         isAdded: false
                     },
                     {
                         _id: "0300016",
                         code: "03.00.016",
                         name: "Фактор свертывания XI",
-                        price: 2700,
+                        price: 2750,
                         isAdded: false
                     },
                     {
                         _id: "0300018",
                         code: "03.00.018",
                         name: "XIIа зависимый фибринолиз",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -607,21 +559,21 @@ const analysisPrices = [
                         _id: "0401001",
                         code: "04.01.001",
                         name: "Билирубин общий",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0401002",
                         code: "04.01.002",
                         name: "Билирубин прямой",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0401003",
                         code: "04.01.003",
                         name: "Билирубин непрямой (включает определение общего и прямого билирубина)",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     }
                 ]
@@ -634,7 +586,7 @@ const analysisPrices = [
                         _id: "0412001",
                         code: "04.12.001",
                         name: "Исследование уровня желчных кислот в крови",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     }
                 ]
@@ -647,91 +599,91 @@ const analysisPrices = [
                         _id: "0402001",
                         code: "04.02.001",
                         name: "Аланинаминотрансфераза (АЛТ)",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402002",
                         code: "04.02.002",
                         name: "Аспартатаминотрансфераза (АСТ)",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402003",
                         code: "04.02.003",
                         name: "Щелочная фосфатаза",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402004",
                         code: "04.02.004",
                         name: "Кислая фосфатаза",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0402005",
                         code: "04.02.005",
                         name: "Гамма-глутамилтрансфераза (ГГТ)",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402006",
                         code: "04.02.006",
                         name: "Лактатдегидрогеназа (ЛДГ)",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402007",
                         code: "04.02.007",
                         name: "Лактатдегидрогеназа (ЛДГ) 1, 2 фракции",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0402008",
                         code: "04.02.008",
                         name: "Холинэстераза",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0402009",
                         code: "04.02.009",
                         name: "Альфа-амилаза",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0402013",
                         code: "04.02.013",
                         name: "Амилаза панкреатическая",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     },
                     {
                         _id: "0402010",
                         code: "04.02.010",
                         name: "Липаза",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0402011",
                         code: "04.02.011",
                         name: "Креатинкиназа (КФК)",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0402012",
                         code: "04.02.012",
                         name: "Креатинкиназа-МВ",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -744,42 +696,42 @@ const analysisPrices = [
                         _id: "0403001",
                         code: "04.03.001",
                         name: "Альбумин",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0403002",
                         code: "04.03.002",
                         name: "Общий белок",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0403003",
                         code: "04.03.003",
                         name: "Белковые фракции (включает определение общего белка и альбумина)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0403004",
                         code: "04.03.004",
                         name: "Креатинин",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0403005",
                         code: "04.03.005",
                         name: "Мочевина",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0403006",
                         code: "04.03.006",
                         name: "Мочевая кислота",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     }
                 ]
@@ -792,98 +744,98 @@ const analysisPrices = [
                         _id: "0404001",
                         code: "04.04.001",
                         name: "Миоглобин",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0404013",
                         code: "04.04.013",
                         name: "Тропонин T",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "0404003",
                         code: "04.04.003",
                         name: "С-реактивный белок",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0404004",
                         code: "04.04.004",
                         name: "С-реактивный белок ультрачувствительный",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0404005",
                         code: "04.04.005",
                         name: "Мозговой натрийуретический пептид B (NT-proBNP)",
-                        price: 2700,
+                        price: 2750,
                         isAdded: false
                     },
                     {
                         _id: "0404007",
                         code: "04.04.007",
                         name: "Альфа1-антитрипсин",
-                        price: 1000,
+                        price: 1050,
                         isAdded: false
                     },
                     {
                         _id: "0404008",
                         code: "04.04.008",
                         name: "Кислый альфа1-гликопротеин (орозомукоид)",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "0404009",
                         code: "04.04.009",
                         name: "Церулоплазмин",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0404010",
                         code: "04.04.010",
                         name: "Эозинофильный катионный белок",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0404011",
                         code: "04.04.011",
                         name: "Ревматоидный фактор",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0404015",
                         code: "04.04.015",
                         name: "Ревматоидный фактор, IgA, колич.",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0404017",
                         code: "04.04.017",
                         name: "Ревматоидный фактор, IgM, колич.",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0404012",
                         code: "04.04.012",
                         name: "Антистрептолизин-О",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "0404014",
                         code: "04.04.014",
                         name: "Тропонин I, высокочувствительный ABBOTT (прогностический маркер выявления риска и/или диагностики сердечно–сосудистых заболеваний)",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     }
                 ]
@@ -896,42 +848,42 @@ const analysisPrices = [
                         _id: "0405001",
                         code: "04.05.001",
                         name: "Глюкоза",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "0405008",
                         code: "04.05.008",
                         name: "Глюкозотолерантный тест",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0405004",
                         code: "04.05.004",
                         name: "Гликированный гемоглобин А1с",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "0405005",
                         code: "04.05.005",
                         name: "Фруктозамин",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "0405006",
                         code: "04.05.006",
                         name: "Молочная кислота (лактат)",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0405009",
                         code: "04.05.009",
                         name: "Индекс HOMA",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     }
                 ]
@@ -944,77 +896,77 @@ const analysisPrices = [
                         _id: "0406001",
                         code: "04.06.001",
                         name: "Триглицериды",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "0406002",
                         code: "04.06.002",
                         name: "Холестерин общий",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "0406003",
                         code: "04.06.003",
                         name: "Холестерин липопротеидов высокой плотности (ЛПВП, HDL)",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0406004",
                         code: "04.06.004",
                         name: "Холестерин липопротеидов низкой плотности (ЛПНП, LDL)",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0406005",
                         code: "04.06.005",
                         name: "Холестерин липопротеидов очень низкой плотности (ЛПОНП) (включает определение триглицеридов)",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0406006",
                         code: "04.06.006",
                         name: "Аполипопротеин А1",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "0406007",
                         code: "04.06.007",
                         name: "Аполипопротеин В",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "0406008",
                         code: "04.06.008",
                         name: "Липопротеин (а)",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "0406009",
                         code: "04.06.009",
                         name: "Гомоцистеин",
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "0406010",
                         code: "04.06.010",
                         name: "Лептин",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0406011",
                         code: "04.06.011",
                         name: "Индекс атерогенности (включает определение холестерина общего и холестерина ЛПВП)",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -1027,42 +979,42 @@ const analysisPrices = [
                         _id: "0407002",
                         code: "04.07.002",
                         name: "Кальций общий",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0407003",
                         code: "04.07.003",
                         name: "Кальций ионизированный",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0407004",
                         code: "04.07.004",
                         name: "Магний",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0407005",
                         code: "04.07.005",
                         name: "Фосфор неорганический",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0407006",
                         code: "04.07.006",
                         name: "Цинк",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0407007",
                         code: "04.07.007",
                         name: "Медь",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -1075,7 +1027,7 @@ const analysisPrices = [
                         _id: "0407001",
                         code: "04.07.001",
                         name: "Натрий, калий, хлор (Na/K/Cl)",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -1088,49 +1040,49 @@ const analysisPrices = [
                         _id: "0408001",
                         code: "04.08.001",
                         name: "Железо",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0408002",
                         code: "04.08.002",
                         name: "Трансферрин",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "0408008",
                         code: "04.08.008",
                         name: "Растворимый рецептор трансферрина (рТФ, sTfR) ",
-                        price: 2000,
+                        price: 2050,
                         isAdded: false
                     },
                     {
                         _id: "0408003",
                         code: "04.08.003",
                         name: "Коэффициент насыщения трансферрина железом (включает определение железа и ЛЖСС)",
-                        price: 700,
+                        price: 750,
                         isAdded: false
                     },
                     {
                         _id: "0408004",
                         code: "04.08.004",
                         name: "Ферритин",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "0408006",
                         code: "04.08.006",
                         name: "Латентная железосвязывающая способность сыворотки (ЛЖСС)",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0408007",
                         code: "04.08.007",
                         name: "Общая железосвязывающая способность сыворотки (ОЖСС) (включает определение железа, ЛЖСС)",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     }
                 ]
@@ -1143,98 +1095,98 @@ const analysisPrices = [
                         _id: "0409001",
                         code: "04.09.001",
                         name: "Витамин А (ретинол)",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "0409002",
                         code: "04.09.002",
                         name: "Витамин В1 (тиамин)",
-                        price: 2300,
+                        price: 2350,
                         isAdded: false
                     },
                     {
                         _id: "0409017",
                         code: "04.09.017",
                         name: "Витамин В2 (рибофлавин, лактофлавин)",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "0409003",
                         code: "04.09.003",
                         name: "Витамин В5 (пантотеновая кислота)",
-                        price: 2300,
+                        price: 2350,
                         isAdded: false
                     },
                     {
                         _id: "0409004",
                         code: "04.09.004",
                         name: "Витамин В6 (пиридоксин)",
-                        price: 2300,
+                        price: 2350,
                         isAdded: false
                     },
                     {
                         _id: "0409005",
                         code: "04.09.005",
                         name: "Витамин В9 (фолиевая кислота)",
-                        price: 700,
+                        price: 750,
                         isAdded: false
                     },
                     {
                         _id: "0409006",
                         code: "04.09.006",
                         name: "Витамин В12 (цианкобаламин)",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "0409007",
                         code: "04.09.007",
                         name: "Витамин С (аскорбиновая кислота)",
-                        price: 2300,
+                        price: 2350,
                         isAdded: false
                     },
                     {
                         _id: "0409008",
                         code: "04.09.008",
                         name: "25-OH витамин D, суммарный (кальциферол)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0409009",
                         code: "04.09.009",
                         name: "Витамин Е (токоферол)",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "0409010",
                         code: "04.09.010",
                         name: "Витамин К (филлохинон)",
-                        price: 2250,
+                        price: 2300,
                         isAdded: false
                     },
                     {
                         _id: "0409015",
                         code: "04.09.015",
                         name: "Определение Омега-3 индекса (оценка риска внезапной сердечной смерти, инфаркта миокарда и других сердечно-сосудистых заболеваний)",
-                        price: 4700,
+                        price: 4750,
                         isAdded: false
                     },
                     {
                         _id: "0409018",
                         code: "04.09.018",
                         name: "Полиненасыщенные (эссенциальные) жирные кислоты семейства Омега-3 и Омега-6",
-                        price: 8200,
+                        price: 8250,
                         isAdded: false
                     },
                     {
                         _id: "0409019",
                         code: "04.09.019",
                         name: "Свободные жирные кислоты (НЭЖКИ) (спектрофотометрия)",
-                        price: 6900,
+                        price: 6950,
                         isAdded: false
                     }
                 ]
@@ -1247,7 +1199,7 @@ const analysisPrices = [
                         _id: "0409011",
                         code: "04.09.011",
                         name: "Жирорастворимые витамины (A, D, E, K)",
-                        price: 7500,
+                        price: 7550,
                         isAdded: false
                     }
                 ]
@@ -1261,7 +1213,7 @@ const analysisPrices = [
                         _id: "0409012",
                         code: "04.09.012",
                         name: "Водорастворимые витамины (B1, B5, B6, В9, В12, С)",
-                        price: 12000,
+                        price: 12050,
                         isAdded: false
                     }
                 ]
@@ -1275,7 +1227,7 @@ const analysisPrices = [
                         _id: "0409013",
                         code: "04.09.013",
                         name: "Комплексный анализ крови на витамины (A, D, E, K, C, B1, B5, B6, В9, B12)",
-                        price: 16800,
+                        price: 16850,
                         isAdded: false
                     }
                 ]
@@ -1288,14 +1240,14 @@ const analysisPrices = [
                         _id: "0410002",
                         code: "04.10.002",
                         name: "СОД (супероксиддисмутаза)",
-                        price: 5500,
+                        price: 5550,
                         isAdded: false
                     },
                     {
                         _id: "0410003",
                         code: "04.10.003",
                         name: "Малоновый диальдегид",
-                        price: 5000,
+                        price: 5050,
                         isAdded: false
                     }
                 ]
@@ -1308,7 +1260,7 @@ const analysisPrices = [
                         _id: "0411001",
                         code: "04.11.001",
                         name: "Комплексный анализ крови на аминокислоты (13 показателей: Аланин, Аргинин, Аспарагиновая кислота, Цитруллин, Глутаминовая кислота, Глицин, Метионин, Орнитин, Фенилаланин, Тирозин, Валин, Лейцин/Изолейцин, Пролин)",
-                        price: 2980,
+                        price: 3030,
                         isAdded: false
                     }
                 ]
@@ -1321,14 +1273,14 @@ const analysisPrices = [
                         _id: "0411002",
                         code: "04.11.002",
                         name: "Анализ на органические кислоты (23 показателя) (ГХ-МС)",
-                        price: 4100,
+                        price: 4150,
                         isAdded: false
                     },
                     {
                         _id: "0411003",
                         code: "04.11.003",
                         name: "Комплексный анализ крови на аминокислоты (32 показателя)",
-                        price: 5380,
+                        price: 5430,
                         isAdded: false
                     }
                 ]
@@ -1341,7 +1293,7 @@ const analysisPrices = [
                         _id: "0413001",
                         code: "04.13.001",
                         name: "ФиброМакс",
-                        price: 17800,
+                        price: 17850,
                         isAdded: false
                     }
                 ]
@@ -1360,28 +1312,28 @@ const analysisPrices = [
                         _id: "0501001",
                         code: "05.01.001",
                         name: "Альфа-амилаза мочи (диастаза)",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0501002",
                         code: "05.01.002",
                         name: "Глюкоза мочи",
-                        price: 250,
+                        price: 300,
                         isAdded: false
                     },
                     {
                         _id: "0501003",
                         code: "05.01.003",
                         name: "Микроальбумин, мг/ммоль креатинина (соотношение альбумин/креатинин в разовой порции мочи)",
-                        price: 700,
+                        price: 750,
                         isAdded: false
                     },
                     {
                         _id: "0501005",
                         code: "05.01.005",
                         name: "Дезоксипиридинолин (DPD) мочи",
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     }
                 ]
@@ -1394,70 +1346,70 @@ const analysisPrices = [
                         _id: "0502001",
                         code: "05.02.001",
                         name: "Глюкоза мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502002",
                         code: "05.02.002",
                         name: "Общий белок мочи",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     },
                     {
                         _id: "0502003",
                         code: "05.02.003",
                         name: "Микроальбумин мочи",
-                        price: 480,
+                        price: 530,
                         isAdded: false
                     },
                     {
                         _id: "0502004",
                         code: "05.02.004",
                         name: "Креатинин мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502006",
                         code: "05.02.006",
                         name: "Мочевина мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502007",
                         code: "05.02.007",
                         name: "Мочевая кислота мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502008",
                         code: "05.02.008",
                         name: "Кальций общий мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502010",
                         code: "05.02.010",
                         name: "Фосфор неорганический мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502011",
                         code: "05.02.011",
                         name: "Магний мочи",
-                        price: 200,
+                        price: 250,
                         isAdded: false
                     },
                     {
                         _id: "0502013",
                         code: "05.02.013",
                         name: "Развернутый биохимический анализ литогенных свойств суточной мочи (по рекомендациями EUA2017)",
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     }
                 ]
@@ -1470,7 +1422,7 @@ const analysisPrices = [
                         _id: "0502005",
                         code: "05.02.005",
                         name: "Проба Реберга",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     }
                 ]
@@ -1483,7 +1435,7 @@ const analysisPrices = [
                         _id: "0502012",
                         code: "05.02.012",
                         name: "Натрий, калий, хлор мочи (Na/K/Cl)",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     }
                 ]
@@ -1502,77 +1454,77 @@ const analysisPrices = [
                         _id: "0601001",
                         code: "06.01.001",
                         name: "Тиреотропный гормон (ТТГ)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "0601002",
                         code: "06.01.002",
                         name: "Тироксин свободный (Т4 свободный)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "0601003",
                         code: "06.01.003",
                         name: "Трийодтиронин свободный (Т3 свободный)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "0601004",
                         code: "06.01.004",
                         name: "Тироксин общий (Т4 общий)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "0601005",
                         code: "06.01.005",
                         name: "Трийодтиронин общий (Т3 общий)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "0601006",
                         code: "06.01.006",
                         name: "Антитела к тиреоглобулину (Анти-ТГ)",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "0601007",
                         code: "06.01.007",
                         name: "Антитела к микросомальной тиреопероксидазе (Анти-ТПО)",
-                        price: 500,
+                        price: 550,
                         isAdded: false
                     },
                     {
                         _id: "0601008",
                         code: "06.01.008",
                         name: "Антитела к рецепторам тиреотропного гормона (АТ рТТГ)",
-                        price: 1600,
+                        price: 1650,
                         isAdded: false
                     },
                     {
                         _id: "0601009",
                         code: "06.01.009",
                         name: "Тиреоглобулин",
-                        price: 520,
+                        price: 570,
                         isAdded: false
                     },
                     {
                         _id: "0601010",
                         code: "06.01.010",
                         name: "АТ к микросомальной фракции тироцитов (АТ-МАГ)",
-                        price: 750,
+                        price: 800,
                         isAdded: false
                     },
                     {
                         _id: "0605002",
                         code: "06.05.002",
                         name: "Кальцитонин",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     }
                 ]
@@ -1585,133 +1537,133 @@ const analysisPrices = [
                         _id: "0602001",
                         code: "06.02.001",
                         name: "Фолликулостимулирующий гормон (ФСГ)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0602002",
                         code: "06.02.002",
                         name: "Лютеинизирующий гормон (ЛГ)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0602003",
                         code: "06.02.003",
                         name: "Пролактин",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0602004",
                         code: "06.02.004",
                         name: "Макропролактин (включает определение пролактина)",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "0602005",
                         code: "06.02.005",
                         name: "Эстрадиол (Е2)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0602022",
                         code: "06.02.022",
                         name: "Эстрадиол в слюне (ВЭЖХ)",
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "0602019",
                         code: "06.02.019",
                         name: "Эстрогены: эстрадиол, эстрон и эстриол в крови",
-                        price: 2800,
+                        price: 2850,
                         isAdded: false
                     },
                     {
                         _id: "0602006",
                         code: "06.02.006",
                         name: "Прогестерон",
-                        price: 400,
+                        price: 450,
                         isAdded: false
                     },
                     {
                         _id: "0602007",
                         code: "06.02.007",
                         name: "Гидроксипрогестерон (17-OH-прогестерон)",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "0602008",
                         code: "06.02.008",
                         name: "Андростендион",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0602021",
                         code: "06.02.021",
                         name: "Андростендиола глюкуронид",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0602010",
                         code: "06.02.010",
                         name: "Дегидроэпиандростерон сульфат (ДГЭА-сульфат)",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "0602011",
                         code: "06.02.011",
                         name: "Тестостерон общий",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "0602012",
                         code: "06.02.012",
                         name: "Тестостерон свободный (включает определение тестостерона общего и свободного, ГСПГ (SHBG), расчет индекса свободных андрогенов)",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "0602020",
                         code: "06.02.020",
                         name: "Тестостерон в слюне",
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "0602013",
                         code: "06.02.013",
                         name: "Дигидротестостерон",
-                        price: 1300,
+                        price: 1350,
                         isAdded: false
                     },
                     {
                         _id: "0602014",
                         code: "06.02.014",
                         name: "Глобулин, связывающий половые гормоны (ГСПГ, SHBG)",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "0602015",
                         code: "06.02.015",
                         name: "Ингибин В",
-                        price: 1780,
+                        price: 1830,
                         isAdded: false
                     },
                     {
                         _id: "0602016",
                         code: "06.02.016",
                         name: "Антимюллеров гормон (АМГ, АМН, MiS)",
-                        price: 1400,
+                        price: 1450,
                         isAdded: false
                     }
                 ]
@@ -1724,70 +1676,70 @@ const analysisPrices = [
                         _id: "0603001",
                         code: "06.03.001",
                         name: "Ассоциированный с беременностью протеин А (PAPP-A)",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "0603002",
                         code: "06.03.002",
                         name: "Эстриол свободный",
-                        price: 750,
+                        price: 800,
                         isAdded: false
                     },
                     {
                         _id: "0603003",
                         code: "06.03.003",
                         name: "Общий бета-ХГЧ (диагностика беременности, онкомаркер)",
-                        price: 300,
+                        price: 350,
                         isAdded: false
                     },
                     {
                         _id: "0603004",
                         code: "06.03.004",
                         name: "Свободная субъединица бета-ХГЧ (пренатальный скрининг)",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "0603005",
                         code: "06.03.005",
                         name: "Альфа-фетопротеин (АФП)",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "0603006",
                         code: "06.03.006",
                         name: "Плацентарный лактоген",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0603007",
                         code: "06.03.007",
                         name: "Трофобластический бета-1-гликопротеин",
-                        price: 1300,
+                        price: 1350,
                         isAdded: false
                     },
                     {
                         _id: "0603008",
                         code: "06.03.008",
                         name: "PlGF (плацентарный фактор роста) ",
-                        price: 5200,
+                        price: 5250,
                         isAdded: false
                     },
                     {
                         _id: "0603009",
                         code: "06.03.009",
                         name: "Растворимая fms-подобная тирозинкиназа-1 (sFLT-1)",
-                        price: 4800,
+                        price: 4850,
                         isAdded: false
                     },
                     {
                         _id: "0603010",
                         code: "06.03.010",
                         name: "Определение соотношения (sFLT-1)/PLGF",
-                        price: 8500,
+                        price: 8550,
                         isAdded: false
                     }
                 ]
@@ -1800,14 +1752,14 @@ const analysisPrices = [
                         _id: "0604001",
                         code: "06.04.001",
                         name: "Пренатальный скрининг I триместра беременности (10-13 недель): ассоциированный с беременностью протеин A (PAPP-A), свободная субъединица бета-ХГЧ",
-                        price: 1580,
+                        price: 1630,
                         isAdded: false
                     },
                     {
                         _id: "0604002",
                         code: "06.04.002",
                         name: "Пренатальный скрининг II триместра беременности (15-19 недель): альфа-фетопротеин (АФП), общий бета-ХГЧ, эстриол свободный",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     }
                 ]
@@ -1820,7 +1772,7 @@ const analysisPrices = [
                         _id: "0604003",
                         code: "06.04.003",
                         name: "Пренатальный скрининг I триместра беременности ASTRAIA 10-13 недель (PAPP-A (ассоциированный с беременностью протеин А), свободная субъединица бета-ХГЧ)",
-                        price: 3100,
+                        price: 3150,
                         isAdded: false
                     }
                 ]
@@ -1833,28 +1785,28 @@ const analysisPrices = [
                         _id: "0605001",
                         code: "06.05.001",
                         name: "Паратгормон",
-                        price: 700,
+                        price: 750,
                         isAdded: false
                     },
                     {
                         _id: "0605005",
                         code: "06.05.005",
                         name: "Паратгормон (диализ)",
-                        price: 1000,
+                        price: 1050,
                         isAdded: false
                     },
                     {
                         _id: "0605003",
                         code: "06.05.003",
                         name: "Остеокальцин",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0605004",
                         code: "06.05.004",
                         name: "С-концевые телопептиды коллагена I типа (Beta-Cross laps)",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -1867,14 +1819,14 @@ const analysisPrices = [
                         _id: "0609001",
                         code: "06.09.001",
                         name: "Прокальцитонин (PCT)",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "0408005",
                         code: "04.08.005",
                         name: "Эритропоэтин",
-                        price: 1700,
+                        price: 1750,
                         isAdded: false
                     }
                 ]
@@ -1887,56 +1839,56 @@ const analysisPrices = [
                         _id: "0606001",
                         code: "06.06.001",
                         name: "Инсулин",
-                        price: 790,
+                        price: 840,
                         isAdded: false
                     },
                     {
                         _id: "0606010",
                         code: "06.06.010",
                         name: "Проинсулин",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "0606004",
                         code: "06.06.004",
                         name: "C-пептид",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "0606007",
                         code: "06.06.007",
                         name: "Гастрин",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0606011",
                         code: "06.06.011",
                         name: "Пепсиноген I",
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "0606012",
                         code: "06.06.012",
                         name: "Пепсиноген II",
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "0606008",
                         code: "06.06.008",
                         name: "Соотношение концентраций пепсиногена I и пепсиногена II",
-                        price: 3300,
+                        price: 3350,
                         isAdded: false
                     },
                     {
                         _id: "0606009",
                         code: "06.06.009",
                         name: "Гастроскрин (пепсиноген-I, пепсиноген-II, соотношение (пепсиноген-I/пепсиноген-II), гастрин стимулированный, антитела класса IgG к H.pylori)",
-                        price: 9100,
+                        price: 9150,
                         isAdded: false
                     }
                 ]
@@ -1949,14 +1901,14 @@ const analysisPrices = [
                         _id: "0607001",
                         code: "06.07.001",
                         name: "Ренин",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "0607002",
                         code: "06.07.002",
                         name: "Альдостерон",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     }
                 ]
@@ -1970,42 +1922,42 @@ const analysisPrices = [
                         _id: "0608001",
                         code: "06.08.001",
                         name: "Адренокортикотропный гормон (АКТГ)",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "0608002",
                         code: "06.08.002",
                         name: "Кортизол",
-                        price: 630,
+                        price: 680,
                         isAdded: false
                     },
                     {
                         _id: "0608008",
                         code: "06.08.008",
                         name: "Кортизол в слюне (одна порция)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0608007",
                         code: "06.08.007",
                         name: "Мелатонин",
-                        price: 2800,
+                        price: 2850,
                         isAdded: false
                     },
                     {
                         _id: "0608003",
                         code: "06.08.003",
                         name: "Соматотропный гормон роста (СТГ)",
-                        price: 750,
+                        price: 800,
                         isAdded: false
                     },
                     {
                         _id: "0608004",
                         code: "06.08.004",
                         name: "Соматомедин С (ИФР-I)",
-                        price: 1150,
+                        price: 1200,
                         isAdded: false
                     }
                 ]
@@ -2018,21 +1970,21 @@ const analysisPrices = [
                         _id: "0608005",
                         code: "06.08.005",
                         name: "Биогенные амины: адреналин, норадреналин, дофамин, серотонин - в крови",
-                        price: 2650,
+                        price: 2700,
                         isAdded: false
                     },
                     {
                         _id: "0608006",
                         code: "06.08.006",
                         name: "Биогенные амины: адреналин, норадреналин, дофамин, серотонин - в крови и их метаболиты в моче (ванилилминдальная кислота, гомованилиновая кислота, 5-гидроксииндолуксусная кислота)",
-                        price: 3520,
+                        price: 3570,
                         isAdded: false
                     },
                     {
                         _id: "0608009",
                         code: "06.08.009",
                         name: "Гистамин (кровь)",
-                        price: 2650,
+                        price: 2700,
                         isAdded: false
                     }
                 ]
@@ -2051,63 +2003,63 @@ const analysisPrices = [
                         _id: "0700001",
                         code: "07.00.001",
                         name: "Кортизол мочи",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "0700008",
                         code: "07.00.008",
                         name: "Андрогены и их метаболиты (8 показателей), расчет соотношений: дегидроэпиандростерон (ДГЭА), андростендион, тестостерон, андростерон, эпиандростерон, этиохоланолон, эпитестостерон, прегнантриол в моче",
-                        price: 4200,
+                        price: 4250,
                         isAdded: false
                     },
                     {
                         _id: "0700009",
                         code: "07.00.009",
                         name: "Эстрогены и прогестагены (4 показателя): эстрадиол, эстрон, эстриол, прегнандиол в моче",
-                        price: 6650,
+                        price: 6700,
                         isAdded: false
                     },
                     {
                         _id: "0700010",
                         code: "07.00.010",
                         name: "Метаболиты эстрогенов, расчет соотношения (оценка риска развития онкопатологии): 2-OHE1 + 2-OHE2, 2-OHE1 + 2-OHE2/16a-OHE1, 2-ОМеЕ1/2-ОНЕ1, 4-ОМеЕ1/4-ОНЕ1 - в моче",
-                        price: 6350,
+                        price: 6400,
                         isAdded: false
                     },
                     {
                         _id: "0700003",
                         code: "07.00.003",
                         name: "Общие метанефрины и норметанефрины",
-                        price: 2820,
+                        price: 2870,
                         isAdded: false
                     },
                     {
                         _id: "0700004",
                         code: "07.00.004",
                         name: "Свободные метанефрины и норметанефрины",
-                        price: 2650,
+                        price: 2700,
                         isAdded: false
                     },
                     {
                         _id: "0700005",
                         code: "07.00.005",
                         name: "Биогенные амины в моче (адреналин, норадреналин, дофамин)",
-                        price: 2800,
+                        price: 2850,
                         isAdded: false
                     },
                     {
                         _id: "0700006",
                         code: "07.00.006",
                         name: "Биогенные амины в моче (адреналин, норадреналин, дофамин) и их метаболиты (ванилилминдальная кислота, гомованилиновая кислота, 5-гидроксииндолуксусная кислота)",
-                        price: 3900,
+                        price: 3950,
                         isAdded: false
                     },
                     {
                         _id: "0700007",
                         code: "07.00.007",
                         name: "Метаболиты биогенных аминов в моче (ванилилминдальная кислота, гомованилиновая кислота, 5-гидроксииндолуксусная кислота)",
-                        price: 2650,
+                        price: 2700,
                         isAdded: false
                     }
                 ]
@@ -2126,133 +2078,133 @@ const analysisPrices = [
                         _id: "0800001",
                         code: "08.00.001",
                         name: "Раково-эмбриональный антиген (РЭА)",
-                        price: 540,
+                        price: 590,
                         isAdded: false
                     },
                     {
                         _id: "0800002",
                         code: "08.00.002",
                         name: "Антиген CA 19-9",
-                        price: 750,
+                        price: 800,
                         isAdded: false
                     },
                     {
                         _id: "0800003",
                         code: "08.00.003",
                         name: "Антиген СА 72-4",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     },
                     {
                         _id: "0800004",
                         code: "08.00.004",
                         name: "Антиген СА 242",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "0800005",
                         code: "08.00.005",
                         name: "Антиген СА 125",
-                        price: 820,
+                        price: 870,
                         isAdded: false
                     },
                     {
                         _id: "0800006",
                         code: "08.00.006",
                         name: "Опухолевый маркер НЕ 4",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     },
                     {
                         _id: "0800007",
                         code: "08.00.007",
                         name: "Прогностическая вероятность развития рака яичников (значение ROMA) (включает определение антигена СА 125 и опухолевого маркера HE 4)",
-                        price: 2200,
+                        price: 2250,
                         isAdded: false
                     },
                     {
                         _id: "0800008",
                         code: "08.00.008",
                         name: "Антиген CA 15-3",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "0800009",
                         code: "08.00.009",
                         name: "Простатоспецифический антиген (ПСА) общий",
-                        price: 660,
+                        price: 710,
                         isAdded: false
                     },
                     {
                         _id: "0800010",
                         code: "08.00.010",
                         name: "Простатоспецифический антиген (ПСА) свободный",
-                        price: 660,
+                        price: 710,
                         isAdded: false
                     },
                     {
                         _id: "0800011",
                         code: "08.00.011",
                         name: "Антиген плоскоклеточной карциномы (SCCA)",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     },
                     {
                         _id: "0800012",
                         code: "08.00.012",
                         name: "Фрагмент цитокератина 19 (Cyfra 21-1)",
-                        price: 1480,
+                        price: 1530,
                         isAdded: false
                     },
                     {
                         _id: "0800013",
                         code: "08.00.013",
                         name: "Нейрон-специфическая енолаза (NSE)",
-                        price: 1170,
+                        price: 1220,
                         isAdded: false
                     },
                     {
                         _id: "0800014",
                         code: "08.00.014",
                         name: "Бета2-микроглобулин",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     },
                     {
                         _id: "0800015",
                         code: "08.00.015",
                         name: "Белок S-100",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "0800016",
                         code: "08.00.016",
                         name: "Специфический антиген рака мочевого пузыря (UBC) в моче",
-                        price: 2230,
+                        price: 2280,
                         isAdded: false
                     },
                     {
                         _id: "0800017",
                         code: "08.00.017",
                         name: "Опухолевая пируваткиназа Тu M2 (в кале)",
-                        price: 4750,
+                        price: 4800,
                         isAdded: false
                     },
                     {
                         _id: "0800019",
                         code: "08.00.019",
                         name: "Соотношение простатоспецифического антигена (ПСА) общего и простатоспецифического антигена (ПСА) свободного (включает их определение)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "0800020",
                         code: "08.00.020",
                         name: "Показатель здоровья простаты (phi-индекс) (Оценка риска рака предстательной железы) (PSA свободный, PSA общий, -2proPSA)",
-                        price: 5900,
+                        price: 5950,
                         isAdded: false
                     }
                 ]
@@ -2271,14 +2223,14 @@ const analysisPrices = [
                         _id: "0902001",
                         code: "09.02.001",
                         name: "ДНК вируса гепатита B",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0902002",
                         code: "09.02.002",
                         name: "ДНК вируса гепатита B, количественно",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     }
                 ]
@@ -2291,21 +2243,21 @@ const analysisPrices = [
                         _id: "0903001",
                         code: "09.03.001",
                         name: "РНК вируса гепатита C",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "0903002",
                         code: "09.03.002",
                         name: "РНК вируса гепатита C, количественно",
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     },
                     {
                         _id: "0903003",
                         code: "09.03.003",
                         name: "РНК вируса гепатита C, генотипирование",
-                        price: 3330,
+                        price: 3380,
                         isAdded: false
                     }
                 ]
@@ -2318,7 +2270,7 @@ const analysisPrices = [
                         _id: "0904001",
                         code: "09.04.001",
                         name: "РНК вируса гепатита D",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     }
                 ]
@@ -2331,7 +2283,7 @@ const analysisPrices = [
                         _id: "0905001",
                         code: "09.05.001",
                         name: "РНК вируса гепатита G",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     }
                 ]
@@ -2344,14 +2296,14 @@ const analysisPrices = [
                         _id: "0906001",
                         code: "09.06.001",
                         name: "ДНК вируса простого герпеса I, II типа (Herpes simplex virus I, II)",
-                        price: 480,
+                        price: 530,
                         isAdded: false
                     },
                     {
                         _id: "0906002",
                         code: "09.06.002",
                         name: "ДНК вируса простого герпеса I, II типа (Herpes simplex virus I, II), кол.",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -2364,7 +2316,7 @@ const analysisPrices = [
                         _id: "0907001",
                         code: "09.07.001",
                         name: "ДНК вируса герпеса VI типа (Human Herpes virus VI)",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -2377,14 +2329,14 @@ const analysisPrices = [
                         _id: "0908001",
                         code: "09.08.001",
                         name: "ДНК цитомегаловируса (Citomegalovirus)",
-                        price: 460,
+                        price: 510,
                         isAdded: false
                     },
                     {
                         _id: "0908002",
                         code: "09.08.002",
                         name: "ДНК цитомегаловируса (Citomegalovirus), количественно",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -2397,14 +2349,14 @@ const analysisPrices = [
                         _id: "0909001",
                         code: "09.09.001",
                         name: "ДНК вируса Эпштейна-Барр (Epstein-Barr virus)",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "0909002",
                         code: "09.09.002",
                         name: "ДНК вируса Эпштейна-Барр (Epstein-Barr virus), количественно",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -2417,7 +2369,7 @@ const analysisPrices = [
                         _id: "0912002",
                         code: "09.12.002",
                         name: "Гемолитический стрептококк, ДНК S.pyogenes, кач.",
-                        price: 720,
+                        price: 770,
                         isAdded: false
                     }
                 ]
@@ -2430,7 +2382,7 @@ const analysisPrices = [
                         _id: "0913001",
                         code: "09.13.001",
                         name: "ДНК микобактерии туберкулеза (Mycobacterium tuberculosis)",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     }
                 ]
@@ -2443,7 +2395,7 @@ const analysisPrices = [
                         _id: "0915001",
                         code: "09.15.001",
                         name: "ДНК токсоплазмы (Toxoplasma gondii)",
-                        price: 500,
+                        price: 550,
                         isAdded: false
                     }
                 ]
@@ -2456,7 +2408,7 @@ const analysisPrices = [
                         _id: "0917002",
                         code: "09.17.002",
                         name: "РНК ВИЧ, количественно",
-                        price: 4800,
+                        price: 4850,
                         isAdded: false
                     }
                 ]
@@ -2477,14 +2429,14 @@ const analysisPrices = [
                         _id: "1001001",
                         code: "10.01.001",
                         name: "ДНК хламидии (Chlamydia trachomatis)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1001002",
                         code: "10.01.002",
                         name: "ДНК хламидии (Chlamydia trachomatis), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2497,42 +2449,42 @@ const analysisPrices = [
                         _id: "1002001",
                         code: "10.02.001",
                         name: "ДНК микоплазмы (Mycoplasma hominis)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1002002",
                         code: "10.02.002",
                         name: "ДНК микоплазмы (Mycoplasma hominis), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1002003",
                         code: "10.02.003",
                         name: "ДНК микоплазмы (Mycoplasma genitalium)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1002004",
                         code: "10.02.004",
                         name: "ДНК микоплазмы (Mycoplasma genitalium), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1002006",
                         code: "10.02.006",
                         name: "Chlamydia pneumoniae",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1002007",
                         code: "10.02.007",
                         name: "Mycoplasma pneumoniae",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     }
                 ]
@@ -2545,42 +2497,42 @@ const analysisPrices = [
                         _id: "1003001",
                         code: "10.03.001",
                         name: "ДНК уреаплазмы (Ureaplasma urealyticum)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1003002",
                         code: "10.03.002",
                         name: "ДНК уреаплазмы (Ureaplasma urealyticum), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1003003",
                         code: "10.03.003",
                         name: "ДНК уреаплазмы (Ureaplasma parvum)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1003004",
                         code: "10.03.004",
                         name: "ДНК уреаплазмы (Ureaplasma parvum), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1003005",
                         code: "10.03.005",
                         name: "ДНК уреаплазмы (Ureaplasma species)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1003006",
                         code: "10.03.006",
                         name: "ДНК уреаплазмы (Ureaplasma species), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2593,14 +2545,14 @@ const analysisPrices = [
                         _id: "1004001",
                         code: "10.04.001",
                         name: "ДНК гарднереллы (Gardnerella vaginalis)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1004002",
                         code: "10.04.002",
                         name: "ДНК гарднереллы (Gardnerella vaginalis), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2613,14 +2565,14 @@ const analysisPrices = [
                         _id: "1005001",
                         code: "10.05.001",
                         name: "ДНК гонококка (Neisseria gonorrhoeae)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1005002",
                         code: "10.05.002",
                         name: "ДНК гонококка (Neisseria gonorrhoeae), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2633,7 +2585,7 @@ const analysisPrices = [
                         _id: "1007001",
                         code: "10.07.001",
                         name: "ДНК микобактерии туберкулеза (Mycobacterium tuberculosis)",
-                        price: 1650,
+                        price: 1700,
                         isAdded: false
                     }
                 ]
@@ -2646,14 +2598,14 @@ const analysisPrices = [
                         _id: "1008001",
                         code: "10.08.001",
                         name: "ДНК пиогенного стрептококка (Streptococcus pyogenes)",
-                        price: 590,
+                        price: 640,
                         isAdded: false
                     },
                     {
                         _id: "1008003",
                         code: "10.08.003",
                         name: 'ДНК стрептококков группы "В" (Str.agalactiae)',
-                        price: 570,
+                        price: 620,
                         isAdded: false
                     }
                 ]
@@ -2666,21 +2618,21 @@ const analysisPrices = [
                         _id: "1011001",
                         code: "10.11.001",
                         name: "ДНК кандиды (Candida albicans)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1011002",
                         code: "10.11.002",
                         name: "ДНК кандиды (Сandida albicans), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1011003",
                         code: "10.11.003",
                         name: "ДНК грибов рода кандиды (Candida albicans/Candida glabrata/Candida krusei) с определением типа",
-                        price: 1420,
+                        price: 1470,
                         isAdded: false
                     }
                 ]
@@ -2693,14 +2645,14 @@ const analysisPrices = [
                         _id: "1012001",
                         code: "10.12.001",
                         name: "ДНК токсоплазмы (Toxoplasma gondii)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1012002",
                         code: "10.12.002",
                         name: "ДНК токсоплазмы (Toxoplasma gondii), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2713,14 +2665,14 @@ const analysisPrices = [
                         _id: "1013001",
                         code: "10.13.001",
                         name: "ДНК трихомонады (Trichomonas vaginalis)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1013002",
                         code: "10.13.002",
                         name: "ДНК трихомонады (Trichomonas vaginalis), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2733,14 +2685,14 @@ const analysisPrices = [
                         _id: "1014001",
                         code: "10.14.001",
                         name: "ДНК цитомегаловируса (Cytomegalovirus, CMV)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1014002",
                         code: "10.14.002",
                         name: "ДНК цитомегаловируса (Cytomegalovirus, CMV), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2753,35 +2705,35 @@ const analysisPrices = [
                         _id: "1015001",
                         code: "10.15.001",
                         name: "ДНК вируса простого герпеса I типа (Herpes simplex virus I)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1015002",
                         code: "10.15.002",
                         name: "ДНК вируса простого герпеса I типа (Herpes simplex virus I), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1015003",
                         code: "10.15.003",
                         name: "ДНК вируса простого герпеса II типа (Herpes simplex virus II)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1015004",
                         code: "10.15.004",
                         name: "ДНК вируса простого герпеса II типа (Herpes simplex virus II), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1015005",
                         code: "10.15.005",
                         name: "ДНК вируса простого герпеса I и II типов (Herpes simplex virus I и II)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     }
                 ]
@@ -2794,14 +2746,14 @@ const analysisPrices = [
                         _id: "1016001",
                         code: "10.16.001",
                         name: "ДНК вируса герпеса VI типа (Human Herpes virus VI)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1016002",
                         code: "10.16.002",
                         name: "ДНК вируса герпеса VI типа (Human Herpes virus VI), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2814,14 +2766,14 @@ const analysisPrices = [
                         _id: "1017001",
                         code: "10.17.001",
                         name: "ДНК вируса Эпштейна-Барр (Epstein-Barr virus)",
-                        price: 280,
+                        price: 330,
                         isAdded: false
                     },
                     {
                         _id: "1017002",
                         code: "10.17.002",
                         name: "ДНК вируса Эпштейна-Барр (Epstein-Barr virus), количественно",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -2834,7 +2786,7 @@ const analysisPrices = [
                         _id: "1018001",
                         code: "10.18.001",
                         name: "ДНК вируса Варицелла-Зостер (Varicella-Zoster virus)",
-                        price: 700,
+                        price: 750,
                         isAdded: false
                     }
                 ]
@@ -2847,70 +2799,70 @@ const analysisPrices = [
                         _id: "1020001",
                         code: "10.20.001",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 6/11 типов с определением типа",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1020002",
                         code: "10.20.002",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 6/11 типов с определением типа, количественно",
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "1020015",
                         code: "10.20.015",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 16/18 типов с определением типа",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1020005",
                         code: "10.20.005",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 16/18 типов с определением типа, количественно",
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "1020006",
                         code: "10.20.006",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 31/33 типов с определением типа",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1020007",
                         code: "10.20.007",
                         name: "ДНК папилломавирусов (Human Papillomavirus, ВПЧ) 31/33 типов с определением типа, количественно",
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "1020008",
                         code: "10.20.008",
                         name: "ДНК папилломавирусов (Human Papoiilmavirus) высокого канцерогенного риска (16-70 типов) без определения типа",
-                        price: 1990,
+                        price: 2040,
                         isAdded: false
                     },
                     {
                         _id: "1020009",
                         code: "10.20.009",
                         name: "ДНК папилломавирусов (Human Papoiilmavirus) высокого канцерогенного риска (16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59 типов) с определением типа",
-                        price: 1990,
+                        price: 2040,
                         isAdded: false
                     },
                     {
                         _id: "1020011",
                         code: "10.20.011",
                         name: "ДНК папилломавирусов (Human Papillomavirus) СКРИНИНГ РАСШИРЕННЫЙ с определением 14 типов (Контроль взятия материала, типы 6, 11, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59), количественный, с пересчетом на у.е. Hybrid Capture по каждому типу",
-                        price: 3800,
+                        price: 3850,
                         isAdded: false
                     },
                     {
                         _id: "1020012",
                         code: "10.20.012",
                         name: "ДНК папилломавирусов (Human Papillomavirus), типирование с определением 21 типа (Контроль взятия биоматериала, типы 6, 11, 16, 18, 26, 31, 33, 35, 39, 44, 45, 51, 52, 53, 56, 58, 59, 66, 68, 73, 82), количественный, с пересчетом на у.е. Hybrid Capture  по каждому типу",
-                        price: 3200,
+                        price: 3250,
                         isAdded: false
                     }
                 ]
@@ -2923,7 +2875,7 @@ const analysisPrices = [
                         _id: "1021001",
                         code: "10.21.001",
                         name: "ДНК хеликобактера (Helicobacter pylori)",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     }
                 ]
@@ -2936,7 +2888,7 @@ const analysisPrices = [
                         _id: "1036001",
                         code: "10.36.001",
                         name: "РНК Коронавируса (SARS-CoV-2), кач. ",
-                        price: 1400,
+                        price: 1450,
                         isAdded: false
                     }
                 ]
@@ -2949,7 +2901,7 @@ const analysisPrices = [
                         _id: "1030001",
                         code: "10.30.001",
                         name: "РНК астровируса (Astrovirus)",
-                        price: 530,
+                        price: 580,
                         isAdded: false
                     }
                 ]
@@ -2962,14 +2914,14 @@ const analysisPrices = [
                         _id: "1032001",
                         code: "10.32.001",
                         name: '"ОКИ-тест\n(Salmonella / Shigella / Campylobacter / Adenovirus / Rotavirus A, C / Norovirus 1, 2 / Astrovirus)"',
-                        price: 5100,
+                        price: 5150,
                         isAdded: false
                     },
                     {
                         _id: "1032004",
                         code: "10.32.004",
                         name: "Раздельное выявление РНК ротавирусов группы А (Rotavirus A), норовирусов 2 генотипа (Norovirus GII) и астровирусов (Astrovirus) ",
-                        price: 2230,
+                        price: 2280,
                         isAdded: false
                     }
                 ]
@@ -2982,21 +2934,21 @@ const analysisPrices = [
                         _id: "1027001",
                         code: "10.27.001",
                         name: '"Фемофлор-8 (ДНК)\nКонтроль взятия биоматериала, Общая бактериальная масса, ДНК Lactobacillus spp, ДНК Gardnerella vaginalis + ДНК Prevotella bivia + ДНК Porphyromonas spp, ДНК Candida albicans, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Enterobacterium spp, ДНК Streptococcus spp, ДНК Eubacterium spp"',
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1027002",
                         code: "10.27.002",
                         name: '"Фемофлор-12\nКонтроль взятия биоматериала, Общая бактериальная масса, ДНК Lactobacillus spp, ДНК Gardnerella vaginalis + ДНК Prevotella bivia + Porphyromonas spp, ДНК Candida albicans, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma spp, ДНК Trichomonas vaginalis, ДНК Neisseria gonorhoeae, ДНК Chlamydia trachomatis, ДНК Citomegalovirus, ДНК Herpes simplex virus I типа, ДНК Herpes simplex virus II типа"',
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "1027003",
                         code: "10.27.003",
                         name: '"Фемофлор-16 (ДНК)\nКонтроль взятия биоматериала, Общая бактериальная масса, ДНК Lactobacillus spp, ДНК Gardnerella vaginalis + ДНК Prevotella bivia + Porphyromonas spp, ДНК Candida albicans, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Enterobacterium spp, ДНК Streptococcus spp, ДНК Staphylococcus spp, ДНК Sneathia spp + ДНК Leptotrichia spp, ДНК Fusobacterium spp, ДНК Megasphaera + ДНК Veillonella spp, ДНК Dialister spp, ДНК Lachnobacterium spp, ДНК Clostridium spp, ДНК Mobiluncus spp + ДНК Corinebacterium spp, ДНК Peptostreptococcus spp, ДНК Atopobium vaginae, ДНК Ureaplasma spp"',
-                        price: 3100,
+                        price: 3150,
                         isAdded: false
                     }
                 ]
@@ -3009,14 +2961,14 @@ const analysisPrices = [
                         _id: "1031001",
                         code: "10.31.001",
                         name: '"Андрофлор\nКонтроль взятия биоматериала, Общая бактериальная масса, ДНК Lactobacillus spp, ДНК Atopobium cluster, ДНК Gardnerella vaginalis, ДНК Anaerococcus spp, ДНК Eubacterium spp, ДНК Haemophilus spp, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma urealyticum, ДНК Ureaplasma parvum, ДНК Trichomonas vaginalis, ДНК Neisseria gonorhoeae, ДНК Chlamydia trachomatis, ДНК Candida albicans, ДНК Corynebacterium spp, ДНК Staphylococcus spp, ДНК Streptococcus spp, ДНК Megasphaera spp + ДНК Velionella spp + ДНК Dialister spp, ДНК Sneathia spp + ДНК Leptotrichia spp + ДНК Fusobacterium spp, ДНК Bacteroides spp + ДНК Porphyromonas spp + ДНК Prevotella spp, ДНК Pseudomonas aerginosa + ДНК Ralstonia spp + ДНК Burkholderia spp, ДНК Enterobacteriaceae spp + ДНК Enterococcus spp, ДНК Peptostreptococcus spp + ДНК Parvimonas spp"',
-                        price: 2600,
+                        price: 2650,
                         isAdded: false
                     },
                     {
                         _id: "1031002",
                         code: "10.31.002",
                         name: '"Андрофлор Скрин\nКонтроль взятия биоматериала, Общая бактериальная масса, ДНК Lactobacillus spp, ДНК Gardnerella vaginalis, ДНК Enterobacteriaceae spp + ДНК Enterococcus spp, ДНК Candida albicans, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma urealyticum, ДНК Ureaplasma parvum, ДНК Trichomonas vaginalis, ДНК Neisseria gonorhoeae, ДНК Chlamydia trachomatis, ДНК Staphylococcus spp, ДНК Streptococcus spp, ДНК Corynebacterium spp"',
-                        price: 1700,
+                        price: 1750,
                         isAdded: false
                     }
                 ]
@@ -3029,35 +2981,35 @@ const analysisPrices = [
                         _id: "1028001",
                         code: "10.28.001",
                         name: '"ПЦР-6\nДНК Chlamydia trachomatis, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma species, ДНК Gardnerella vaginalis, ДНК Trichomonas vaginalis"',
-                        price: 1150,
+                        price: 1200,
                         isAdded: false
                     },
                     {
                         _id: "1028002",
                         code: "10.28.002",
                         name: '"ПЦР-6, количественно\nДНК Chlamydia trachomatis, кол., ДНК Mycoplasma hominis, кол., ДНК Mycoplasma genitalium, кол., ДНК Ureaplasma species, кол., ДНК Gardnerella vaginalis, кол., ДНК Trichomonas vaginalis, кол."',
-                        price: 1600,
+                        price: 1650,
                         isAdded: false
                     },
                     {
                         _id: "1028003",
                         code: "10.28.003",
                         name: '"ПЦР-12\nДНК Chlamydia trachomatis, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma species, ДНК Gardnerella vaginalis, ДНК Trichomonas vaginalis, ДНК Neisseria gonorgoeae, ДНК Candida albicans, ДНК Herpes simplex virus I и II типа, ДНК Cytomegalovirus, ДНК Human Papillomavirus 16 типа, ДНК Human Papillomavirus 18 типа"',
-                        price: 2380,
+                        price: 2430,
                         isAdded: false
                     },
                     {
                         _id: "1028004",
                         code: "10.28.004",
                         name: '"ПЦР-12, количественно\nДНК Chlamydia trachomatis, кол., ДНК Mycoplasma hominis, кол., ДНК Mycoplasma genitalium, кол., ДНК Ureaplasma species, кол., ДНК Gardnerella vaginalis, кол., ДНК Trichomonas vaginalis, кол., ДНК Neisseria gonorgoeae, кол., ДНК Candida albicans, кол., ДНК Herpes simplex virus I и II типа, кол., ДНК Cytomegalovirus, кол., ДНК Human Papillomavirus 16 типа, кол., ДНК Human Papillomavirus 18 типа, кол."',
-                        price: 3650,
+                        price: 3700,
                         isAdded: false
                     },
                     {
                         _id: "1028005",
                         code: "10.28.005",
                         name: '"ПЦР-15\nДНК Chlamydia trachomatis, ДНК Mycoplasma hominis, ДНК Mycoplasma genitalium, ДНК Ureaplasma species, ДНК Gardnerella vaginalis, ДНК Trichomonas vaginalis, ДНК Neisseria gonorgoeae, ДНК Candida albicans, ДНК Herpes simplex virus I и II типа, ДНК Cytomegalovirus, ДНК Human Papillomavirus 16 типа, ДНК Human Papillomavirus 18 типа, ДНК Human Papillomavirus 6 типа, ДНК Human Papillomavirus 11 типа, ДНК Trepomena pallidum"',
-                        price: 3100,
+                        price: 3150,
                         isAdded: false
                     }
                 ]
@@ -3076,14 +3028,14 @@ const analysisPrices = [
                         _id: "1101001",
                         code: "11.01.001",
                         name: "Антитела к вирусу гепатита А, IgM (Anti-HAV IgM)",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1101002",
                         code: "11.01.002",
                         name: "Антитела к вирусу гепатита А, IgG (Anti-HAV IgG)",
-                        price: 460,
+                        price: 510,
                         isAdded: false
                     }
                 ]
@@ -3096,56 +3048,56 @@ const analysisPrices = [
                         _id: "1102001",
                         code: "11.02.001",
                         name: "Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА)",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1102009",
                         code: "11.02.009",
                         name: "Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА)",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "1102002",
                         code: "11.02.002",
                         name: "Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg), количественно",
-                        price: 2900,
+                        price: 2950,
                         isAdded: false
                     },
                     {
                         _id: "1102003",
                         code: "11.02.003",
                         name: "Антитела к поверхностному антигену вируса гепатита В (Anti-HBs)",
-                        price: 340,
+                        price: 390,
                         isAdded: false
                     },
                     {
                         _id: "1102004",
                         code: "11.02.004",
                         name: "Антитела к ядерному (cor) антигену вируса гепатита В, суммарные (Anti-HBc)",
-                        price: 670,
+                        price: 720,
                         isAdded: false
                     },
                     {
                         _id: "1102005",
                         code: "11.02.005",
                         name: "Антитела к ядерному (cor) антигену вируса гепатита В, IgM (Anti-HBc IgM)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1102006",
                         code: "11.02.006",
                         name: "Антиген HBе вируса гепатита В (HBеAg)",
-                        price: 710,
+                        price: 760,
                         isAdded: false
                     },
                     {
                         _id: "1102007",
                         code: "11.02.007",
                         name: "Антитела к HBе-антигену вируса гепатита B, суммарные (Anti-HBе)",
-                        price: 710,
+                        price: 760,
                         isAdded: false
                     }
                 ]
@@ -3158,21 +3110,21 @@ const analysisPrices = [
                         _id: "1103001",
                         code: "11.03.001",
                         name: "Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА)",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "1103005",
                         code: "11.03.005",
                         name: "Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА)",
-                        price: 740,
+                        price: 790,
                         isAdded: false
                     },
                     {
                         _id: "1103002",
                         code: "11.03.002",
                         name: "Антитела к вирусу гепатита C, IgM (Anti-HCV IgM)",
-                        price: 720,
+                        price: 770,
                         isAdded: false
                     }
                 ]
@@ -3185,14 +3137,14 @@ const analysisPrices = [
                         _id: "1104001",
                         code: "11.04.001",
                         name: "Антитела к вирусу гепатита D, суммарные (Anti-HDV)",
-                        price: 740,
+                        price: 790,
                         isAdded: false
                     },
                     {
                         _id: "1104002",
                         code: "11.04.002",
                         name: "Антитела к вирусу гепатита D, IgM (Anti-HDV IgM)",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -3205,14 +3157,14 @@ const analysisPrices = [
                         _id: "1105001",
                         code: "11.05.001",
                         name: "Антитела к вирусу гепатита E, IgM (Anti-HEV IgM)",
-                        price: 1150,
+                        price: 1200,
                         isAdded: false
                     },
                     {
                         _id: "1105002",
                         code: "11.05.002",
                         name: "Антитела к вирусу гепатита E, IgG (Anti-HEV IgG)",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -3225,14 +3177,14 @@ const analysisPrices = [
                         _id: "1106001",
                         code: "11.06.001",
                         name: "ВИЧ (антитела и антигены) (метод ИФА)",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     },
                     {
                         _id: "1106002",
                         code: "11.06.002",
                         name: "ВИЧ (антитела и антигены) (метод ИХЛА)",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -3245,42 +3197,42 @@ const analysisPrices = [
                         _id: "1107001",
                         code: "11.07.001",
                         name: "Микрореакция на сифилис качественно (RPR)",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "1107003",
                         code: "11.07.003",
                         name: "Реакция пассивной гемагглютинации на сифилис (РПГА), качественно",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "1107004",
                         code: "11.07.004",
                         name: "Реакция пассивной гемагглютинации на сифилис (РПГА), полуколичественно",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1107005",
                         code: "11.07.005",
                         name: "Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИФА)",
-                        price: 230,
+                        price: 280,
                         isAdded: false
                     },
                     {
                         _id: "1107007",
                         code: "11.07.007",
                         name: "Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИХЛА)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1107006",
                         code: "11.07.006",
                         name: "Антитела к бледной трепонеме (Treponema pallidum), IgM",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -3293,7 +3245,7 @@ const analysisPrices = [
                         _id: "1108001",
                         code: "11.08.001",
                         name: "Антитела к антигенам Т-лимфотропных вирусов (HTLV) 1 и 2 типов",
-                        price: 3810,
+                        price: 3860,
                         isAdded: false
                     }
                 ]
@@ -3307,35 +3259,35 @@ const analysisPrices = [
                         _id: "1109001",
                         code: "11.09.001",
                         name: "Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgM",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1109003",
                         code: "11.09.003",
                         name: "Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgG",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1109004",
                         code: "11.09.004",
                         name: "Авидность IgG к вирусу простого герпеса I, II типов (Herpes simplex virus I, II) (включает определение антител к вирусу простого герпеса I, II типов, IgG)",
-                        price: 890,
+                        price: 940,
                         isAdded: false
                     },
                     {
                         _id: "1109008",
                         code: "11.09.008",
                         name: "Антитела к вирусу простого герпеса I типа (Herpes simplex virus I), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1109010",
                         code: "11.09.010",
                         name: "Антитела к вирусу простого герпеса II типа (Herpes simplex virus II), IgG",
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     }
                 ]
@@ -3349,7 +3301,7 @@ const analysisPrices = [
                         _id: "1110001",
                         code: "11.10.001",
                         name: "Антитела к вирусу герпеса VI типа (Human herpes virus VI), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     }
                 ]
@@ -3363,14 +3315,14 @@ const analysisPrices = [
                         _id: "1111001",
                         code: "11.11.001",
                         name: "Антитела к вирусу Варицелла-Зостер (Varicella-Zoster), IgM",
-                        price: 780,
+                        price: 830,
                         isAdded: false
                     },
                     {
                         _id: "1111003",
                         code: "11.11.003",
                         name: "Антитела к вирусу Варицелла-Зостер (Varicella-Zoster), IgG",
-                        price: 620,
+                        price: 670,
                         isAdded: false
                     }
                 ]
@@ -3384,42 +3336,42 @@ const analysisPrices = [
                         _id: "1112001",
                         code: "11.12.001",
                         name: "Антитела к капсидному антигену вируса Эпштейна-Барр (Epstein-Barr virus), IgM",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1112002",
                         code: "11.12.002",
                         name: "Антитела к капсидному антигену вируса Эпштейна-Барр (Epstein-Barr virus), IgG",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1112003",
                         code: "11.12.003",
                         name: "Антитела к раннему антигену вируса Эпштейна-Барр (Epstein-Barr virus EA), IgG",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1112008",
                         code: "11.12.008",
                         name: "Антитела к раннему антигену вируса Эпштейна-Барр (Epstein-Barr virus EA), IgM",
-                        price: 1050,
+                        price: 1100,
                         isAdded: false
                     },
                     {
                         _id: "1112004",
                         code: "11.12.004",
                         name: "Антитела к ядерному антигену вируса Эпштейна-Барр (Epstein-Barr virus EBNA), IgG",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1112005",
                         code: "11.12.005",
                         name: "Авидность IgG к вирусу Эпштейна-Барр (Epstein-Barr virus) (включает определение антител к капсидному антигену вируса Эпштейна-Барр, IgG)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -3433,7 +3385,7 @@ const analysisPrices = [
                         _id: "1150001",
                         code: "11.50.001",
                         name: "Антитела к респираторно-синцитиальному вирусу (RSV), IgM",
-                        price: 1050,
+                        price: 1100,
                         isAdded: false
                     }
                 ]
@@ -3447,21 +3399,21 @@ const analysisPrices = [
                         _id: "1113001",
                         code: "11.13.001",
                         name: "Антитела к цитомегаловирусу (Cytomegalovirus), IgM",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1113003",
                         code: "11.13.003",
                         name: "Антитела к цитомегаловирусу (Cytomegalovirus), IgG",
-                        price: 500,
+                        price: 550,
                         isAdded: false
                     },
                     {
                         _id: "1113004",
                         code: "11.13.004",
                         name: "Авидность IgG к цитомегаловирусу (Cytomegalovirus) (включает определение антител к цитомегаловирусу, IgG)",
-                        price: 780,
+                        price: 830,
                         isAdded: false
                     }
                 ]
@@ -3474,21 +3426,21 @@ const analysisPrices = [
                         _id: "1114001",
                         code: "11.14.001",
                         name: "Антитела к вирусу краснухи, IgM",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1114002",
                         code: "11.14.002",
                         name: "Антитела к вирусу краснухи, IgG",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1114003",
                         code: "11.14.003",
                         name: "Авидность IgG к вирусу краснухи (включает определение антител к вирусу краснухи, IgG)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -3501,21 +3453,21 @@ const analysisPrices = [
                         _id: "1115001",
                         code: "11.15.001",
                         name: "Антитела к токсоплазме (Toxoplasma gondii), IgM",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1115003",
                         code: "11.15.003",
                         name: "Антитела к токсоплазме (Toxoplasma gondii), IgG",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1115004",
                         code: "11.15.004",
                         name: "Авидность IgG к токсоплазме (Toxoplasma gondii) (включает определение антител к токсоплазме, IgG)",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     }
                 ]
@@ -3528,14 +3480,14 @@ const analysisPrices = [
                         _id: "1116001",
                         code: "11.16.001",
                         name: "Антитела к парвовирусу (Parvovirus), IgM",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1116002",
                         code: "11.16.002",
                         name: "Антитела к парвовирусу (Parvovirus), IgG",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     }
                 ]
@@ -3548,7 +3500,7 @@ const analysisPrices = [
                         _id: "1117001",
                         code: "11.17.001",
                         name: "Антитела к вирусу кори, IgG",
-                        price: 390,
+                        price: 440,
                         isAdded: false
                     }
                 ]
@@ -3561,14 +3513,14 @@ const analysisPrices = [
                         _id: "1118001",
                         code: "11.18.001",
                         name: "Антитела к вирусу эпидемического паротита, IgМ",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1118002",
                         code: "11.18.002",
                         name: "Антитела к вирусу эпидемического паротита, IgG",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     }
                 ]
@@ -3581,21 +3533,21 @@ const analysisPrices = [
                         _id: "1119004",
                         code: "11.19.004",
                         name: "Антитела к возбудителю коклюша, IgM",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1119002",
                         code: "11.19.002",
                         name: "Антитела к возбудителю коклюша, IgG",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1119003",
                         code: "11.19.003",
                         name: "Антитела к возбудителям коклюша и паракоклюша (Bordetella pertussis, Bordetella parapertussis), суммарные (РПГА) полуколичественно",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     }
                 ]
@@ -3608,14 +3560,14 @@ const analysisPrices = [
                         _id: "1121001",
                         code: "11.21.001",
                         name: "Антитела к возбудителю дифтерии (Corynebacterium diphtheriae)",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1121002",
                         code: "11.21.002",
                         name: "Антитела к возбудителю столбняка (Clostridium tetani)",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -3628,42 +3580,42 @@ const analysisPrices = [
                         _id: "1122001",
                         code: "11.22.001",
                         name: "Антитела к хламидии (Chlamydia trachomatis), IgM",
-                        price: 390,
+                        price: 440,
                         isAdded: false
                     },
                     {
                         _id: "1122002",
                         code: "11.22.002",
                         name: "Антитела к хламидии (Chlamydia trachomatis), IgA",
-                        price: 390,
+                        price: 440,
                         isAdded: false
                     },
                     {
                         _id: "1122003",
                         code: "11.22.003",
                         name: "Антитела к хламидии (Chlamydia trachomatis), IgG",
-                        price: 390,
+                        price: 440,
                         isAdded: false
                     },
                     {
                         _id: "1122004",
                         code: "11.22.004",
                         name: "Антитела к хламидофиле (Chlamydophila pneumoniae), IgM",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1122005",
                         code: "11.22.005",
                         name: "Антитела к хламидофиле (Chlamydophila pneumoniae), IgА",
-                        price: 880,
+                        price: 930,
                         isAdded: false
                     },
                     {
                         _id: "1122006",
                         code: "11.22.006",
                         name: "Антитела к хламидофиле (Chlamydophila pneumoniae), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     }
                 ]
@@ -3676,42 +3628,42 @@ const analysisPrices = [
                         _id: "1123001",
                         code: "11.23.001",
                         name: "Антитела к микоплазме (Mycoplasma hominis), IgM",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1123002",
                         code: "11.23.002",
                         name: "Антитела к микоплазме (Mycoplasma hominis), IgА",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "1123003",
                         code: "11.23.003",
                         name: "Антитела к микоплазме (Mycoplasma hominis), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1123004",
                         code: "11.23.004",
                         name: "Антитела к микоплазме (Mycoplasma pneumoniae), IgM",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1123005",
                         code: "11.23.005",
                         name: "Антитела к микоплазме (Mycoplasma pneumoniae), IgА",
-                        price: 560,
+                        price: 610,
                         isAdded: false
                     },
                     {
                         _id: "1123006",
                         code: "11.23.006",
                         name: "Антитела к микоплазме (Mycoplasma pneumoniae), IgG",
-                        price: 560,
+                        price: 610,
                         isAdded: false
                     }
                 ]
@@ -3724,21 +3676,21 @@ const analysisPrices = [
                         _id: "1124001",
                         code: "11.24.001",
                         name: "Антитела к уреаплазме (Ureaplasma urealyticum), IgМ",
-                        price: 410,
+                        price: 460,
                         isAdded: false
                     },
                     {
                         _id: "1124002",
                         code: "11.24.002",
                         name: "Антитела к уреаплазме (Ureaplasma urealyticum), IgА",
-                        price: 410,
+                        price: 460,
                         isAdded: false
                     },
                     {
                         _id: "1124003",
                         code: "11.24.003",
                         name: "Антитела к уреаплазме (Ureaplasma urealyticum), IgG",
-                        price: 410,
+                        price: 460,
                         isAdded: false
                     }
                 ]
@@ -3751,7 +3703,7 @@ const analysisPrices = [
                         _id: "1125001",
                         code: "11.25.001",
                         name: "Антитела к трихомонаде (Trichomonas vaginalis), IgG",
-                        price: 610,
+                        price: 660,
                         isAdded: false
                     }
                 ]
@@ -3764,14 +3716,14 @@ const analysisPrices = [
                         _id: "1126001",
                         code: "11.26.001",
                         name: "Антитела к кандиде (Candida albicans), IgM",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1126003",
                         code: "11.26.003",
                         name: "Антитела к кандиде (Candida albicans), IgG",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -3784,7 +3736,7 @@ const analysisPrices = [
                         _id: "1127001",
                         code: "11.27.001",
                         name: "Антитела к грибам (Aspergillus fumigatus), IgG",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -3797,14 +3749,14 @@ const analysisPrices = [
                         _id: "1129001",
                         code: "11.29.001",
                         name: "Антитела к микобактериям туберкулеза (Mycobacterium tuberculosis), суммарные",
-                        price: 440,
+                        price: 490,
                         isAdded: false
                     },
                     {
                         _id: "1129002",
                         code: "11.29.002",
                         name: "T-SPOT TB - диагностика туберкулезной инфекции*",
-                        price: 8200,
+                        price: 8250,
                         isAdded: false
                     }
                 ]
@@ -3817,14 +3769,14 @@ const analysisPrices = [
                         _id: "1132001",
                         code: "11.32.001",
                         name: "Антитела к бруцелле (Brucella), IgА",
-                        price: 710,
+                        price: 760,
                         isAdded: false
                     },
                     {
                         _id: "1132002",
                         code: "11.32.002",
                         name: "Антитела к бруцелле (Brucella), IgG",
-                        price: 710,
+                        price: 760,
                         isAdded: false
                     }
                 ]
@@ -3837,14 +3789,14 @@ const analysisPrices = [
                         _id: "1133001",
                         code: "11.33.001",
                         name: "Антитела к вирусу клещевого энцефалита, IgM",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "1133002",
                         code: "11.33.002",
                         name: "Антитела к вирусу клещевого энцефалита, IgG",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     }
                 ]
@@ -3857,14 +3809,14 @@ const analysisPrices = [
                         _id: "1134001",
                         code: "11.34.001",
                         name: "Антитела к боррелиям (Borrelia burgdorferi), IgM",
-                        price: 520,
+                        price: 570,
                         isAdded: false
                     },
                     {
                         _id: "1134002",
                         code: "11.34.002",
                         name: "Антитела к боррелиям (Borrelia burgdorferi), IgG",
-                        price: 520,
+                        price: 570,
                         isAdded: false
                     }
                 ]
@@ -3877,63 +3829,63 @@ const analysisPrices = [
                         _id: "1135002",
                         code: "11.35.002",
                         name: "Антитела к описторхисам (Opisthorchis felineus), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1135003",
                         code: "11.35.003",
                         name: "Антитела к эхинококкам (Echinococcus granulosus), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1135004",
                         code: "11.35.004",
                         name: "Антитела к токсокарам (Toxocara canis), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1135005",
                         code: "11.35.005",
                         name: "Антитела к трихинеллам (Trichinella spiralis), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     },
                     {
                         _id: "1135006",
                         code: "11.35.006",
                         name: "Антитела к шистосомам (Schistosoma mansoni), IgG",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "1135007",
                         code: "11.35.007",
                         name: "Антитела к угрицам кишечным (Strongyloides stercoralis), IgG",
-                        price: 1620,
+                        price: 1670,
                         isAdded: false
                     },
                     {
                         _id: "1135008",
                         code: "11.35.008",
                         name: "Антитела к цистицеркам свиного цепня (Taenia solium), IgG",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "1135009",
                         code: "11.35.009",
                         name: "Антитела к печеночным сосальщикам (Fasciola hepatica), IgG",
-                        price: 1050,
+                        price: 1100,
                         isAdded: false
                     },
                     {
                         _id: "1135010",
                         code: "11.35.010",
                         name: "Антитела к аскаридам (Ascaris lumbricoides), IgG",
-                        price: 380,
+                        price: 430,
                         isAdded: false
                     }
                 ]
@@ -3946,14 +3898,14 @@ const analysisPrices = [
                         _id: "1136001",
                         code: "11.36.001",
                         name: "Антитела к лямблиям (Lamblia intestinalis), суммарные",
-                        price: 360,
+                        price: 410,
                         isAdded: false
                     },
                     {
                         _id: "1136002",
                         code: "11.36.002",
                         name: "Антитела к лямблиям (Lamblia intestinalis), IgM",
-                        price: 360,
+                        price: 410,
                         isAdded: false
                     }
                 ]
@@ -3966,21 +3918,21 @@ const analysisPrices = [
                         _id: "1139001",
                         code: "11.39.001",
                         name: "Антитела к хеликобактеру (Helicobacter pylori), IgМ",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1139002",
                         code: "11.39.002",
                         name: "Антитела к хеликобактеру (Helicobacter pylori), IgA",
-                        price: 540,
+                        price: 590,
                         isAdded: false
                     },
                     {
                         _id: "1139003",
                         code: "11.39.003",
                         name: "Антитела к хеликобактеру (Helicobacter pylori), IgG",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -3993,7 +3945,7 @@ const analysisPrices = [
                         _id: "1141001",
                         code: "11.41.001",
                         name: "Антитела к шигеллам (Shigella flexneri 1-V, V1, Shigella sonnei), РПГА",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     }
                 ]
@@ -4006,21 +3958,21 @@ const analysisPrices = [
                         _id: "1142002",
                         code: "11.42.002",
                         name: "Антитела к возбудителю иерсиниоза, IgM",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1142003",
                         code: "11.42.003",
                         name: "Антитела к возбудителю иерсиниоза, IgA",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1142004",
                         code: "11.42.004",
                         name: "Антитела к возбудителю иерсиниоза, IgG",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     }
                 ]
@@ -4033,7 +3985,7 @@ const analysisPrices = [
                         _id: "1140001",
                         code: "11.40.001",
                         name: "Серологическое исследование на листериоз, РПГА",
-                        price: 660,
+                        price: 710,
                         isAdded: false
                     }
                 ]
@@ -4046,7 +3998,7 @@ const analysisPrices = [
                         _id: "1144001",
                         code: "11.44.001",
                         name: "Антитела к Vi-aнтигену возбудителя брюшного тифа (Salmonella typhi)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     }
                 ]
@@ -4059,7 +4011,7 @@ const analysisPrices = [
                         _id: "1145001",
                         code: "11.45.001",
                         name: "Антитела к вирусу Коксаки (Coxsackievirus), IgM",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     }
                 ]
@@ -4072,56 +4024,56 @@ const analysisPrices = [
                         _id: "1151004",
                         code: "11.51.004",
                         name: "Антитела класса IgG к спайковому (S) белку SARS-CoV-2, полуколичественно",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1151005",
                         code: "11.51.005",
                         name: "Антитела класса IgM к белкам (нуклеокапсиду (N) и RBD-участку S-белка) SARS-COV-2, полуколичественно",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1151006",
                         code: "11.51.006",
                         name: "Определение антител класса IgG к спайковому (S) белку SARS-CoV-2 и антител класса IgМ к белкам (нуклеокапсиду (N) и RBD-участку S- белка) SARS-CoV-2, полуколичественно",
-                        price: 2850,
+                        price: 2900,
                         isAdded: false
                     },
                     {
                         _id: "1151007",
                         code: "11.51.007",
                         name: "Антитела класса IgG к нуклеокапсидному (N) белку SARS-CoV-2, полуколичественно",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1151008",
                         code: "11.51.008",
                         name: "Антитела класса IgM спайковому (S) белку SARS-CoV-2, полуколичественно",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "1151009",
                         code: "11.51.009",
                         name: "Определение антител класса IgG к нуклеокапсидному (N) белку SARS-CoV-2 и антител класса IgМ к спайковому (S) белку SARS-CoV-2, полуколичественно",
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "1151010",
                         code: "11.51.010",
                         name: "Количественное определение антител класса IgG к RBD-домену спайкового (S) белка SARS-Co-V-2, пре- и поствакцинальные",
-                        price: 1350,
+                        price: 1400,
                         isAdded: false
                     },
                     {
                         _id: "1151011",
                         code: "11.51.011",
                         name: "Выявление защитных антител класса IgG у переболевших и вакцинированных к RBD домену коронавируса SARS-CoV-2, полуколичественно",
-                        price: 1480,
+                        price: 1530,
                         isAdded: false
                     }
                 ]
@@ -4140,21 +4092,21 @@ const analysisPrices = [
                         _id: "1200006",
                         code: "12.00.006",
                         name: "Цитологическое исследование мокроты",
-                        price: 420,
+                        price: 470,
                         isAdded: false
                     },
                     {
                         _id: "1200014",
                         code: "12.00.014",
                         name: "Цитологическое исследование соскобов и отпечатков кожи, ВМС, эрозий, ран, осадка мочи, свищей, отделяемого",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     },
                     {
                         _id: "1200015",
                         code: "12.00.015",
                         name: "Цитологическое исследование соскобов и отпечатков опухолей и опухолевидных образований",
-                        price: 450,
+                        price: 500,
                         isAdded: false
                     }
                 ]
@@ -4173,98 +4125,98 @@ const analysisPrices = [
                         _id: "1401001",
                         code: "14.01.001",
                         name: "С3 компонент комплемента",
-                        price: 490,
+                        price: 540,
                         isAdded: false
                     },
                     {
                         _id: "1401002",
                         code: "14.01.002",
                         name: "С4 компонент комплемента",
-                        price: 490,
+                        price: 540,
                         isAdded: false
                     },
                     {
                         _id: "1401003",
                         code: "14.01.003",
                         name: "Иммуноглобулин А (IgA)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1401004",
                         code: "14.01.004",
                         name: "Иммуноглобулин М (IgM)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1401005",
                         code: "14.01.005",
                         name: "Иммуноглобулин G (IgG)",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "1401006",
                         code: "14.01.006",
                         name: "Иммуноглобулин Е (IgE)",
-                        price: 720,
+                        price: 770,
                         isAdded: false
                     },
                     {
                         _id: "1401007",
                         code: "14.01.007",
                         name: "Фактор некроза опухоли (ФНО-альфа)",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "1401009",
                         code: "14.01.009",
                         name: "Циркулирующие иммунные комплексы",
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "1401010",
                         code: "14.01.010",
                         name: "Ингибитор С1INH (диагностика крапивницы и ангионевротического отека)",
-                        price: 1980,
+                        price: 2030,
                         isAdded: false
                     },
                     {
                         _id: "1401011",
                         code: "14.01.011",
                         name: "Интерлейкин 1 бета",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1401012",
                         code: "14.01.012",
                         name: "Интерлейкин 6",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1401013",
                         code: "14.01.013",
                         name: "Интерлейкин 8",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1401014",
                         code: "14.01.014",
                         name: "Интерлейкин 10",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1507006",
                         code: "15.07.006",
                         name: "Неоптерин",
-                        price: 1890,
+                        price: 1940,
                         isAdded: false
                     }
                 ]
@@ -4277,49 +4229,49 @@ const analysisPrices = [
                         _id: "1402001",
                         code: "14.02.001",
                         name: "Иммунограмма (CD-типирование лимфоцитов периферической крови, общий анализ крови)*",
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "1402005",
                         code: "14.02.005",
                         name: "Иммунограмма CD4, CD8 (включает общий анализ крови, Т-лимфоциты CD3, лейкоцитарно-Т-ЛФ индекс, Дубль-клетки CD4+/CD8)*",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "1402006",
                         code: "14.02.006",
                         name: "Иммунограмма (CD-типирование лимфоцитов периферической крови)*",
-                        price: 3250,
+                        price: 3300,
                         isAdded: false
                     },
                     {
                         _id: "1402007",
                         code: "14.02.007",
                         name: "Иммунограмма расширенная (расширенное CD-типирование лимфоцитов периферической крови, общий анализ крови)*",
-                        price: 7150,
+                        price: 7200,
                         isAdded: false
                     },
                     {
                         _id: "1402002",
                         code: "14.02.002",
                         name: "Фаготест*",
-                        price: 2700,
+                        price: 2750,
                         isAdded: false
                     },
                     {
                         _id: "1402003",
                         code: "14.02.003",
                         name: "Бактерицидная активность крови*",
-                        price: 3750,
+                        price: 3800,
                         isAdded: false
                     },
                     {
                         _id: "1402008",
                         code: "14.02.008",
                         name: "Оценка Т-клеточного иммунитета пациентов после перенесенной ОРВИ, в том числе серонегативной формы новой коронавирусной инфекции (COVID-19)",
-                        price: 6500,
+                        price: 6550,
                         isAdded: false
                     }
                 ]
@@ -4332,7 +4284,7 @@ const analysisPrices = [
                         _id: "1403001",
                         code: "14.03.001",
                         name: "Интерфероновый статус*",
-                        price: 2600,
+                        price: 2650,
                         isAdded: false
                     }
                 ]
@@ -4346,35 +4298,35 @@ const analysisPrices = [
                         _id: "1404001",
                         code: "14.04.001",
                         name: "Чувствительность к Ингарону",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1404002",
                         code: "14.04.002",
                         name: "Чувствительность к Интрону",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1404003",
                         code: "14.04.003",
                         name: "Чувствительность к Реальдирону",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1404004",
                         code: "14.04.004",
                         name: "Чувствительность к Реаферону",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1404005",
                         code: "14.04.005",
                         name: "Чувствительность к Роферону",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     }
                 ]
@@ -4388,63 +4340,63 @@ const analysisPrices = [
                         _id: "1405001",
                         code: "14.05.001",
                         name: "Чувствительность к Амиксину*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405002",
                         code: "14.05.002",
                         name: "Чувствительность к Кагоцелу*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405003",
                         code: "14.05.003",
                         name: "Чувствительность к Неовиру",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405004",
                         code: "14.05.004",
                         name: "Чувствительность к Ридостину*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405005",
                         code: "14.05.005",
                         name: "Чувствительность к Циклоферону*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405006",
                         code: "14.05.006",
                         name: "Чувствительность к Аллокину-альфа*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405007",
                         code: "14.05.007",
                         name: "Чувствительность к Алпизарину*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405008",
                         code: "14.05.008",
                         name: "Чувствительность к Арбидолу*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1405009",
                         code: "14.05.009",
                         name: "Чувствительность к Цитовиру-3*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     }
                 ]
@@ -4457,98 +4409,98 @@ const analysisPrices = [
                         _id: "1406001",
                         code: "14.06.001",
                         name: "Чувствительность к Галавиту*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406002",
                         code: "14.06.002",
                         name: "Чувствительность к Гепону*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406003",
                         code: "14.06.003",
                         name: "Чувствительность к Иммуналу*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406004",
                         code: "14.06.004",
                         name: "Чувствительность к Иммунофану*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406005",
                         code: "14.06.005",
                         name: "Чувствительность к Иммуномаксу*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406006",
                         code: "14.06.006",
                         name: "Чувствительность к Иммунориксу*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406007",
                         code: "14.06.007",
                         name: "Чувствительность к Ликопиду*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406008",
                         code: "14.06.008",
                         name: "Чувствительность к Полиоксидонию*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406009",
                         code: "14.06.009",
                         name: "Чувствительность к Тактивину*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406010",
                         code: "14.06.010",
                         name: "Чувствительность к Тимогену*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406011",
                         code: "14.06.011",
                         name: "Чувствительность к Панавиру*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406012",
                         code: "14.06.012",
                         name: "Чувствительность к Аффинолейкину*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406013",
                         code: "14.06.013",
                         name: "Чувствительность к Деринату*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "1406014",
                         code: "14.06.014",
                         name: "Чувствительность к Глутоксиму*",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     }
                 ]
@@ -4567,70 +4519,70 @@ const analysisPrices = [
                         _id: "1501001",
                         code: "15.01.001",
                         name: "Антинуклеарный фактор на клеточной линии HEp-2 (АНФ)",
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "1501002",
                         code: "15.01.002",
                         name: "Антитела к экстрагируемому нуклеарному АГ (ЭНА/ENA-скрин)",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "1501003",
                         code: "15.01.003",
                         name: "Антитела к ядерным антигенам (ANA)",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "1501004",
                         code: "15.01.004",
                         name: "Антитела к двуспиральной ДНК (нативной, a-dsDNA)",
-                        price: 1300,
+                        price: 1350,
                         isAdded: false
                     },
                     {
                         _id: "1501005",
                         code: "15.01.005",
                         name: "Антитела к односпиральной ДНК (a-ssDNА)",
-                        price: 890,
+                        price: 940,
                         isAdded: false
                     },
                     {
                         _id: "1501006",
                         code: "15.01.006",
                         name: "Антинуклеарные антитела, иммуноблот (аутоантитела класса IgG к 14 различным антигенам: nRNP/Sm, Sm, SS-A (SS-A нативный и Ro-52), SS-B, Scl-70, Jo-1, PM-Scl, протеин B центромера, PCNA, dsDNA, нуклеосомы, гистоны, рибосомальный белок P, AMA-M2)",
-                        price: 4620,
+                        price: 4670,
                         isAdded: false
                     },
                     {
                         _id: "1501007",
                         code: "15.01.007",
                         name: "Активность глюкозо-6 фосфатдегидрогеназы ",
-                        price: 1450,
+                        price: 1500,
                         isAdded: false
                     },
                     {
                         _id: "1501008",
                         code: "15.01.008",
                         name: "Иммуноблот антинуклеарных антител при склеродермии  (SS-A, PDGFR, Ku, PM-Scl 75, PM-Scl 100, Th/To, NOR90, Fibrillarin, RP155, RP11, CENT-B, CENT-А, Scl-70)",
-                        price: 5100,
+                        price: 5150,
                         isAdded: false
                     },
                     {
                         _id: "1501009",
                         code: "15.01.009",
                         name: "Общая гемолитическая способность сыворотки (CH-50)",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     },
                     {
                         _id: "1501010",
                         code: "15.01.010",
                         name: "Антитела к лимфоцитам класса IgG",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     }
                 ]
@@ -4643,84 +4595,84 @@ const analysisPrices = [
                         _id: "1502001",
                         code: "15.02.001",
                         name: "Антитела к фосфолипидам (кардиолипину, фосфатидилсерину, фосфатидилинозитолу, фосфатидиловой кислоте), суммарные",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1502002",
                         code: "15.02.002",
                         name: "Антитела класса IgМ к фосфолипидам (кардиолипину, фосфатидилсерину, фосфатидилинозитолу, фосфатидиловой кислоте)",
-                        price: 570,
+                        price: 620,
                         isAdded: false
                     },
                     {
                         _id: "1502003",
                         code: "15.02.003",
                         name: "Антитела класса IgG к фосфолипидам (кардиолипину, фосфатидилсерину, фосфатидилинозитолу, фосфатидиловой кислоте)",
-                        price: 570,
+                        price: 620,
                         isAdded: false
                     },
                     {
                         _id: "1502004",
                         code: "15.02.004",
                         name: "Антитела к кардиолипину (суммарные)",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1502005",
                         code: "15.02.005",
                         name: "Антитела к бета2-гликопротеину, IgG",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     },
                     {
                         _id: "1502006",
                         code: "15.02.006",
                         name: "Антитела к фосфатидилсерину-протромбину, суммарные (IgM, G)",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "1502007",
                         code: "15.02.007",
                         name: "Антитела к аннексину V класса IgM",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "1502008",
                         code: "15.02.008",
                         name: "Антитела к аннексину V класса IgG",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "1502009",
                         code: "15.02.009",
                         name: "Антитела к тромбоцитам, класса IgG",
-                        price: 2200,
+                        price: 2250,
                         isAdded: false
                     },
                     {
                         _id: "1502010",
                         code: "15.02.010",
                         name: "Антитела к ХГЧ",
-                        price: 1650,
+                        price: 1700,
                         isAdded: false
                     },
                     {
                         _id: "1502011",
                         code: "15.02.011",
                         name: "Иммуноблот антифосфолипидных антител, классов IgG и IgM ",
-                        price: 5250,
+                        price: 5300,
                         isAdded: false
                     },
                     {
                         _id: "1502012",
                         code: "15.02.012",
                         name: "Антитела к рецептору фосфолипазы А2, диагностика мембранозного гломерулонефрита",
-                        price: 2900,
+                        price: 2950,
                         isAdded: false
                     }
                 ]
@@ -4733,35 +4685,35 @@ const analysisPrices = [
                         _id: "1503001",
                         code: "15.03.001",
                         name: "Антитела к циклическому цитруллиновому пептиду (ACCP, anti-CCP)",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "1503002",
                         code: "15.03.002",
                         name: "Антитела к цитруллинированному виментину (анти-MCV)",
-                        price: 1690,
+                        price: 1740,
                         isAdded: false
                     },
                     {
                         _id: "1503003",
                         code: "15.03.003",
                         name: "Антикератиновые антитела (АКА)",
-                        price: 1620,
+                        price: 1670,
                         isAdded: false
                     },
                     {
                         _id: "1503004",
                         code: "15.03.004",
                         name: "Выявление кристаллов моноурата натрия в синовиальной жидкости ",
-                        price: 2050,
+                        price: 2100,
                         isAdded: false
                     },
                     {
                         _id: "1503005",
                         code: "15.03.005",
                         name: "Олигомерный матриксный белок хряща (COMP) диагностика остеоартроза",
-                        price: 3200,
+                        price: 3250,
                         isAdded: false
                     }
                 ]
@@ -4774,14 +4726,14 @@ const analysisPrices = [
                         _id: "1504002",
                         code: "15.04.002",
                         name: "Антинейтрофильные цитоплазматические антитела, IgG (ANCA), Combi 6",
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "1504005",
                         code: "15.04.005",
                         name: "Выявление аутоиммунной патологии (комплемент CH-50 и С1Q-IgG-ИК)",
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     }
                 ]
@@ -4794,28 +4746,28 @@ const analysisPrices = [
                         _id: "1505001",
                         code: "15.05.001",
                         name: "Антитела к митохондриям",
-                        price: 1300,
+                        price: 1350,
                         isAdded: false
                     },
                     {
                         _id: "1505002",
                         code: "15.05.002",
                         name: "Антитела к гладким мышцам (АГМА)",
-                        price: 1380,
+                        price: 1430,
                         isAdded: false
                     },
                     {
                         _id: "1505003",
                         code: "15.05.003",
                         name: "Антитела к микросомальной фракции печени и почек (anti-LKM)",
-                        price: 1450,
+                        price: 1500,
                         isAdded: false
                     },
                     {
                         _id: "1505004",
                         code: "15.05.004",
                         name: "Антитела к антигенам аутоиммунных заболеваний печени (PDC-AMA-M2, M2-3E, SLA/LP, LC-1, LKM-1, Sp-100, PML, gp210, Ro-52)",
-                        price: 3820,
+                        price: 3870,
                         isAdded: false
                     }
                 ]
@@ -4828,84 +4780,84 @@ const analysisPrices = [
                         _id: "1506001",
                         code: "15.06.001",
                         name: "Антитела к париетальным клеткам желудка (АПЖК)",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     },
                     {
                         _id: "1506002",
                         code: "15.06.002",
                         name: "Определение антител к ф.Кастла -  внутреннему фактору (АВФ)",
-                        price: 1880,
+                        price: 1930,
                         isAdded: false
                     },
                     {
                         _id: "1506003",
                         code: "15.06.003",
                         name: "Определение содержания подкласса IgG4",
-                        price: 2850,
+                        price: 2900,
                         isAdded: false
                     },
                     {
                         _id: "1506004",
                         code: "15.06.004",
                         name: "Антитела к дрожжам Sacchаromyces cerevisiae (ASCA), IgA",
-                        price: 1670,
+                        price: 1720,
                         isAdded: false
                     },
                     {
                         _id: "1506005",
                         code: "15.06.005",
                         name: "Антитела к дрожжам Sacchаromyces cerevisiae (ASCA), IgG",
-                        price: 1670,
+                        price: 1720,
                         isAdded: false
                     },
                     {
                         _id: "1506006",
                         code: "15.06.006",
                         name: "Антитела к глиадину, IgA",
-                        price: 1220,
+                        price: 1270,
                         isAdded: false
                     },
                     {
                         _id: "1506007",
                         code: "15.06.007",
                         name: "Антитела к глиадину, IgG",
-                        price: 1220,
+                        price: 1270,
                         isAdded: false
                     },
                     {
                         _id: "1506008",
                         code: "15.06.008",
                         name: "Антитела к тканевой трансглутаминазе, IgA",
-                        price: 1130,
+                        price: 1180,
                         isAdded: false
                     },
                     {
                         _id: "1506009",
                         code: "15.06.009",
                         name: "Антитела к тканевой трансглутаминазе, IgG",
-                        price: 1130,
+                        price: 1180,
                         isAdded: false
                     },
                     {
                         _id: "1506010",
                         code: "15.06.010",
                         name: "Антитела к эндомизию, IgA (AЭA)",
-                        price: 1740,
+                        price: 1790,
                         isAdded: false
                     },
                     {
                         _id: "1506011",
                         code: "15.06.011",
                         name: "Антиретикулиновые антитела (APA)",
-                        price: 1650,
+                        price: 1700,
                         isAdded: false
                     },
                     {
                         _id: "1506012",
                         code: "15.06.012",
                         name: "Антитела к GP2 антигену при болезни Крона IgG и IgA",
-                        price: 2770,
+                        price: 2820,
                         isAdded: false
                     }
                 ]
@@ -4918,28 +4870,28 @@ const analysisPrices = [
                         _id: "1507001",
                         code: "15.07.001",
                         name: "Диагностика саркоидоза (активность ангиотензин-превращающего фермента -  АПФ)",
-                        price: 3420,
+                        price: 3470,
                         isAdded: false
                     },
                     {
                         _id: "1507003",
                         code: "15.07.003",
                         name: "Антитела к миокарду (Mio)",
-                        price: 1050,
+                        price: 1100,
                         isAdded: false
                     },
                     {
                         _id: "1507004",
                         code: "15.07.004",
                         name: "Антитела к десмосомам кожи",
-                        price: 2150,
+                        price: 2200,
                         isAdded: false
                     },
                     {
                         _id: "1507005",
                         code: "15.07.005",
                         name: "Антитела к базальной мембране кожи (АМБ)",
-                        price: 2150,
+                        price: 2200,
                         isAdded: false
                     }
                 ]
@@ -4952,21 +4904,21 @@ const analysisPrices = [
                         _id: "1511001",
                         code: "15.11.001",
                         name: "Антитела к NMDA рецептору (аутоиммунный энцефалит)",
-                        price: 4980,
+                        price: 5030,
                         isAdded: false
                     },
                     {
                         _id: "1511002",
                         code: "15.11.002",
                         name: "Антинейрональные антитела (Анти-Yo-1, Hu, Ri, PNMA2(Ma2/Ta), CV2, Амфифизин), диагностика паранеопластических энцефалитов",
-                        price: 7220,
+                        price: 7270,
                         isAdded: false
                     },
                     {
                         _id: "1511003",
                         code: "15.11.003",
                         name: "Иммуноблот при полимиозите (Мi2b, Ku, Pm-Scl100, PM-Scl75, Jo-1, SRP, PL-7, PL-12 EJ, OJ, Ro-52)",
-                        price: 4850,
+                        price: 4900,
                         isAdded: false
                     }
                 ]
@@ -4980,49 +4932,49 @@ const analysisPrices = [
                         _id: "1508001",
                         code: "15.08.001",
                         name: "Антитела к островковым клеткам (ICA)",
-                        price: 1480,
+                        price: 1530,
                         isAdded: false
                     },
                     {
                         _id: "1508002",
                         code: "15.08.002",
                         name: "Антитела к глутаматдекарбоксилазе (GAD)",
-                        price: 1700,
+                        price: 1750,
                         isAdded: false
                     },
                     {
                         _id: "1508007",
                         code: "15.08.007",
                         name: "Антитела к тирозин-фосфатазе (IA-2)",
-                        price: 1700,
+                        price: 1750,
                         isAdded: false
                     },
                     {
                         _id: "1508003",
                         code: "15.08.003",
                         name: "Антитела к инсулину (IAA)",
-                        price: 1120,
+                        price: 1170,
                         isAdded: false
                     },
                     {
                         _id: "1508004",
                         code: "15.08.004",
                         name: "Антитела к стероид-продуцирующим клеткам надпочечника (АСПК)",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     },
                     {
                         _id: "1508005",
                         code: "15.08.005",
                         name: "Антитела к стероид-продуцирующим клеткам яичника (АСКП-Ovary)",
-                        price: 1350,
+                        price: 1400,
                         isAdded: false
                     },
                     {
                         _id: "1508006",
                         code: "15.08.006",
                         name: "Антиспермальные антитела",
-                        price: 1150,
+                        price: 1200,
                         isAdded: false
                     }
                 ]
@@ -5035,35 +4987,35 @@ const analysisPrices = [
                         _id: "1509001",
                         code: "15.09.001",
                         name: "ЭЛИ-В-Тест-6 (антитела к ds-ДНК, бета2-гликопротеину 1, Fc-lg, коллагену, интерферону альфа, интерферону гамма)",
-                        price: 2220,
+                        price: 2270,
                         isAdded: false
                     },
                     {
                         _id: "1509002",
                         code: "15.09.002",
                         name: "ЭЛИ-АФС-ХГЧ-Тест-6 (антитела к ХГЧ, бета2-гликопротеину 1, Fc-lg, ds-ДНК, коллагену, суммарные к фосфолипидам)",
-                        price: 2980,
+                        price: 3030,
                         isAdded: false
                     },
                     {
                         _id: "1509003",
                         code: "15.09.003",
                         name: "ЭЛИ-Висцеро-Тест-24 (антитела к 24 антигенам основных органов и систем человека)",
-                        price: 6120,
+                        price: 6170,
                         isAdded: false
                     },
                     {
                         _id: "1509004",
                         code: "15.09.004",
                         name: "ЭЛИ-П-Комплекс-12 (репродуктивное здоровье женщин, 12 антигенов)",
-                        price: 3900,
+                        price: 3950,
                         isAdded: false
                     },
                     {
                         _id: "1509005",
                         code: "15.09.005",
                         name: "ЭЛИ-Н-Тест-12 (состояние нервной системы)",
-                        price: 3900,
+                        price: 3950,
                         isAdded: false
                     }
                 ]
@@ -5076,35 +5028,35 @@ const analysisPrices = [
                         _id: "1510001",
                         code: "15.10.001",
                         name: "Скрининг парапротеинов в сыворотке (иммунофиксация)",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     },
                     {
                         _id: "1510002",
                         code: "15.10.002",
                         name: "Скрининг белка Бенс-Джонса в моче",
-                        price: 1820,
+                        price: 1870,
                         isAdded: false
                     },
                     {
                         _id: "1510005",
                         code: "15.10.005",
                         name: "Свободные легкие цепи иммуноглобулинов в моче  ",
-                        price: 1820,
+                        price: 1870,
                         isAdded: false
                     },
                     {
                         _id: "1510006",
                         code: "15.10.006",
                         name: "Свободные легкие цепи иммуноглобулинов в сыворотке  с расчетом индекса (каппа/лямбда)",
-                        price: 1980,
+                        price: 2030,
                         isAdded: false
                     },
                     {
                         _id: "1510004",
                         code: "15.10.004",
                         name: "Иммунофиксация белка Бенс-Джонса с панелью антисывороток",
-                        price: 2050,
+                        price: 2100,
                         isAdded: false
                     }
                 ]
@@ -5124,749 +5076,749 @@ const analysisPrices = [
                         _id: "1601001",
                         code: "16.01.001",
                         name: "Абрикос, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601002",
                         code: "16.01.002",
                         name: "Авокадо, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601003",
                         code: "16.01.003",
                         name: "Альфа-лактоальбумин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601004",
                         code: "16.01.004",
                         name: "Ананас, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601005",
                         code: "16.01.005",
                         name: "Апельсин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601006",
                         code: "16.01.006",
                         name: "Арахис, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601007",
                         code: "16.01.007",
                         name: "Баклажан, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601008",
                         code: "16.01.008",
                         name: "Банан, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601009",
                         code: "16.01.009",
                         name: "Баранина, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601010",
                         code: "16.01.010",
                         name: "Белок яичный, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601011",
                         code: "16.01.011",
                         name: "Бета-лактоглобулин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601012",
                         code: "16.01.012",
                         name: "Бобы соевые, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601013",
                         code: "16.01.013",
                         name: "Ваниль, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601014",
                         code: "16.01.014",
                         name: "Виноград, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601015",
                         code: "16.01.015",
                         name: "Вишня, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601016",
                         code: "16.01.016",
                         name: "Говядина, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601017",
                         code: "16.01.017",
                         name: "Горошек зеленый, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601018",
                         code: "16.01.018",
                         name: "Горчица, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601019",
                         code: "16.01.019",
                         name: "Гребешок, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601020",
                         code: "16.01.020",
                         name: "Грейпфрут, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601021",
                         code: "16.01.021",
                         name: "Грецкий орех, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601022",
                         code: "16.01.022",
                         name: "Шампиньоны, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601023",
                         code: "16.01.023",
                         name: "Груша, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601024",
                         code: "16.01.024",
                         name: "Дрожжи пекарские, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601025",
                         code: "16.01.025",
                         name: "Дрожжи пивные, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601026",
                         code: "16.01.026",
                         name: "Дыня, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601027",
                         code: "16.01.027",
                         name: "Желток яичный, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601028",
                         code: "16.01.028",
                         name: "Имбирь, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601029",
                         code: "16.01.029",
                         name: "Индейка, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601030",
                         code: "16.01.030",
                         name: "Инжир, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601031",
                         code: "16.01.031",
                         name: "Казеин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601032",
                         code: "16.01.032",
                         name: "Какао, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601033",
                         code: "16.01.033",
                         name: "Камбала, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601034",
                         code: "16.01.034",
                         name: "Капуста брокколи, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601035",
                         code: "16.01.035",
                         name: "Капуста брюссельская, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601036",
                         code: "16.01.036",
                         name: "Капуста кочанная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601037",
                         code: "16.01.037",
                         name: "Капуста цветная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601038",
                         code: "16.01.038",
                         name: "Карри (приправа), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601039",
                         code: "16.01.039",
                         name: "Картофель, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601040",
                         code: "16.01.040",
                         name: "Кешью, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601041",
                         code: "16.01.041",
                         name: "Киви, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601042",
                         code: "16.01.042",
                         name: "Клейковина (глютеин), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601043",
                         code: "16.01.043",
                         name: "Клубника, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601044",
                         code: "16.01.044",
                         name: "Кокос, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601045",
                         code: "16.01.045",
                         name: "Кофе, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601046",
                         code: "16.01.046",
                         name: "Краб, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601047",
                         code: "16.01.047",
                         name: "Креветки, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601048",
                         code: "16.01.048",
                         name: "Кунжут, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601049",
                         code: "16.01.049",
                         name: "Куриное мясо, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601050",
                         code: "16.01.050",
                         name: "Лавровый лист, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601051",
                         code: "16.01.051",
                         name: "Лимон, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601052",
                         code: "16.01.052",
                         name: "Лобстер (омар), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601053",
                         code: "16.01.053",
                         name: "Лосось, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601054",
                         code: "16.01.054",
                         name: "Лук, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601055",
                         code: "16.01.055",
                         name: "Манго, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601057",
                         code: "16.01.057",
                         name: "Мидия, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601058",
                         code: "16.01.058",
                         name: "Миндаль, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601059",
                         code: "16.01.059",
                         name: "Молоко кипяченое, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601060",
                         code: "16.01.060",
                         name: "Молоко коровье, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601061",
                         code: "16.01.061",
                         name: "Морковь, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601062",
                         code: "16.01.062",
                         name: "Мука гречневая, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601063",
                         code: "16.01.063",
                         name: "Мука кукурузная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601064",
                         code: "16.01.064",
                         name: "Мука овсяная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601065",
                         code: "16.01.065",
                         name: "Мука пшеничная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601066",
                         code: "16.01.066",
                         name: "Мука ржаная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601067",
                         code: "16.01.067",
                         name: "Мука ячменная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601068",
                         code: "16.01.068",
                         name: "Мята, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601069",
                         code: "16.01.069",
                         name: "Нут (турецкий горох), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601070",
                         code: "16.01.070",
                         name: "Овальбумин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601071",
                         code: "16.01.071",
                         name: "Овомукоид, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601072",
                         code: "16.01.072",
                         name: "Огурец, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601073",
                         code: "16.01.073",
                         name: "Перец зеленый, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601074",
                         code: "16.01.074",
                         name: "Перец красный (паприка), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601075",
                         code: "16.01.075",
                         name: "Перец черный, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601076",
                         code: "16.01.076",
                         name: "Персик, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601077",
                         code: "16.01.077",
                         name: "Петрушка, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601078",
                         code: "16.01.078",
                         name: "Просо, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601079",
                         code: "16.01.079",
                         name: "Рис, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601080",
                         code: "16.01.080",
                         name: "Сардина, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601081",
                         code: "16.01.081",
                         name: "Свинина, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601082",
                         code: "16.01.082",
                         name: "Сельдерей, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601083",
                         code: "16.01.083",
                         name: "Скумбрия, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601084",
                         code: "16.01.084",
                         name: "Слива, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601085",
                         code: "16.01.085",
                         name: "Солод, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601086",
                         code: "16.01.086",
                         name: "Спаржа, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601087",
                         code: "16.01.087",
                         name: "Сыворотка молочная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601088",
                         code: "16.01.088",
                         name: 'Сыр типа "Моулд", IgE',
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601089",
                         code: "16.01.089",
                         name: 'Сыр типа "Чеддер", IgE',
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601090",
                         code: "16.01.090",
                         name: "Томат, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601091",
                         code: "16.01.091",
                         name: "Треска, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601092",
                         code: "16.01.092",
                         name: "Тунец, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601093",
                         code: "16.01.093",
                         name: "Тыква, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601094",
                         code: "16.01.094",
                         name: "Устрицы, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601095",
                         code: "16.01.095",
                         name: "Фасоль белая, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601096",
                         code: "16.01.096",
                         name: "Фасоль зеленая, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601097",
                         code: "16.01.097",
                         name: "Фасоль красная, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601098",
                         code: "16.01.098",
                         name: "Финики, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601099",
                         code: "16.01.099",
                         name: "Фисташки, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601100",
                         code: "16.01.100",
                         name: "Форель, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601101",
                         code: "16.01.101",
                         name: "Фундук, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601102",
                         code: "16.01.102",
                         name: "Хурма, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601103",
                         code: "16.01.103",
                         name: "Чеснок, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601104",
                         code: "16.01.104",
                         name: "Чечевица, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601105",
                         code: "16.01.105",
                         name: "Шоколад, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601106",
                         code: "16.01.106",
                         name: "Шпинат, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601107",
                         code: "16.01.107",
                         name: "Яблоко, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1601109",
                         code: "16.01.109",
                         name: "Яйцо куриное, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -5880,140 +5832,140 @@ const analysisPrices = [
                         _id: "1602001",
                         code: "16.02.001",
                         name: "Голубь (помет), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602002",
                         code: "16.02.002",
                         name: "Гусь (перо), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602003",
                         code: "16.02.003",
                         name: "Канарейка (перо), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602004",
                         code: "16.02.004",
                         name: "Коза (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602005",
                         code: "16.02.005",
                         name: "Корова (перхоть), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602006",
                         code: "16.02.006",
                         name: "Кошка (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602007",
                         code: "16.02.007",
                         name: "Кролик (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602009",
                         code: "16.02.009",
                         name: "Крыса (моча), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602010",
                         code: "16.02.010",
                         name: "Крыса (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602011",
                         code: "16.02.011",
                         name: "Курица (перо), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602013",
                         code: "16.02.013",
                         name: "Лошадь (перхоть), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602014",
                         code: "16.02.014",
                         name: "Морская свинка (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602015",
                         code: "16.02.015",
                         name: "Мышь, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602016",
                         code: "16.02.016",
                         name: "Овца (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602018",
                         code: "16.02.018",
                         name: "Попугай волнистый (перо), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602019",
                         code: "16.02.019",
                         name: "Свинья (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602020",
                         code: "16.02.020",
                         name: "Собака (перхоть), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602021",
                         code: "16.02.021",
                         name: "Собака (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602022",
                         code: "16.02.022",
                         name: "Утка (перо), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1602023",
                         code: "16.02.023",
                         name: "Хомяк (эпителий), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6027,133 +5979,133 @@ const analysisPrices = [
                         _id: "1603001",
                         code: "16.03.001",
                         name: "Акация (Acacia species), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603002",
                         code: "16.03.002",
                         name: "Амброзия обыкновенная (Ambrosia elatior), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603003",
                         code: "16.03.003",
                         name: "Амброзия голометельчатая (Ambrosia psilostachya), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603004",
                         code: "16.03.004",
                         name: "Береза (Betula alba), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603005",
                         code: "16.03.005",
                         name: "Бук (Fagus grandifolia), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603006",
                         code: "16.03.006",
                         name: "Вяз (Ulmus spp), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603007",
                         code: "16.03.007",
                         name: "Граб обыкновенный (Carpinus betulus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603008",
                         code: "16.03.008",
                         name: "Дуб белый (Quercus alba), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603009",
                         code: "16.03.009",
                         name: "Дуб черешчатый (Quercus robur), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603010",
                         code: "16.03.010",
                         name: "Ива (Salix nigra), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603011",
                         code: "16.03.011",
                         name: "Клен ясенелистный (Acer negundo), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603012",
                         code: "16.03.012",
                         name: "Лещина обыкновенная (Corylus avellana), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603013",
                         code: "16.03.013",
                         name: "Ольха (Alnus incana), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603014",
                         code: "16.03.014",
                         name: "Орех грецкий (Juglans regia), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603015",
                         code: "16.03.015",
                         name: "Платан (Platanus acerifolia), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603016",
                         code: "16.03.016",
                         name: "Сосна (Pinus sylvestris), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603017",
                         code: "16.03.017",
                         name: "Тополь (Populus spp), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603018",
                         code: "16.03.018",
                         name: "Эвкалипт (Eucalyptus globulus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1603019",
                         code: "16.03.019",
                         name: "Ясень (Fraxinus excelsior), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6167,161 +6119,161 @@ const analysisPrices = [
                         _id: "1604001",
                         code: "16.04.001",
                         name: "Бухарник шерстистый (Holcus lanatus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604002",
                         code: "16.04.002",
                         name: "Ежа сборная (Dactylis glomerata), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604003",
                         code: "16.04.003",
                         name: "Колосок душистый (Anthoxanthum odoratum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604004",
                         code: "16.04.004",
                         name: "Костер (кострец) безостый (Bromus inermis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604005",
                         code: "16.04.005",
                         name: "Крапива двудомная (Urtica dioica), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604007",
                         code: "16.04.007",
                         name: "Лебеда чечевицеобразная (Atriplex lentiformis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604008",
                         code: "16.04.008",
                         name: "Лисохвост луговой (Alopecurus pratensis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604009",
                         code: "16.04.009",
                         name: "Марь белая (Chenopodium album), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604010",
                         code: "16.04.010",
                         name: "Мятлик луговой (Poa pratensis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604011",
                         code: "16.04.011",
                         name: "Овес культивированный (Avena sativa), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604012",
                         code: "16.04.012",
                         name: "Овсянница луговая (Festuca elatior), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604013",
                         code: "16.04.013",
                         name: "Одуванчик (Taraxacum officinale), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604014",
                         code: "16.04.014",
                         name: "Подорожник (Plantago lanceolata), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604015",
                         code: "16.04.015",
                         name: "Полевица (Agrostis alba), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604016",
                         code: "16.04.016",
                         name: "Полынь горькая (Artemisia absinthum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604017",
                         code: "16.04.017",
                         name: "Полынь обыкновенная (Artemisia vulgaris), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604018",
                         code: "16.04.018",
                         name: "Постенница лекарственная (Parietaria officinalis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604019",
                         code: "16.04.019",
                         name: "Пшеница (Triticum sativum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604020",
                         code: "16.04.020",
                         name: "Рожь культивированная (Secale cereale), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604022",
                         code: "16.04.022",
                         name: "Ромашка (нивяник) (Chrysanthebum leucanthenum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604023",
                         code: "16.04.023",
                         name: "Рыльца кукурузные (Zea mays), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604024",
                         code: "16.04.024",
                         name: "Тимофеевка (Phleum pratense), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1604025",
                         code: "16.04.025",
                         name: "Фикус, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6335,7 +6287,7 @@ const analysisPrices = [
                         _id: "1605001",
                         code: "16.05.001",
                         name: "Домашняя пыль, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6349,14 +6301,14 @@ const analysisPrices = [
                         _id: "1606001",
                         code: "16.06.001",
                         name: "Клещ-дерматофаг мучной (Dermatophagoides farinae), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1606002",
                         code: "16.06.002",
                         name: "Клещ-дерматофаг перинный (Dermatophagoides pteronyssinus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6370,28 +6322,28 @@ const analysisPrices = [
                         _id: "1607001",
                         code: "16.07.001",
                         name: "Грибы рода кандида (Candida albicans), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1607002",
                         code: "16.07.002",
                         name: "Плесневый гриб (Chaetomium globosum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1607003",
                         code: "16.07.003",
                         name: "Плесневый гриб (Aspergillus fumigatus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1607004",
                         code: "16.07.004",
                         name: "Плесневый гриб (Alternaria tenuis), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6405,14 +6357,14 @@ const analysisPrices = [
                         _id: "1608001",
                         code: "16.08.001",
                         name: "Энтеротоксин А (Staphylococcus aureus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1608002",
                         code: "16.08.002",
                         name: "Энтеротоксин B (Staphylococcus aureus), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6426,7 +6378,7 @@ const analysisPrices = [
                         _id: "1609001",
                         code: "16.09.001",
                         name: "Аскарида (Ascaris lumbricoides), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6440,70 +6392,70 @@ const analysisPrices = [
                         _id: "1610001",
                         code: "16.10.001",
                         name: "Комар (сем. Culicidae), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610002",
                         code: "16.10.002",
                         name: "Моль (сем. Tineidae), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610003",
                         code: "16.10.003",
                         name: "Мошки (Simulium venustrum), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610004",
                         code: "16.10.004",
                         name: "Муравей рыжий (Solenopsis invicta), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610005",
                         code: "16.10.005",
                         name: "Слепень (сем. Tabanidae), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610006",
                         code: "16.10.006",
                         name: "Таракан рыжий (Blatella germanica), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610007",
                         code: "16.10.007",
                         name: "Шершень (оса пятнистая) (Dolichovespula maculata), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610008",
                         code: "16.10.008",
                         name: "Яд осиный (род Vespula), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610009",
                         code: "16.10.009",
                         name: "Яд осиный (род Polistes), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1610010",
                         code: "16.10.010",
                         name: "Яд пчелы (Apis mellifera), IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6517,49 +6469,49 @@ const analysisPrices = [
                         _id: "1611001",
                         code: "16.11.001",
                         name: "Пенициллин G, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611002",
                         code: "16.11.002",
                         name: "Пенициллин V, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611003",
                         code: "16.11.003",
                         name: "Ампициллин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611004",
                         code: "16.11.004",
                         name: "Амоксициллин, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611006",
                         code: "16.11.006",
                         name: "Инсулин бычий, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611007",
                         code: "16.11.007",
                         name: "Инсулин человеческий, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1611008",
                         code: "16.11.008",
                         name: "Формальдегид, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6573,28 +6525,28 @@ const analysisPrices = [
                         _id: "1612001",
                         code: "16.12.001",
                         name: "Латекс, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1612002",
                         code: "16.12.002",
                         name: "Хлопок, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1612003",
                         code: "16.12.003",
                         name: "Шерсть, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1612004",
                         code: "16.12.004",
                         name: "Шелк, IgE",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -6608,49 +6560,49 @@ const analysisPrices = [
                         _id: "1613001",
                         code: "16.13.001",
                         name: "Панель аллергенов респираторная № 2, IgE (аналог RIDA)",
-                        price: 4980,
+                        price: 5030,
                         isAdded: false
                     },
                     {
                         _id: "1613002",
                         code: "16.13.002",
                         name: "Панель аллергенов педиатрическая № 4, IgE (аналог RIDA)",
-                        price: 4980,
+                        price: 5030,
                         isAdded: false
                     },
                     {
                         _id: "1613003",
                         code: "16.13.003",
                         name: "Панель аллергенов плесени № 1, IgE (penicillium notatum, cladosporium herbarum, aspergillus fumigatus, candida albicans, alternaria tenuis)",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1613004",
                         code: "16.13.004",
                         name: "Панель клещевых аллергенов № 1, IgE (клещ-дерматофаг перинный, клещ-дерматофаг мучной, клещ домашней пыли (Dermatophagoides microceras), складской клещ (Lepidoglyphus destructor), гнилостный удлиненный клещ (Tyrophagus putrescentiae), волосатый домовый клещ (Glycyphagus domesticus), клещ домашней пыли (Euroglyphus maynei), клещ (Blomia tropicalis))",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1613005",
                         code: "16.13.005",
                         name: "Панель аллергенов пыли № 1, IgE (домашняя пыль, клещ-дерматофаг перинный, клещ-дерматофаг мучной, таракан)",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "1613006",
                         code: "16.13.006",
                         name: "Местные анестетики. Комплекс 1. Артикаин (брилокаин, септанест, убистезин, ультракаин) / Скандонест (мепивакаин, изокаин), IgE",
-                        price: 1750,
+                        price: 1800,
                         isAdded: false
                     },
                     {
                         _id: "1613007",
                         code: "16.13.007",
                         name: "Местные анестетики. Комплекс 2. Новокаин (прокаин, аминокаин, неокаин) / Лидокаин (ксилокаин, астракаин, октокаин, ксилотон, солкаин), IgE",
-                        price: 1750,
+                        price: 1800,
                         isAdded: false
                     }
                 ]
@@ -6664,49 +6616,49 @@ const analysisPrices = [
                         _id: "1614001",
                         code: "16.14.001",
                         name: "Панель пищевых аллергенов № 1, IgE (арахис, миндаль, фундук, кокос, бразильский орех)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1614003",
                         code: "16.14.003",
                         name: "Панель пищевых аллергенов № 3, IgE (пшеничная мука, овсяная мука, кукурузная мука, семена кунжута, гречневая мука)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1614004",
                         code: "16.14.004",
                         name: "Панель пищевых аллергенов № 5, IgE (яичный белок, молоко, треска, пшеничная мука, арахис, соевые бобы)",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "1614007",
                         code: "16.14.007",
                         name: "Смесь аллергенов овощей (f12-f15-f25-f31-f35) горох, фасоль белая, томаты, морковь, картофель",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1614008",
                         code: "16.14.008",
                         name: "Панель пищевых аллергенов № 15, IgE (апельсин, банан, яблоко, персик)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1614014",
                         code: "16.14.014",
                         name: "Панель пищевых аллергенов № 73, IgE (свинина, куриное мясо, говядина, баранина)",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "1614015",
                         code: "16.14.015",
                         name: "Морепродукты: треска, креветка, мидия, тунец, лосось",
-                        price: 1680,
+                        price: 1730,
                         isAdded: false
                     }
                 ]
@@ -6720,21 +6672,21 @@ const analysisPrices = [
                         _id: "1615002",
                         code: "16.15.002",
                         name: "Панель аллергенов животных № 1, IgE (эпителий кошки, перхоть лошади, перхоть коровы, перхоть собаки)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1615003",
                         code: "16.15.003",
                         name: "Панель аллергенов животных № 70, IgE (эпителий морской свинки, эпителий кролика, хомяк, крыса, мышь)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1615004",
                         code: "16.15.004",
                         name: "Панель аллергенов животных № 71, IgE (перо гуся, перо курицы, перо утки, перо индюка)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     }
                 ]
@@ -6748,21 +6700,21 @@ const analysisPrices = [
                         _id: "1616001",
                         code: "16.16.001",
                         name: "Панель аллергенов деревьев № 1, IgE (клен ясенелистный, береза, вяз, дуб, грецкий орех)",
-                        price: 1680,
+                        price: 1730,
                         isAdded: false
                     },
                     {
                         _id: "1616003",
                         code: "16.16.003",
                         name: "Панель аллергенов деревьев № 5, IgE (oльха, лещина обыкновенная, вяз, ива,тополь (Populus spp))",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1616004",
                         code: "16.16.004",
                         name: "Панель аллергенов деревьев № 9, IgE (ольха, береза, лещина обыкновенная, дуб, ива)",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     }
                 ]
@@ -6776,21 +6728,21 @@ const analysisPrices = [
                         _id: "1617001",
                         code: "16.17.001",
                         name: "Панель аллергенов трав № 1, IgE (ежа сборная, овсяница луговая, рожь многолетняя, тимофеевка, мятлик луговой)",
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "1617004",
                         code: "16.17.004",
                         name: "Панель аллергенов сорных растений и цветов № 3, IgE (полынь обыкновенная, подорожник, марь белая, золотарник, крапива двудомная)",
-                        price: 1520,
+                        price: 1570,
                         isAdded: false
                     },
                     {
                         _id: "1617005",
                         code: "16.17.005",
                         name: "Панель аллергенов сорных растений и цветов № 5, IgE (амброзия обыкновенная, полынь обыкновенная, золотарник, нивяник, одуванчик лекарственный)",
-                        price: 1680,
+                        price: 1730,
                         isAdded: false
                     }
                 ]
@@ -6804,7 +6756,7 @@ const analysisPrices = [
                         _id: "1618006",
                         code: "16.18.006",
                         name: "Панель ингаляционных аллергенов № 8, IgE (эпителий кошки, клещ-дерматофаг перинный, береза, перхоть собаки, полынь обыкновенная, тимофеевка, рожь культивированная, плесневый гриб (Cladosporum herbarum))",
-                        price: 1680,
+                        price: 1730,
                         isAdded: false
                     }
                 ]
@@ -6817,7 +6769,7 @@ const analysisPrices = [
                         _id: "1619003",
                         code: "16.19.003",
                         name: "Пищевая непереносимость, определение 96 специфических IgG4 пищевых аллергенов и микстов аллергенов",
-                        price: 18250,
+                        price: 18300,
                         isAdded: false
                     }
                 ]
@@ -6831,756 +6783,756 @@ const analysisPrices = [
                         _id: "1620001",
                         code: "16.20.001",
                         name: "Абрикос, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620002",
                         code: "16.20.002",
                         name: "Авокадо, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620003",
                         code: "16.20.003",
                         name: "Альфа-лактоальбумин, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620004",
                         code: "16.20.004",
                         name: "Ананас, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620005",
                         code: "16.20.005",
                         name: "Апельсин, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620006",
                         code: "16.20.006",
                         name: "Арахис, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620007",
                         code: "16.20.007",
                         name: "Баклажан, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620008",
                         code: "16.20.008",
                         name: "Банан, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620009",
                         code: "16.20.009",
                         name: "Баранина, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620010",
                         code: "16.20.010",
                         name: "Белок яичный, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620011",
                         code: "16.20.011",
                         name: "Бета-лактоглобулин, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620012",
                         code: "16.20.012",
                         name: "Бобы соевые, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620013",
                         code: "16.20.013",
                         name: "Ваниль, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620014",
                         code: "16.20.014",
                         name: "Виноград, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620015",
                         code: "16.20.015",
                         name: "Вишня, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620016",
                         code: "16.20.016",
                         name: "Говядина, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620017",
                         code: "16.20.017",
                         name: "Горошек зеленый, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620018",
                         code: "16.20.018",
                         name: "Горчица, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620019",
                         code: "16.20.019",
                         name: "Гребешок, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620020",
                         code: "16.20.020",
                         name: "Грейпфрут, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620021",
                         code: "16.20.021",
                         name: "Грецкий орех, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620022",
                         code: "16.20.022",
                         name: "Грибы, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620023",
                         code: "16.20.023",
                         name: "Груша, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620024",
                         code: "16.20.024",
                         name: "Дрожжи пекарские, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620025",
                         code: "16.20.025",
                         name: "Дрожжи пивные, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620026",
                         code: "16.20.026",
                         name: "Дыня, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620027",
                         code: "16.20.027",
                         name: "Желток яичный, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620028",
                         code: "16.20.028",
                         name: "Имбирь, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620029",
                         code: "16.20.029",
                         name: "Индейка, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620030",
                         code: "16.20.030",
                         name: "Инжир, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620031",
                         code: "16.20.031",
                         name: "Казеин, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620032",
                         code: "16.20.032",
                         name: "Какао, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620033",
                         code: "16.20.033",
                         name: "Камбала, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620034",
                         code: "16.20.034",
                         name: "Капуста брокколи, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620035",
                         code: "16.20.035",
                         name: "Капуста брюссельская, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620036",
                         code: "16.20.036",
                         name: "Капуста кочанная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620037",
                         code: "16.20.037",
                         name: "Капуста цветная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620038",
                         code: "16.20.038",
                         name: "Карри (приправа), IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620039",
                         code: "16.20.039",
                         name: "Картофель, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620040",
                         code: "16.20.040",
                         name: "Кешью, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620041",
                         code: "16.20.041",
                         name: "Киви, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620042",
                         code: "16.20.042",
                         name: "Клейковина (глютеин), IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620043",
                         code: "16.20.043",
                         name: "Клубника, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620044",
                         code: "16.20.044",
                         name: "Кокос, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620045",
                         code: "16.20.045",
                         name: "Кофе, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620046",
                         code: "16.20.046",
                         name: "Краб, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620047",
                         code: "16.20.047",
                         name: "Креветки, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620048",
                         code: "16.20.048",
                         name: "Кунжут, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620049",
                         code: "16.20.049",
                         name: "Куриное мясо, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620050",
                         code: "16.20.050",
                         name: "Лавровый лист, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620051",
                         code: "16.20.051",
                         name: "Лимон, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620052",
                         code: "16.20.052",
                         name: "Лобстер (омар), IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620053",
                         code: "16.20.053",
                         name: "Лосось, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620054",
                         code: "16.20.054",
                         name: "Лук, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620055",
                         code: "16.20.055",
                         name: "Манго, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620056",
                         code: "16.20.056",
                         name: "Масло подсолнечное, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620057",
                         code: "16.20.057",
                         name: "Мидия, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620058",
                         code: "16.20.058",
                         name: "Миндаль, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620059",
                         code: "16.20.059",
                         name: "Молоко кипяченое, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620060",
                         code: "16.20.060",
                         name: "Молоко коровье, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620061",
                         code: "16.20.061",
                         name: "Морковь, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620062",
                         code: "16.20.062",
                         name: "Мука гречневая, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620063",
                         code: "16.20.063",
                         name: "Мука кукурузная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620064",
                         code: "16.20.064",
                         name: "Мука овсяная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620065",
                         code: "16.20.065",
                         name: "Мука пшеничная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620066",
                         code: "16.20.066",
                         name: "Мука ржаная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620067",
                         code: "16.20.067",
                         name: "Мука ячменная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620068",
                         code: "16.20.068",
                         name: "Мята, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620069",
                         code: "16.20.069",
                         name: "Нут (турецкий горох), IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620070",
                         code: "16.20.070",
                         name: "Овальбумин, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620071",
                         code: "16.20.071",
                         name: "Овомукоид, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620072",
                         code: "16.20.072",
                         name: "Огурец, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620073",
                         code: "16.20.073",
                         name: "Перец зеленый, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620074",
                         code: "16.20.074",
                         name: "Перец красный (паприка), IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620075",
                         code: "16.20.075",
                         name: "Перец черный, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620076",
                         code: "16.20.076",
                         name: "Персик, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620077",
                         code: "16.20.077",
                         name: "Петрушка, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620078",
                         code: "16.20.078",
                         name: "Просо, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620079",
                         code: "16.20.079",
                         name: "Рис, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620080",
                         code: "16.20.080",
                         name: "Сардина, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620081",
                         code: "16.20.081",
                         name: "Свинина, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620082",
                         code: "16.20.082",
                         name: "Сельдерей, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620083",
                         code: "16.20.083",
                         name: "Скумбрия, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620084",
                         code: "16.20.084",
                         name: "Слива, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620085",
                         code: "16.20.085",
                         name: "Солод, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620086",
                         code: "16.20.086",
                         name: "Спаржа, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620087",
                         code: "16.20.087",
                         name: "Сыворотка молочная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620088",
                         code: "16.20.088",
                         name: 'Сыр типа "Моулд", IgG4',
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620089",
                         code: "16.20.089",
                         name: 'Сыр типа "Чеддер", IgG4',
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620090",
                         code: "16.20.090",
                         name: "Томат, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620091",
                         code: "16.20.091",
                         name: "Треска, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620092",
                         code: "16.20.092",
                         name: "Тунец, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620093",
                         code: "16.20.093",
                         name: "Тыква, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620094",
                         code: "16.20.094",
                         name: "Устрицы, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620095",
                         code: "16.20.095",
                         name: "Фасоль белая, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620096",
                         code: "16.20.096",
                         name: "Фасоль зеленая, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620097",
                         code: "16.20.097",
                         name: "Фасоль красная, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620098",
                         code: "16.20.098",
                         name: "Финики, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620099",
                         code: "16.20.099",
                         name: "Фисташки, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620100",
                         code: "16.20.100",
                         name: "Форель, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620101",
                         code: "16.20.101",
                         name: "Фундук, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620102",
                         code: "16.20.102",
                         name: "Хурма, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620103",
                         code: "16.20.103",
                         name: "Чеснок, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620104",
                         code: "16.20.104",
                         name: "Чечевица, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620105",
                         code: "16.20.105",
                         name: "Шоколад, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620106",
                         code: "16.20.106",
                         name: "Шпинат, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620107",
                         code: "16.20.107",
                         name: "Яблоко, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     },
                     {
                         _id: "1620109",
                         code: "16.20.109",
                         name: "Яйцо куриное, IgG4",
-                        price: 690,
+                        price: 740,
                         isAdded: false
                     }
                 ]
@@ -7599,140 +7551,140 @@ const analysisPrices = [
                         _id: "1701001",
                         code: "17.01.001",
                         name: "Комплексный анализ крови на наличие токсичных и эссенциальных микроэлементов, 23 показателя (Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb)",
-                        price: 3350,
+                        price: 3400,
                         isAdded: false
                     },
                     {
                         _id: "1701002",
                         code: "17.01.002",
                         name: "Литий терапевтический (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701003",
                         code: "17.01.003",
                         name: "Бор (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701004",
                         code: "17.01.004",
                         name: "Натрий (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701005",
                         code: "17.01.005",
                         name: "Алюминий (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701006",
                         code: "17.01.006",
                         name: "Кремний (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701007",
                         code: "17.01.007",
                         name: "Калий (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701008",
                         code: "17.01.008",
                         name: "Титан (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701009",
                         code: "17.01.009",
                         name: "Хром (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701010",
                         code: "17.01.010",
                         name: "Марганец (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701011",
                         code: "17.01.011",
                         name: "Кобальт (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701012",
                         code: "17.01.012",
                         name: "Никель (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701013",
                         code: "17.01.013",
                         name: "Мышьяк (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701014",
                         code: "17.01.014",
                         name: "Селен (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701020",
                         code: "17.01.020",
                         name: "Йод (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701015",
                         code: "17.01.015",
                         name: "Молибден (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701016",
                         code: "17.01.016",
                         name: "Кадмий (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701017",
                         code: "17.01.017",
                         name: "Сурьма (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701018",
                         code: "17.01.018",
                         name: "Ртуть (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1701019",
                         code: "17.01.019",
                         name: "Свинец (кровь)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     }
                 ]
@@ -7745,161 +7697,161 @@ const analysisPrices = [
                         _id: "1702001",
                         code: "17.02.001",
                         name: "Комплексный анализ мочи на наличие токсичных и эссенциальных микроэлементов, 23 показателя (Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb)",
-                        price: 3350,
+                        price: 3400,
                         isAdded: false
                     },
                     {
                         _id: "1702002",
                         code: "17.02.002",
                         name: "Литий (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702003",
                         code: "17.02.003",
                         name: "Бор (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702004",
                         code: "17.02.004",
                         name: "Натрий (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702005",
                         code: "17.02.005",
                         name: "Алюминий (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702006",
                         code: "17.02.006",
                         name: "Кремний (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702007",
                         code: "17.02.007",
                         name: "Калий (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702008",
                         code: "17.02.008",
                         name: "Титан (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702009",
                         code: "17.02.009",
                         name: "Хром (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702010",
                         code: "17.02.010",
                         name: "Марганец (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702011",
                         code: "17.02.011",
                         name: "Железо (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702012",
                         code: "17.02.012",
                         name: "Кобальт (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702013",
                         code: "17.02.013",
                         name: "Никель (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702014",
                         code: "17.02.014",
                         name: "Медь (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702015",
                         code: "17.02.015",
                         name: "Цинк (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702016",
                         code: "17.02.016",
                         name: "Мышьяк (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702017",
                         code: "17.02.017",
                         name: "Селен (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702023",
                         code: "17.02.023",
                         name: "Йод (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702018",
                         code: "17.02.018",
                         name: "Молибден (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702019",
                         code: "17.02.019",
                         name: "Кадмий (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702020",
                         code: "17.02.020",
                         name: "Сурьма (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702021",
                         code: "17.02.021",
                         name: "Ртуть (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1702022",
                         code: "17.02.022",
                         name: "Свинец (моча)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     }
                 ]
@@ -7912,175 +7864,175 @@ const analysisPrices = [
                         _id: "1703001",
                         code: "17.03.001",
                         name: "Комплексный анализ волос на наличие токсичных и эссенциальных микроэлементов, 23 показателя (Li, B, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Cd, Sb, Hg, Pb)",
-                        price: 3350,
+                        price: 3400,
                         isAdded: false
                     },
                     {
                         _id: "1703002",
                         code: "17.03.002",
                         name: "Литий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703003",
                         code: "17.03.003",
                         name: "Бор (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703004",
                         code: "17.03.004",
                         name: "Натрий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703005",
                         code: "17.03.005",
                         name: "Магний (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703006",
                         code: "17.03.006",
                         name: "Алюминий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703007",
                         code: "17.03.007",
                         name: "Кремний (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703008",
                         code: "17.03.008",
                         name: "Калий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703009",
                         code: "17.03.009",
                         name: "Кальций общий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703010",
                         code: "17.03.010",
                         name: "Титан (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703011",
                         code: "17.03.011",
                         name: "Хром (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703012",
                         code: "17.03.012",
                         name: "Марганец (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703013",
                         code: "17.03.013",
                         name: "Железо (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703014",
                         code: "17.03.014",
                         name: "Кобальт (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703015",
                         code: "17.03.015",
                         name: "Никель (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703016",
                         code: "17.03.016",
                         name: "Медь (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703017",
                         code: "17.03.017",
                         name: "Цинк (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703018",
                         code: "17.03.018",
                         name: "Мышьяк (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703019",
                         code: "17.03.019",
                         name: "Селен (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703025",
                         code: "17.03.025",
                         name: "Йод (волосы)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "1703020",
                         code: "17.03.020",
                         name: "Молибден (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703021",
                         code: "17.03.021",
                         name: "Кадмий (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703022",
                         code: "17.03.022",
                         name: "Сурьма (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703023",
                         code: "17.03.023",
                         name: "Ртуть (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     },
                     {
                         _id: "1703024",
                         code: "17.03.024",
                         name: "Свинец (волосы)",
-                        price: 640,
+                        price: 690,
                         isAdded: false
                     }
                 ]
@@ -8093,7 +8045,7 @@ const analysisPrices = [
                         _id: "1704001",
                         code: "17.04.001",
                         name: "Эссенциальные и токсичные микроэлементы (40 элементов), ногти",
-                        price: 4150,
+                        price: 4200,
                         isAdded: false
                     }
                 ]
@@ -8113,28 +8065,28 @@ const analysisPrices = [
                         _id: "1800001",
                         code: "18.00.001",
                         name: "Предварительное определение наркотических, психотропных и сильнодействующих веществ качественно: опиаты (героин, морфин, кодеин); опиоиды (метадон, фенциклидин, трамадол); амфетамин и его производные (амфетамин, метамфетамин и др.); каннабиоиды; кокаин; бензодиазепины (диазепам, феназепам, нитразепам и т.д); барбитураты (фенобарбитал, циклобарбитал, барбитал и т.д)",
-                        price: 3100,
+                        price: 3150,
                         isAdded: false
                     },
                     {
                         _id: "1800009",
                         code: "18.00.009",
                         name: "Анализ волос на определение наркотических средств, психотропного или сильнодействующего вещества - опиаты и их синтетические аналоги (героин, морфин, кодеин, метадон, трамадол); амфетамин и производные амфетамина (метамфетамин, экстази и т.д); кокаин, употребленные в период до 6 месяцев на момент взятия пробы",
-                        price: 8290,
+                        price: 8340,
                         isAdded: false
                     },
                     {
                         _id: "1800011",
                         code: "18.00.011",
                         name: "Подтверждающий метод определения наркотических, психотропных и сильнодействующих веществ, с дифференцировкой — опиаты, опиоиды, амфетамины и их производные, каннабиоиды, кокаин, др. наркотические вещества; бензодиазепины, барбитураты, производные фенотиазина, антидепрессанты, др. нейролептики, транквилизаторы, стимуляторы",
-                        price: 3250,
+                        price: 3300,
                         isAdded: false
                     },
                     {
                         _id: "1800013",
                         code: "18.00.013",
                         name: "Карбогидрат-дефицитный трансферрин (лабораторный маркер злоупотребления алкоголем) (CDT)",
-                        price: 3150,
+                        price: 3200,
                         isAdded: false
                     }
                 ]
@@ -8147,42 +8099,42 @@ const analysisPrices = [
                         _id: "1801002",
                         code: "18.01.002",
                         name: "Фенобарбитал, количественно",
-                        price: 2550,
+                        price: 2600,
                         isAdded: false
                     },
                     {
                         _id: "1801003",
                         code: "18.01.003",
                         name: "Финлепсин (карбамазепин, тегретол), количественно",
-                        price: 3480,
+                        price: 3530,
                         isAdded: false
                     },
                     {
                         _id: "1801004",
                         code: "18.01.004",
                         name: "Ламотриджины (ламиктал), количественно",
-                        price: 3900,
+                        price: 3950,
                         isAdded: false
                     },
                     {
                         _id: "1801005",
                         code: "18.01.005",
                         name: "Топиромат (топамакс, топалепсин, тореал), количественно",
-                        price: 3900,
+                        price: 3950,
                         isAdded: false
                     },
                     {
                         _id: "1801006",
                         code: "18.01.006",
                         name: "Вальпроевая кислота (и ее производные), количественно",
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "1801007",
                         code: "18.01.007",
                         name: "Трилептал (окскарбазепин), количественно",
-                        price: 4880,
+                        price: 4930,
                         isAdded: false
                     }
                 ]
@@ -8202,119 +8154,119 @@ const analysisPrices = [
                         _id: "1901003",
                         code: "19.01.003",
                         name: "Скрининг генетических факторов риска тромбофилии; минимальное обследование при назначении оральных контрацептивов (F2, F5 - 2 точки)",
-                        price: 1820,
+                        price: 1870,
                         isAdded: false
                     },
                     {
                         _id: "1901008",
                         code: "19.01.008",
                         name: "Мутации генов фолатного цикла (MTHFR, MTR, MTRR - 4 точки)",
-                        price: 2850,
+                        price: 2900,
                         isAdded: false
                     },
                     {
                         _id: "1901009",
                         code: "19.01.009",
                         name: "Генетические факторы риска при беременности: тромбофилия, невынашивание беременности и патология развития плода (F2, F5, F7, FGB, F13A1, SERPINE1, ITGA2, ITGB3, MTHFR, MTR, MTRR - 12 точек)",
-                        price: 4600,
+                        price: 4650,
                         isAdded: false
                     },
                     {
                         _id: "1901019",
                         code: "19.01.019",
                         name: "Генетические факторы риска развития тромбофилических осложнений",
-                        price: 4600,
+                        price: 4650,
                         isAdded: false
                     },
                     {
                         _id: "1901020",
                         code: "19.01.020",
                         name: "Генодиагностика первичной яичниковой недостаточности",
-                        price: 3180,
+                        price: 3230,
                         isAdded: false
                     },
                     {
                         _id: "1901023",
                         code: "19.01.023",
                         name: "Генотипирование альфа-1 антитрипсина (S и Z аллели) ",
-                        price: 2150,
+                        price: 2200,
                         isAdded: false
                     },
                     {
                         _id: "1901022",
                         code: "19.01.022",
                         name: "Генотипирование гена PNPLA3 при неалкогольной жировой болезни печени",
-                        price: 2900,
+                        price: 2950,
                         isAdded: false
                     },
                     {
                         _id: "1901025",
                         code: "19.01.025",
                         name: "Генодиагностика болезни Вильсона-Коновалова",
-                        price: 4400,
+                        price: 4450,
                         isAdded: false
                     },
                     {
                         _id: "1901024",
                         code: "19.01.024",
                         name: "Генотипирование числа Х-хромосом (с-мы Клайнфельтера, Тернера, тройной Х)",
-                        price: 4400,
+                        price: 4450,
                         isAdded: false
                     },
                     {
                         _id: "1901021",
                         code: "19.01.021",
                         name: "Генотипирование чувствительности рецептора витамина D ",
-                        price: 3180,
+                        price: 3230,
                         isAdded: false
                     },
                     {
                         _id: "1901010",
                         code: "19.01.010",
                         name: "Комплексная генетическая диагностика синдрома поликистоза яичников (гены CYP17, CYP19A, CYP11A1, AR, инактивация Х хромосомы)",
-                        price: 5540,
+                        price: 5590,
                         isAdded: false
                     },
                     {
                         _id: "1901011",
                         code: "19.01.011",
                         name: "Генетические факторы риска развития рака молочной железы и рака яичников (BRCA1, BRCA2)",
-                        price: 3940,
+                        price: 3990,
                         isAdded: false
                     },
                     {
                         _id: "1901012",
                         code: "19.01.012",
                         name: "Генетические факторы риска развития остеопороза",
-                        price: 6950,
+                        price: 7000,
                         isAdded: false
                     },
                     {
                         _id: "1901013",
                         code: "19.01.013",
                         name: "Генетический тест на лактозную непереносимость",
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "1901014",
                         code: "19.01.014",
                         name: "Генетические факторы риска развития синдрома Жильбера, риска развития осложнений при терапии иринотеканом",
-                        price: 3800,
+                        price: 3850,
                         isAdded: false
                     },
                     {
                         _id: "1901015",
                         code: "19.01.015",
                         name: "Комплексное генетическое обследование на врожденную гиперплазию надпочечников (15 мутаций)",
-                        price: 3950,
+                        price: 4000,
                         isAdded: false
                     },
                     {
                         _id: "1901017",
                         code: "19.01.017",
                         name: "Диагностика врожденного гемохроматоза",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     }
                 ]
@@ -8327,7 +8279,7 @@ const analysisPrices = [
                         _id: "1907001",
                         code: "19.07.001",
                         name: "ДНК-диета",
-                        price: 4200,
+                        price: 4250,
                         isAdded: false
                     }
                 ]
@@ -8341,14 +8293,14 @@ const analysisPrices = [
                         _id: "1902001",
                         code: "19.02.001",
                         name: "Исследование фактора репродуктивности AZF (локусы A, B, C)",
-                        price: 3980,
+                        price: 4030,
                         isAdded: false
                     },
                     {
                         _id: "1902002",
                         code: "19.02.002",
                         name: "Исследование мутаций гена муковисцидоза (CFTR)",
-                        price: 4500,
+                        price: 4550,
                         isAdded: false
                     }
                 ]
@@ -8361,35 +8313,35 @@ const analysisPrices = [
                         _id: "1904001",
                         code: "19.04.001",
                         name: "Антигены системы гистосовместимости HLA II класс, генотипирование (локусы DRB1, DQA1, DQB1)",
-                        price: 5100,
+                        price: 5150,
                         isAdded: false
                     },
                     {
                         _id: "1904008",
                         code: "19.04.008",
                         name: "Генотипирование генов HLA DQ для диагностики целиакии",
-                        price: 5650,
+                        price: 5700,
                         isAdded: false
                     },
                     {
                         _id: "1904005",
                         code: "19.04.005",
                         name: "Антиген системы гистосовместимости HLA В27",
-                        price: 2000,
+                        price: 2050,
                         isAdded: false
                     },
                     {
                         _id: "1904009",
                         code: "19.04.009",
                         name: "HLA B51 типирование ",
-                        price: 2800,
+                        price: 2850,
                         isAdded: false
                     },
                     {
                         _id: "1904006",
                         code: "19.04.006",
                         name: "Комплекс «Генотипирование супружеской пары по антигенам гистосовместимости HLA II класса»",
-                        price: 12000,
+                        price: 12050,
                         isAdded: false
                     }
                 ]
@@ -8402,7 +8354,7 @@ const analysisPrices = [
                         _id: "1906001",
                         code: "19.06.001",
                         name: "Диагностика семейной средиземноморской лихорадки (периодическая болезнь, ген MEFV) ",
-                        price: 8800,
+                        price: 8850,
                         isAdded: false
                     }
                 ]
@@ -8415,7 +8367,7 @@ const analysisPrices = [
                         _id: "1905001",
                         code: "19.05.001",
                         name: "Исследование кариотипа (кариотипирование)*",
-                        price: 6100,
+                        price: 6150,
                         isAdded: false
                     }
                 ]
@@ -8428,7 +8380,7 @@ const analysisPrices = [
                         _id: "1909001",
                         code: "19.09.001",
                         name: "Хромосомный микроматричный анализ (молекулярно-генетический анализ aCGH) при неразвивающейся беременности (абортивный материал) Оptima",
-                        price: 18200,
+                        price: 18250,
                         isAdded: false
                     }
                 ]
@@ -8441,35 +8393,35 @@ const analysisPrices = [
                         _id: "1908002",
                         code: "19.08.002",
                         name: "Неинвазивное определение резус-фактора плода",
-                        price: 7500,
+                        price: 7550,
                         isAdded: false
                     },
                     {
                         _id: "1908003",
                         code: "19.08.003",
                         name: "НИПС Т21 - Неинвазивный пренатальный ДНК скрининг на синдром Дауна",
-                        price: 19200,
+                        price: 19250,
                         isAdded: false
                     },
                     {
                         _id: "1908004",
                         code: "19.08.004",
                         name: "НИПТ стандартная панель",
-                        price: 24800,
+                        price: 24850,
                         isAdded: false
                     },
                     {
                         _id: "1908007",
                         code: "19.08.007",
                         name: "НИПТ Panorama (Natera, США), базовая панель - неинвазивный пренатальный ДНК тест на 8 синдромов",
-                        price: 35000,
+                        price: 35050,
                         isAdded: false
                     },
                     {
                         _id: "1908008",
                         code: "19.08.008",
                         name: "НИПТ Panorama (Natera, США), расширенная панель - неинвазивный пренатальный ДНК тест на 13 синдромов",
-                        price: 51900,
+                        price: 51950,
                         isAdded: false
                     }
                 ]
@@ -8489,28 +8441,28 @@ const analysisPrices = [
                         _id: "2003001",
                         code: "20.03.001",
                         name: "Посев на микрофлору отделяемого урогенитального тракта мужчины с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2003002",
                         code: "20.03.002",
                         name: "Посев на микрофлору отделяемого урогенитального тракта мужчины с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному  спектру антибиотиков и антимикотиков",
-                        price: 1000,
+                        price: 1050,
                         isAdded: false
                     },
                     {
                         _id: "2003003",
                         code: "20.03.003",
                         name: "Посев на микрофлору отделяемого урогенитального тракта мужчины с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1000,
+                        price: 1050,
                         isAdded: false
                     },
                     {
                         _id: "2003004",
                         code: "20.03.004",
                         name: "Посев на микрофлору отделяемого урогенитального тракта мужчины с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и  определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -8523,7 +8475,7 @@ const analysisPrices = [
                         _id: "2004001",
                         code: "20.04.001",
                         name: "Посев на микоплазму и уреаплазму (Mycoplasma hominis, Ureaplasma species) с определением чувствительности к антибиотикам",
-                        price: 1500,
+                        price: 1550,
                         isAdded: false
                     }
                 ]
@@ -8539,35 +8491,35 @@ const analysisPrices = [
                         _id: "2005005",
                         code: "20.05.005",
                         name: "Посев на микрофлору отделяемого других органов и тканей с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) без определения чувствительности к антибиотикам и антимикотикам",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "2005001",
                         code: "20.05.001",
                         name: "Посев на микрофлору отделяемого других органов и тканей с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и  определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 750,
+                        price: 800,
                         isAdded: false
                     },
                     {
                         _id: "2005002",
                         code: "20.05.002",
                         name: "Посев на микрофлору отделяемого других органов и тканей с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 820,
+                        price: 870,
                         isAdded: false
                     },
                     {
                         _id: "2005003",
                         code: "20.05.003",
                         name: "Посев на микрофлору отделяемого других органов и тканей с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2005004",
                         code: "20.05.004",
                         name: "Посев на микрофлору отделяемого других органов и тканей с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     }
                 ]
@@ -8580,35 +8532,35 @@ const analysisPrices = [
                         _id: "2021001",
                         code: "20.21.001",
                         name: "Посев эякулята с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) без определения чувствительности к антибиотикам и антимикотикам",
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "2021002",
                         code: "20.21.002",
                         name: "Посев эякулята с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "2021003",
                         code: "20.21.003",
                         name: "Посев эякулята с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 1150,
+                        price: 1200,
                         isAdded: false
                     },
                     {
                         _id: "2021004",
                         code: "20.21.004",
                         name: "Посев эякулята с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "2021005",
                         code: "20.21.005",
                         name: "Посев эякулята с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1300,
+                        price: 1350,
                         isAdded: false
                     }
                 ]
@@ -8621,28 +8573,28 @@ const analysisPrices = [
                         _id: "2019001",
                         code: "20.19.001",
                         name: "Комплексное исследование мокроты. Посев и идентификация микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF), определение чувствительности к основному спектру антибиотиков и антимикотиков и микроскопия с окраской по Граму",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "2019002",
                         code: "20.19.002",
                         name: "Комплексное исследование мокроты. Посев и идентификация микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF), определение чувствительности к расширенному спектру антибиотиков и антимикотиков и микроскопия с окраской по Граму",
-                        price: 1200,
+                        price: 1250,
                         isAdded: false
                     },
                     {
                         _id: "2019003",
                         code: "20.19.003",
                         name: "Комплексное исследование мокроты. Посев и идентификация микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF), определение чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам и микроскопия с окраской по Граму",
-                        price: 1220,
+                        price: 1270,
                         isAdded: false
                     },
                     {
                         _id: "2019004",
                         code: "20.19.004",
                         name: "Комплексное исследование мокроты. Посев и идентификация микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF), определение чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам и микроскопия с окраской по Граму",
-                        price: 1250,
+                        price: 1300,
                         isAdded: false
                     }
                 ]
@@ -8658,28 +8610,28 @@ const analysisPrices = [
                         _id: "2020001",
                         code: "20.20.001",
                         name: "Посев отделяемого (в т.ч. анаэробы) с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "2020002",
                         code: "20.20.002",
                         name: "Посев отделяемого (в т.ч. анаэробы) с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "2020003",
                         code: "20.20.003",
                         name: "Посев отделяемого (в т.ч. анаэробы) с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "2020004",
                         code: "20.20.004",
                         name: "Посев отделяемого (в т.ч. анаэробы) с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     }
                 ]
@@ -8692,49 +8644,49 @@ const analysisPrices = [
                         _id: "2006006",
                         code: "20.06.006",
                         name: "Посев на микрофлору отделяемого ЛОР-органов с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) без определения чувствительности к антибиотикам и антимикотикам",
-                        price: 900,
+                        price: 950,
                         isAdded: false
                     },
                     {
                         _id: "2006001",
                         code: "20.06.001",
                         name: "Посев на микрофлору отделяемого ЛОР-органов с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2006002",
                         code: "20.06.002",
                         name: "Посев на микрофлору отделяемого ЛОР-органов с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2006003",
                         code: "20.06.003",
                         name: "Посев на микрофлору отделяемого ЛОР-органов с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) с определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "2006004",
                         code: "20.06.004",
                         name: "Посев на микрофлору отделяемого ЛОР-органов с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1000,
+                        price: 1050,
                         isAdded: false
                     },
                     {
                         _id: "2006005",
                         code: "20.06.005",
                         name: "Посев на дифтерийную палочку (Corynebacterium diphtheriae, BL)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "2006007",
                         code: "20.06.007",
                         name: "Посев мазков из носа и зева на дифтерийную палочку (Corynebacterium diphtheriae, BL, 2 локуса)",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     }
                 ]
@@ -8749,21 +8701,21 @@ const analysisPrices = [
                         _id: "2008001",
                         code: "20.08.001",
                         name: "Посев на гемофильную палочку (Наemophilus influenzae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) без определения чувствительности к антибиотикам",
-                        price: 350,
+                        price: 400,
                         isAdded: false
                     },
                     {
                         _id: "2008002",
                         code: "20.08.002",
                         name: "Посев на гемофильную палочку (Наemophilus influenzae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) с определением чувствительности к основному спектру антибиотиков",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "2008003",
                         code: "20.08.003",
                         name: "Посев на гемофильную палочку (Наemophilus influenzae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) с определением чувствительности к расширенному спектру антибиотиков",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     }
                 ]
@@ -8776,28 +8728,28 @@ const analysisPrices = [
                         _id: "2009001",
                         code: "20.09.001",
                         name: "Посев на микрофлору отделяемого конъюнктивы с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "2009002",
                         code: "20.09.002",
                         name: "Посев на микрофлору отделяемого конъюнктивы с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "2009003",
                         code: "20.09.003",
                         name: "Посев на микрофлору отделяемого конъюнктивы с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF)  и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 940,
+                        price: 990,
                         isAdded: false
                     },
                     {
                         _id: "2009004",
                         code: "20.09.004",
                         name: "Посев на микрофлору отделяемого конъюнктивы с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 1050,
+                        price: 1100,
                         isAdded: false
                     }
                 ]
@@ -8810,14 +8762,14 @@ const analysisPrices = [
                         _id: "2010001",
                         code: "20.10.001",
                         name: "Посев крови на стерильность для взрослых и детей старше 12 лет с определением чувствительности к антибиотикам",
-                        price: 1950,
+                        price: 2000,
                         isAdded: false
                     },
                     {
                         _id: "2010002",
                         code: "20.10.002",
                         name: "Посев крови на стерильность для детей до 12 лет с определением чувствительности к антибиотикам",
-                        price: 2100,
+                        price: 2150,
                         isAdded: false
                     }
                 ]
@@ -8831,35 +8783,35 @@ const analysisPrices = [
                         _id: "2023001",
                         code: "20.23.001",
                         name: "Бактериологический посев на Стрептококк группы B (Streptococcus agalactiae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) без определения чувствительности к антибиотикам",
-                        price: 670,
+                        price: 720,
                         isAdded: false
                     },
                     {
                         _id: "2023002",
                         code: "20.23.002",
                         name: "Бактериологический посев на Стрептококк группы B (Streptococcus agalactiae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков",
-                        price: 670,
+                        price: 720,
                         isAdded: false
                     },
                     {
                         _id: "2023003",
                         code: "20.23.003",
                         name: "Бактериологический посев на Стрептококк группы B (Streptococcus agalactiae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) с определением чувствительности к расширенному спектру антибиотиков",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "2023004",
                         code: "20.23.004",
                         name: "Бактериологический посев на Стрептококк группы B (Streptococcus agalactiae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) с определением чувствительности к основному спектру антибиотиков и бактериофагам",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "2023005",
                         code: "20.23.005",
                         name: "Бактериологический посев на Стрептококк группы B (Streptococcus agalactiae) с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF)  с определением чувствительности к расширенному спектру антибиотиков и бактериофагам",
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     }
                 ]
@@ -8873,7 +8825,7 @@ const analysisPrices = [
                         _id: "2012001",
                         code: "20.12.001",
                         name: "Бактериологический посев на золотистый стафилококк (Staphylococcus aureus)  с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к антибиотикам",
-                        price: 570,
+                        price: 620,
                         isAdded: false
                     }
                 ]
@@ -8888,14 +8840,14 @@ const analysisPrices = [
                         _id: "2013001",
                         code: "20.13.001",
                         name: "Посев на грибы рода кандида (Candida)  с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к антимикотическим препаратам",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "2013002",
                         code: "20.13.002",
                         name: "Посев на расширенный спектр грибов",
-                        price: 1400,
+                        price: 1450,
                         isAdded: false
                     }
                 ]
@@ -8908,14 +8860,14 @@ const analysisPrices = [
                         _id: "2022001",
                         code: "20.22.001",
                         name: "Посев на кишечную палочку (Escherichia coli (E. coli)) из урогенитального тракта без определения чувствительности к антибиотикам",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "2022002",
                         code: "20.22.002",
                         name: "Посев на кишечную палочку (Escherichia coli (E. coli)) из урогенитального тракта с определением чувствительности к основному спектру антибиотиков",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     }
                 ]
@@ -8928,28 +8880,28 @@ const analysisPrices = [
                         _id: "2015001",
                         code: "20.15.001",
                         name: "Исследование антигена лямблий (Giardia intestinalis) в кале",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "2015002",
                         code: "20.15.002",
                         name: "Исследование антигена хеликобактера (Helicobacter pylori) в кале",
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "2015003",
                         code: "20.15.003",
                         name: "Исследование кала на токсины клостридий (Clostridium Difficile) A и B",
-                        price: 1950,
+                        price: 2000,
                         isAdded: false
                     },
                     {
                         _id: "2015004",
                         code: "20.15.004",
                         name: "Исследование антигена ротавируса в кале, ИХГА",
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     }
                 ]
@@ -8963,7 +8915,7 @@ const analysisPrices = [
                         _id: "2027001",
                         code: "20.27.001",
                         name: "Исследование микробных маркеров методом хромато-масс-спектрометрии (по Осипову)",
-                        price: 4850,
+                        price: 4900,
                         isAdded: false
                     }
                 ]
@@ -8976,21 +8928,21 @@ const analysisPrices = [
                         _id: "2017003",
                         code: "20.17.003",
                         name: "Нормоценоз кишечника (лакто- и бифидобактерии)",
-                        price: 820,
+                        price: 870,
                         isAdded: false
                     },
                     {
                         _id: "2016001",
                         code: "20.16.001",
                         name: "Бактериологический посев (мазок из прямой кишки) на возбудителей кишечной инфекции (сальмонеллы, шигеллы) с определением чувствительности к антибиотикам",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "2016005",
                         code: "20.16.005",
                         name: "Бактериологический посев (кал) на возбудителей кишечной инфекции (сальмонеллы, шигеллы) с определением чувствительности к антибиотикам",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     }
                 ]
@@ -9003,14 +8955,14 @@ const analysisPrices = [
                         _id: "2017001",
                         code: "20.17.001",
                         name: "Дисбактериоз  с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к бактериофагам",
-                        price: 1550,
+                        price: 1600,
                         isAdded: false
                     },
                     {
                         _id: "2017002",
                         code: "20.17.002",
                         name: "Дисбактериоз с идентификацией микроорганизмов методом времяпролетной МАСС-спектрометрии (MALDI-TOF)  и определением чувствительности к антибиотикам и бактериофагам",
-                        price: 1650,
+                        price: 1700,
                         isAdded: false
                     }
                 ]
@@ -9023,28 +8975,28 @@ const analysisPrices = [
                         _id: "2018001",
                         code: "20.18.001",
                         name: "Посев мочи на микрофлору с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков и антимикотиков",
-                        price: 550,
+                        price: 600,
                         isAdded: false
                     },
                     {
                         _id: "2018002",
                         code: "20.18.002",
                         name: "Посев мочи на микрофлору с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков и антимикотиков",
-                        price: 580,
+                        price: 630,
                         isAdded: false
                     },
                     {
                         _id: "2018003",
                         code: "20.18.003",
                         name: "Посев мочи на микрофлору с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к основному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "2018004",
                         code: "20.18.004",
                         name: "Посев мочи на микрофлору  с идентификацией микроорганизмов, в т.ч. кандида, методом времяпролетной МАСС-спектрометрии (MALDI-TOF) и определением чувствительности к расширенному спектру антибиотиков, антимикотиков и бактериофагам",
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     }
                 ]
@@ -9063,462 +9015,462 @@ const analysisPrices = [
                         _id: "5000001",
                         code: "50.00.001",
                         name: '"Госпитальный\nВИЧ (антитела и антигены) (метод ИФА), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИФА), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА)"',
-                        price: 880,
+                        price: 930,
                         isAdded: false
                     },
                     {
                         _id: "5000057",
                         code: "50.00.057",
                         name: '"Госпитальный (ИХЛА)\nВИЧ (антитела и антигены) (метод ИХЛА), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИХЛА), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА)"',
-                        price: 1750,
+                        price: 1800,
                         isAdded: false
                     },
                     {
                         _id: "5000003",
                         code: "50.00.003",
                         name: '"Госпитальный хирургический\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), СОЭ, Группа крови + Резус-фактор, Фибриноген, Протромбин (время, по Квику, МНО), АЧТВ, Общий белок, Креатинин, Мочевина, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Билирубин общий, Глюкоза, Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА), Микрореакция на сифилис качественно (RPR), ВИЧ (антитела и антигены) (метод ИФА)"',
-                        price: 2950,
+                        price: 3000,
                         isAdded: false
                     },
                     {
                         _id: "5000058",
                         code: "50.00.058",
                         name: '"Госпитальный хирургический (клиническая химия и ИХЛА)\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), СОЭ, Группа крови + Резус-фактор, Фибриноген, Протромбин (время, по Квику, МНО), АЧТВ, Общий белок, Креатинин, Мочевина, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Билирубин общий, Глюкоза, Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА), Микрореакция на сифилис качественно (RPR), ВИЧ (антитела и антигены) (метод ИХЛА)"',
-                        price: 3400,
+                        price: 3450,
                         isAdded: false
                     },
                     {
                         _id: "5001001",
                         code: "50.01.001",
                         name: '"Хирургический комплекс\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), СОЭ, Группа крови + Резус-фактор, Фибриноген, Протромбин (время, по Квику, МНО), Тромбиновое время, Антитромбин III, АЧТВ, Билирубин общий, Билирубин прямой, Общий белок, Креатинин, Мочевина, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Гамма-глутамилтрансфераза, Холестерин общий, Глюкоза, Железо, Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА), Микрореакция на сифилис качественно (RPR), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИФА), ВИЧ (антитела и антигены) (метод ИФА), Общий анализ мочи"',
-                        price: 3600,
+                        price: 3650,
                         isAdded: false
                     },
                     {
                         _id: "5000059",
                         code: "50.00.059",
                         name: '"Хирургический комплекс (клиническая химия и ИХЛА)\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), СОЭ, Группа крови + Резус-фактор, Фибриноген, Протромбин (время, по Квику, МНО), Тромбиновое время, Антитромбин III, АЧТВ, Билирубин общий, Билирубин прямой, Общий белок, Креатинин, Мочевина, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Гамма-глутамилтрансфераза, Холестерин общий, Глюкоза, Железо, Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА), Микрореакция на сифилис качественно (RPR), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИХЛА), ВИЧ (антитела и антигены) (метод ИХЛА), Общий анализ мочи"',
-                        price: 4100,
+                        price: 4150,
                         isAdded: false
                     },
                     {
                         _id: "5000004",
                         code: "50.00.004",
                         name: '"Биохимический анализ крови, базовый\nОбщий белок, Креатинин, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Холестерин общий, Билирубин общий, Железо, Глюкоза, С-реактивный белок"',
-                        price: 1580,
+                        price: 1630,
                         isAdded: false
                     },
                     {
                         _id: "5000005",
                         code: "50.00.005",
                         name: '"Биохимический анализ крови, расширенный\nОбщий белок, Мочевина, Креатинин, Мочевая кислота, Билирубин общий, Билирубин прямой, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Липаза, Гамма-глутамилтрансфераза (ГГТ), Железо, Холестерин общий, Триглицериды, Натрий, калий, хлор (Na/K/Cl), Кальций общий, Глюкоза, С-реактивный белок, Ревматоидный фактор"',
-                        price: 2880,
+                        price: 2930,
                         isAdded: false
                     },
                     {
                         _id: "5000006",
                         code: "50.00.006",
                         name: '"Коагулограмма, скрининг\nАЧТВ, Протромбин (время, по Квику, МНО)"',
-                        price: 500,
+                        price: 550,
                         isAdded: false
                     },
                     {
                         _id: "5000040",
                         code: "50.00.040",
                         name: '"Коагулограмма, базовая\nАЧТВ, Протромбин (время, по Квику, МНО), Тромбиновое время, Фибриноген"',
-                        price: 920,
+                        price: 970,
                         isAdded: false
                     },
                     {
                         _id: "5000041",
                         code: "50.00.041",
                         name: '"Коагулограмма, расширенная\nАЧТВ, Протромбин (время, по Квику, МНО), Тромбиновое время, Фибриноген, Д-димер, Антитромбин III, Протеин С"',
-                        price: 2200,
+                        price: 2250,
                         isAdded: false
                     },
                     {
                         _id: "5000027",
                         code: "50.00.027",
                         name: '"Диагностика антифосфолипидного синдрома (АФС)\nВолчаночный антикоагулянт (скрининг), Антитела к кардиолипину (суммарные), Антитела к бета2-гликопротеину"',
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "5000039",
                         code: "50.00.039",
                         name: '"Скрининг нарушения липидного обмена\nТриглицериды, Холестерин липопротеидов высокой плотности (ЛПВП, HDL)"',
-                        price: 480,
+                        price: 530,
                         isAdded: false
                     },
                     {
                         _id: "5000007",
                         code: "50.00.007",
                         name: '"Липидный профиль, базовый\nИндекс атерогенности (включает определение холестерина общего и холестерина ЛПВП), Холестерин липопротеидов низкой плотности (ЛПНП, LDL), Холестерин липопротеидов очень низкой плотности (ЛПОНП) (включает определение триглицеридов)"',
-                        price: 850,
+                        price: 900,
                         isAdded: false
                     },
                     {
                         _id: "5000008",
                         code: "50.00.008",
                         name: '"Липидный профиль, расширенный\nХолестерин липопротеидов низкой плотности (ЛПНП, LDL), Холестерин липопротеидов очень низкой плотности (ЛПОНП) (включает определение триглицеридов), Индекс атерогенности (включает определение холестерина общего и холестерина ЛПВП), Аполипопротеин А1, Аполипопротеин В, Липопротеин (а)"',
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "5000016",
                         code: "50.00.016",
                         name: '"Скрининг диабета\nГликированный гемоглобин А1с, Глюкоза"',
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "5000037",
                         code: "50.00.037",
                         name: '"Обследование печени, скрининг\nБилирубин общий, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Гамма-глутамилтрансфераза (ГГТ), С-реактивный белок"',
-                        price: 800,
+                        price: 850,
                         isAdded: false
                     },
                     {
                         _id: "5000011",
                         code: "50.00.011",
                         name: '"Обследование печени, расширенный\nПротромбин (время, по Квику, МНО), Белковые фракции (включает определение общего белка и альбумина), Билирубин общий, Билирубин прямой, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Щелочная фосфатаза, Гамма-глутамилтрансфераза (ГГТ), Холестерин общий, Холинэстераза, Альфа-фетопротеин (АФП)"',
-                        price: 1900,
+                        price: 1950,
                         isAdded: false
                     },
                     {
                         _id: "5000012",
                         code: "50.00.012",
                         name: '"Диагностика гепатитов\nАнтитела к вирусу гепатита А, IgM (Anti-HAV IgM), Антитела к вирусу гепатита А, IgG (Anti-HAV IgG), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА), Антитела к поверхностному антигену вируса гепатита В (Anti-HBs), Антитела к ядерному (cor) антигену вируса гепатита В, суммарные (Anti-HBc), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА)"',
-                        price: 2180,
+                        price: 2230,
                         isAdded: false
                     },
                     {
                         _id: "5000060",
                         code: "50.00.060",
                         name: '"Диагностика гепатитов (ИФА и ИХЛА)\nАнтитела к вирусу гепатита А, IgM (Anti-HAV IgM), Антитела к вирусу гепатита А, IgG (Anti-HAV IgG), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА), Антитела к поверхностному антигену вируса гепатита В (Anti-HBs), Антитела к ядерному (cor) антигену вируса гепатита В, суммарные (Anti-HBc), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА)"',
-                        price: 2900,
+                        price: 2950,
                         isAdded: false
                     },
                     {
                         _id: "5000038",
                         code: "50.00.038",
                         name: '"Обследование почек, скрининг (сывороточные маркеры)\nКреатинин, Мочевина, С-реактивный белок"',
-                        price: 600,
+                        price: 650,
                         isAdded: false
                     },
                     {
                         _id: "5000013",
                         code: "50.00.013",
                         name: '"Обследование почек, расширенный (сывороточные маркеры)\nАльбумин, Креатинин, Мочевина, Натрий, калий, хлор (Na/K/Cl), Кальций общий, Фосфор неорганический"',
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "5000044",
                         code: "50.00.044",
                         name: '"Ревматологический, скрининг\nАнтистрептолизин-О, С-реактивный белок, Ревматоидный фактор"',
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "5000014",
                         code: "50.00.014",
                         name: '"Ревматологический, расширенный\nМочевая кислота, Антистрептолизин-О, С-реактивный белок, Ревматоидный фактор, Антитела к циклическому цитруллиновому пептиду (ACCP, anti-CCP), Антинейтрофильные цитоплазматические антитела, IgG (ANCA), Combi 6, Антинуклеарные антитела, иммуноблот, Антитела к хламидии (Chlamydia trachomatis), IgG"',
-                        price: 9200,
+                        price: 9250,
                         isAdded: false
                     },
                     {
                         _id: "5000019",
                         code: "50.00.019",
                         name: '"Скрининг анемий\nКоэффициент насыщения трансферрина железом (включает определение железа и ЛЖСС)"',
-                        price: 680,
+                        price: 730,
                         isAdded: false
                     },
                     {
                         _id: "5000043",
                         code: "50.00.043",
                         name: '"Диагностика анемий, расширенный\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), Ретикулоциты, Билирубин общий, Билирубин прямой, Ферритин, Трансферрин, Общая железосвязывающая способность сыворотки (ОЖСС) (включает определение железа, ЛЖСС), Витамин В9 (фолиевая кислота), Витамин В12 (цианкобаламин)"',
-                        price: 3200,
+                        price: 3250,
                         isAdded: false
                     },
                     {
                         _id: "5000047",
                         code: "50.00.047",
                         name: '"Скрининг заболеваний щитовидной железы\nТиреотропный гормон (ТТГ), Тироксин свободный (Т4 свободный)"',
-                        price: 650,
+                        price: 700,
                         isAdded: false
                     },
                     {
                         _id: "5000062",
                         code: "50.00.062",
                         name: '"Тиреоидная панель\nТиреотропный гормон (ТТГ), Тироксин свободный (Т4 свободный), Трийодтиронин свободный (Т3 свободный), Антитела к тиреоглобулину (Анти-ТГ), Антитела к микросомальной тиреопероксидазе (Анти-ТПО)"',
-                        price: 1880,
+                        price: 1930,
                         isAdded: false
                     },
                     {
                         _id: "5000020",
                         code: "50.00.020",
                         name: '"Диагностика заболеваний щитовидной железы, базовый\nТиреотропный гормон (ТТГ), Тироксин свободный (Т4 свободный), Антитела к тиреоглобулину (Анти-ТГ), Антитела к микросомальной тиреопероксидазе (Анти-ТПО)"',
-                        price: 1620,
+                        price: 1670,
                         isAdded: false
                     },
                     {
                         _id: "5000021",
                         code: "50.00.021",
                         name: '"Диагностика заболеваний щитовидной железы, расширенный\nТиреотропный гормон (ТТГ), Тироксин свободный (Т4 свободный), Трийодтиронин свободный (Т3 свободный), Антитела к микросомальной тиреопероксидазе (Анти-ТПО), Тиреоглобулин, Антитела к тиреоглобулину (Анти-ТГ), Антитела к рецепторам тиреотропного гормона (АТ рТТГ), Кальцитонин"',
-                        price: 4780,
+                        price: 4830,
                         isAdded: false
                     },
                     {
                         _id: "5000015",
                         code: "50.00.015",
                         name: '"Диагностика остеопороза (сывороточные маркеры)\nФосфор неорганический, 25-OH витамин D, суммарный (кальциферол), Паратгормон, Кальцитонин, Остеокальцин, С-концевые телопептиды коллагена I типа (Beta-Cross laps), Кальций общий"',
-                        price: 5500,
+                        price: 5550,
                         isAdded: false
                     },
                     {
                         _id: "5000048",
                         code: "50.00.048",
                         name: '"Гормональный для мужчин, скрининг\nФолликулостимулирующий гормон (ФСГ), Лютеинизирующий гормон (ЛГ), Пролактин, Тестостерон общий"',
-                        price: 1350,
+                        price: 1400,
                         isAdded: false
                     },
                     {
                         _id: "5000022",
                         code: "50.00.022",
                         name: '"Гормональный профиль для мужчин, расширенный\nТиреотропный гормон (ТТГ), Фолликулостимулирующий гормон (ФСГ), Лютеинизирующий гормон (ЛГ), Пролактин, Тестостерон свободный (включает определение тестостерона общего и свободного, ГСПГ (SHBG), расчет индекса свободных андрогенов), Эстрадиол (Е2)"',
-                        price: 2580,
+                        price: 2630,
                         isAdded: false
                     },
                     {
                         _id: "5000024",
                         code: "50.00.024",
                         name: '"Гормональный профиль для женщин, скрининг\nФолликулостимулирующий гормон (ФСГ), Лютеинизирующий гормон (ЛГ), Пролактин, Эстрадиол (Е2)"',
-                        price: 1350,
+                        price: 1400,
                         isAdded: false
                     },
                     {
                         _id: "5000023",
                         code: "50.00.023",
                         name: '"Гормональный профиль для женщин, расширенный\nТиреотропный гормон (ТТГ), Лютеинизирующий гормон (ЛГ), Фолликулостимулирующий гормон (ФСГ), Эстрадиол (Е2), Пролактин, Дегидроэпиандростерон сульфат (ДГЭА-сульфат), Кортизол, Тестостерон свободный (включает определение тестостерона общего и свободного, ГСПГ (SHBG), расчет индекса свободных андрогенов), Андростендион, Гидроксипрогестерон (17-OH-прогестерон)"',
-                        price: 5150,
+                        price: 5200,
                         isAdded: false
                     },
                     {
                         _id: "5000052",
                         code: "50.00.052",
                         name: '"Гормональный профиль I фаза цикла\nФолликулостимулирующий гормон (ФСГ), Лютеинизирующий гормон (ЛГ), Пролактин, Эстрадиол (Е2), Дегидроэпиандростерон сульфат (ДГЭА-сульфат), Тестостерон общий"',
-                        price: 2300,
+                        price: 2350,
                         isAdded: false
                     },
                     {
                         _id: "5000053",
                         code: "50.00.053",
                         name: '"Гормональный профиль II фаза цикла\nПрогестерон, Гидроксипрогестерон (17-OH-прогестерон)"',
-                        price: 980,
+                        price: 1030,
                         isAdded: false
                     },
                     {
                         _id: "5000054",
                         code: "50.00.054",
                         name: '"Климактерический синдром\nФолликулостимулирующий гормон (ФСГ), Лютеинизирующий гормон (ЛГ), Эстрадиол (Е2)"',
-                        price: 950,
+                        price: 1000,
                         isAdded: false
                     },
                     {
                         _id: "5000026",
                         code: "50.00.026",
                         name: '"Диагностика нарушений функции яичников\nАнтимюллеров гормон (АМГ, АМН, MiS), Антитела к стероид-продуцирующим клеткам яичника (АСКП-Ovary)"',
-                        price: 3300,
+                        price: 3350,
                         isAdded: false
                     },
                     {
                         _id: "5000028",
                         code: "50.00.028",
                         name: '"Онкологический для мужчин, скрининг (сывороточные маркеры)\nРаково-эмбриональный антиген (РЭА), Антиген СА 72-4, Простатоспецифический антиген (ПСА) общий"',
-                        price: 1850,
+                        price: 1900,
                         isAdded: false
                     },
                     {
                         _id: "5000045",
                         code: "50.00.045",
                         name: '"Онкологический для мужчин, расширенный (сывороточные маркеры)\nАльфа-фетопротеин (АФП), Раково-эмбриональный антиген (РЭА), Антиген CA 19-9, Простатоспецифический антиген (ПСА) общий, Антиген СА 72-4, Общий бета-ХГЧ (диагностика беременности, онкомаркер)"',
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "5000029",
                         code: "50.00.029",
                         name: '"Онкологический для женщин, скрининг (сывороточные маркеры)\nРаково-эмбриональный антиген (РЭА), Антиген СА 72-4, Антиген CA 15-3, Антиген СА 125"',
-                        price: 3280,
+                        price: 3330,
                         isAdded: false
                     },
                     {
                         _id: "5000046",
                         code: "50.00.046",
                         name: '"Онкологический для женщин, расширенный (сывороточные маркеры)\nАльфа-фетопротеин (АФП), Раково-эмбриональный антиген (РЭА), Антиген CA 19-9, Антиген СА 125, Антиген CA 15-3, Антиген СА 72-4, Антиген плоскоклеточной карциномы (SCCA)"',
-                        price: 5500,
+                        price: 5550,
                         isAdded: false
                     },
                     {
                         _id: "5000030",
                         code: "50.00.030",
                         name: '"TORCH-комплекс, скрининг\nАнтитела к вирусу краснухи, IgG, Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgG, Антитела к токсоплазме (Toxoplasma gondii), IgG, Антитела к цитомегаловирусу (Cytomegalovirus), IgG"',
-                        price: 2280,
+                        price: 2330,
                         isAdded: false
                     },
                     {
                         _id: "5000031",
                         code: "50.00.031",
                         name: '"TORCH-комплекс, расширенный\nАнтитела к токсоплазме (Toxoplasma gondii), IgM, Антитела к токсоплазме (Toxoplasma gondii), IgG, Антитела к вирусу краснухи, IgM, Антитела к вирусу краснухи, IgG, Антитела к цитомегаловирусу (Cytomegalovirus), IgM, Антитела к цитомегаловирусу (Cytomegalovirus), IgG, Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgM, Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgG"',
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     },
                     {
                         _id: "5000032",
                         code: "50.00.032",
                         name: '"Диагностика инфекций, передающихся половым путем (сывороточные маркеры)\nВИЧ (антитела и антигены) (метод ИФА), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИФА), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИФА), Антитела к ядерному (cor) антигену вируса гепатита В, суммарные (Anti-HBc), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИФА), Антитела к хламидии (Chlamydia trachomatis), IgA, Антитела к хламидии (Chlamydia trachomatis), IgG, Антитела к микоплазме (Mycoplasma hominis), IgG, Антитела к уреаплазме (Ureaplasma urealyticum), IgА, Антитела к уреаплазме (Ureaplasma urealyticum), IgG, Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgG, Антитела к трихомонаде (Trichomonas vaginalis), IgG"',
-                        price: 6700,
+                        price: 6750,
                         isAdded: false
                     },
                     {
                         _id: "5000061",
                         code: "50.00.061",
                         name: '"Диагностика инфекций, передающихся половым путем (сывороточные маркеры) (ИФА и ИХЛА, сывороточные маркеры)\nВИЧ (антитела и антигены) (метод ИХЛА), Антитела к бледной трепонеме (Treponema pallidum), суммарные (метод ИХЛА), Поверхностный антиген вируса гепатита В (австралийский антиген, HbsAg) (метод ИХЛА), Антитела к ядерному (cor) антигену вируса гепатита В, суммарные (Anti-HBc), Антитела к вирусу гепатита С, суммарные (Anti-HCV) (метод ИХЛА), Антитела к хламидии (Chlamydia trachomatis), IgA, Антитела к хламидии (Chlamydia trachomatis), IgG, Антитела к микоплазме (Mycoplasma hominis), IgG, Антитела к уреаплазме (Ureaplasma urealyticum), IgА, Антитела к уреаплазме (Ureaplasma urealyticum), IgG, Антитела к вирусу простого герпеса I, II типов (Herpes simplex virus I, II), IgG, Антитела к трихомонаде (Trichomonas vaginalis), IgG"',
-                        price: 5200,
+                        price: 5250,
                         isAdded: false
                     },
                     {
                         _id: "5000033",
                         code: "50.00.033",
                         name: '"Диагностика паразитарных заболеваний (сывороточные маркеры)\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), Антитела к хеликобактеру (Helicobacter pylori), IgG, Антитела к лямблиям (Lamblia intestinalis), суммарные, Антитела к описторхисам (Opisthorchis felineus), IgG, Антитела к токсокарам (Toxocara canis), IgG, Антитела к трихинеллам (Trichinella spiralis), IgG, Антитела к эхинококкам (Echinococcus granulosus), IgG, Антитела к токсоплазме (Toxoplasma gondii), IgG, Антитела к аскаридам (Ascaris lumbricoides), IgG, Иммуноглобулин Е (IgE)"',
-                        price: 4000,
+                        price: 4050,
                         isAdded: false
                     },
                     {
                         _id: "5003001",
                         code: "50.03.001",
                         name: '"Молекулярная диагностика врожденных инфекций в крови\nДНК вируса простого герпеса I, II типа (Herpes simplex virus I, II), ДНК цитомегаловируса (Citomegalovirus), ДНК хламидии (Chlamydia trachomatis), ДНК микоплазмы (Mycoplasma hominis), ДНК микоплазмы (Mycoplasma genitalium), ДНК уреаплазмы (Ureaplasma urealyticum), ДНК уреаплазмы (Ureaplasma parvum), ДНК гарднереллы (Gardnerella vaginalis), ДНК трихомонады (Trichomonas vaginalis), ДНК гонококка (Neisseria gonorrhoeae), ДНК кандиды (Candida albicans)"',
-                        price: 3100,
+                        price: 3150,
                         isAdded: false
                     },
                     {
                         _id: "5003002",
                         code: "50.03.002",
                         name: '"Молекулярная диагностика врожденных инфекций в крови, количественно\nДНК вируса простого герпеса I, II типа (Herpes simplex virus I, II), количественно, ДНК гарднереллы (Gardnerella vaginalis), количественно, ДНК гонококка (Neisseria gonorrhoeae), количественно, ДНК кандиды (Candida albicans), количественно, ДНК микоплазмы (Mycoplasma genitalium), количественно, ДНК микоплазмы (Mycoplasma hominis), количественно, ДНК трихомонады (Trichomonas vaginalis), количественно, ДНК уреаплазмы (Ureaplasma parvum), количественно, ДНК уреаплазмы (Ureaplasma urealyticum), количественно, ДНК хламидии (Chlamydia trachomatis), количественно, ДНК цитомегаловируса (Citomegalovirus), количественно"',
-                        price: 4100,
+                        price: 4150,
                         isAdded: false
                     },
                     {
                         _id: "5001002",
                         code: "50.01.002",
                         name: '"Бытовые аллергены\nДомашняя пыль, IgE, Клещ-дерматофаг мучной (Dermatophagoides farinae), IgE, Клещ-дерматофаг перинный (Dermatophagoides pteronyssinus), IgE"',
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "5001003",
                         code: "50.01.003",
                         name: '"Аллергены плесневых грибов\nПлесневый гриб (Chaetomium globosum), IgE, Плесневый гриб (Aspergillus fumigatus), IgE, Плесневый гриб (Alternaria tenuis), IgE"',
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "5001005",
                         code: "50.01.005",
                         name: '"Аллергены домашних животных\nКошка (эпителий), IgE, Собака (эпителий), IgE"',
-                        price: 1100,
+                        price: 1150,
                         isAdded: false
                     },
                     {
                         _id: "5001006",
                         code: "50.01.006",
                         name: '"Аллергены сорных трав\nАмброзия обыкновенная (Ambrosia elatior), IgE, Одуванчик (Taraxacum officinale), IgE, Полынь горькая (Artemisia absinthum), IgE, Полынь обыкновенная (Artemisia vulgaris), IgE"',
-                        price: 2500,
+                        price: 2550,
                         isAdded: false
                     },
                     {
                         _id: "5004001",
                         code: "50.04.001",
                         name: '"Физическая культура и спорт, скрининг\nКлинический анализ крови с лейкоцитарной формулой (5DIFF), Протромбин (время, по Квику, МНО), Гликированный гемоглобин А1с, Общий белок, Холестерин общий, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Общий анализ мочи, Тиреотропный гормон (ТТГ)"',
-                        price: 1800,
+                        price: 1850,
                         isAdded: false
                     },
                     {
                         _id: "5004002",
                         code: "50.04.002",
                         name: '"Физическая культура и спорт базовый\nКлинический анализ крови с лейкоцитарной формулой (5DIFF),Протромбин (время, по Квику, МНО), Гликированный гемоглобин А1с, Общий белок, Холестерин общий, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Общий анализ мочи, Тиреотропный гормон (ТТГ), Фибриноген, Белковые фракции (включает определение общего белка и альбумина)\nТриглицериды, Холестерин липопротеидов высокой плотности (ЛПВП, HDL), Холестерин липопротеидов низкой плотности (ЛПНП, LDL), Лактатдегидрогеназа (ЛДГ), Щелочная фосфатаза, Креатинкиназа (КФК), Креатинкиназа-МВ, Кальций общий, Магний, Ферритин, Миоглобин, С-реактивный белок, 25-OH витамин D, суммарный (кальциферол)"',
-                        price: 5500,
+                        price: 5550,
                         isAdded: false
                     },
                     {
                         _id: "5004003",
                         code: "50.04.003",
                         name: '"Физическая культура и спорт расширенный\nКлинический анализ крови с лейкоцитарной формулой (5DIFF),Протромбин (время, по Квику, МНО), Гликированный гемоглобин А1с, Общий белок, Холестерин общий, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Общий анализ мочи, Тиреотропный гормон (ТТГ), Фибриноген, Белковые фракции (включает определение общего белка и альбумина)\nТриглицериды, Холестерин липопротеидов высокой плотности (ЛПВП, HDL), Холестерин липопротеидов низкой плотности (ЛПНП, LDL), Лактатдегидрогеназа (ЛДГ), Щелочная фосфатаза, Креатинкиназа (КФК), Креатинкиназа-МВ, Кальций общий, Магний, Ферритин, Миоглобин, С-реактивный белок, 25-OH витамин D, суммарный (кальциферол), Мозговой натрийуретический пептид B (BNP), Гомоцистеин, Паратгормон, Кортизол "',
-                        price: 8350,
+                        price: 8400,
                         isAdded: false
                     },
                     {
                         _id: "5019001",
                         code: "50.19.001",
                         name: '"Комплекс 1. Обследование после перенесенной COVID-19\nОбщий (клинический) анализ крови с лейкоцитарной формулой + COЭ,С-реактивный белок,Д-димер,Определение антител класса IgG к нуклеокапсидному (N) белку SARS-CoV-2 и антител класса IgМ к спайковому (S) белку SARS-CoV-2, полуколичественно,Ферритин "',
-                        price: 4150,
+                        price: 4200,
                         isAdded: false
                     },
                     {
                         _id: "5019002",
                         code: "50.19.002",
                         name: '"Комплекс 2. Дифференциальная диагностика ОРВИ \nРНК Коронавируса (SARS-CoV-2), кач, Общий (клинический) анализ крови с лейкоцитарной формулой + COЭ,С-реактивный белок,Д-димер,Определение антител класса IgG к нуклеокапсидному (N) белку SARS-CoV-2 и антител класса IgМ к спайковому (S) белку SARS-CoV-2, полуколичественнобелку SARS-CoV-2, полуколичественно"',
-                        price: 4250,
+                        price: 4300,
                         isAdded: false
                     },
                     {
                         _id: "5019003",
                         code: "50.19.003",
                         name: '"Комплекс 3. Обследование после ОРВИ без подтвержденния COVID-19\nАнтитела класса IgG к нуклеокапсидному (N) белку SARS-CoV-2, полуколичественно;Антитела класса IgG к спайковому (S) белку SARS-CoV-2, полуколичественно; Оценка Т-клеточного иммунитета пациентов после перенесенной ОРВИ, в том числе серонегативной формы новой коронавирусной инфекции (COVID-19);С-реактивный белок"',
-                        price: 7500,
+                        price: 7550,
                         isAdded: false
                     },
                     {
                         _id: "5019004",
                         code: "50.19.004",
                         name: '"Комплекс 4. Оценка иммунного статуса после перенесенной COVID-19\nОценка Т-клеточного иммунитета пациентов после перенесенной ОРВИ, в том числе серонегативной формы новой коронавирусной инфекции (COVID-19); Антитела класса IgG к нуклеокапсидному (N) белку SARS-CoV-2, полуколичественно;Антитела класса IgG к спайковому (S) белку SARS-CoV-2, полуколичественно"',
-                        price: 7800,
+                        price: 7850,
                         isAdded: false
                     },
                     {
                         _id: "5019005",
                         code: "50.19.005",
                         name: '"Комплекс 5.  Оценка тяжести ОРВИ\nАнализ крови с формулой и цветным показателем  (5DIFF) + СОЭ;Прокальцитонин (PCT); Ферритин; Интерлейкин 6; Лактатдегидрогеназа (ЛДГ); Тропонин I, высокочувствительный ABBOTT (прогностический маркер выявления риска и/или диагностики сердечно–сосудистых заболеваний); Креатинкиназа-МВ; Д-димер; АЧТВ; Протромбин (время, по Квику, МНО); Фибриноген; Антитромбин III; Глюкоза; Общий анализ мочи; Натрий, калий, хлор (Na/K/Cl); ""Обследование почек, скрининг (сывороточные маркеры); Креатинин, Мочевина, С-реактивный белок""; Аспартатаминотрансфераза (АСТ); Аланинаминотрансфераза (АЛТ); Общий белок; Альбумин"',
-                        price: 9000,
+                        price: 9050,
                         isAdded: false
                     },
                     {
                         _id: "5020001",
                         code: "50.20.001",
                         name: '"Общая оценка состояния здоровья и возможного риска осложнений COVID-19, скрининг\nАнализ крови с формулой и цветным показателем  (5DIFF) + СОЭ, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Глюкоза, Количественное определение антител класса IgG к RBD-домену спайкового (S) белка SARS-Co-V-2, пре- и поствакцинальные, Креатинин, Мочевая кислота, С-реактивный белок"',
-                        price: 2400,
+                        price: 2450,
                         isAdded: false
                     },
                     {
                         _id: "5020002",
                         code: "50.20.002",
                         name: '"Общая оценка состояния здоровья и возможного риска осложнений COVID-19, базовый\nАнализ крови с формулой и цветным показателем  (5DIFF) + СОЭ, Д-димер, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Гамма-глутамилтрансфераза (ГГТ), Глюкоза, Количественное определение антител класса IgG к RBD-домену спайкового (S) белка SARS-Co-V-2, пре- и поствакцинальные, Креатинин, Креатинкиназа (КФК), Липаза, Мочевая кислота, Мочевина, С-реактивный белок, Цинк"',
-                        price: 2350,
+                        price: 2400,
                         isAdded: false
                     },
                     {
                         _id: "5020003",
                         code: "50.20.003",
                         name: '"Общая оценка состояния здоровья и возможного риска осложнений COVID-19, расширенный\nАнализ крови с формулой и цветным показателем  (5DIFF) + СОЭ, Д-димер, Аланинаминотрансфераза (АЛТ), Аспартатаминотрансфераза (АСТ), Гамма-глутамилтрансфераза (ГГТ), Глюкоза, Количественное определение антител класса IgG к RBD-домену спайкового (S) белка SARS-Co-V-2, пре- и поствакцинальные, Креатинин, Липаза, Мочевая кислота, Мочевина, С-реактивный белок, Тиреотропный гормон (ТТГ), Тропонин I, высокочувствительный ABBOTT (прогностический маркер выявления риска и/или диагностики сердечно–сосудистых заболеваний), Ферритин, Цинк"',
-                        price: 5800,
+                        price: 5850,
                         isAdded: false
                     },
                     {
                         _id: "5020004",
                         code: "50.20.004",
                         name: '"Обследование перед вакцинацией от COVID-19\nАнализ крови с формулой и цветным показателем  (5DIFF) + СОЭ, С-реактивный белок, Антитела класса IgM к белкам (нуклеокапсиду (N) и RBD-участку S-белка) SARS-COV-2, полуколичественно, Количественное определение антител класса IgG к RBD-домену спайкового (S) белка SARS-Co-V-2, пре- и поствакцинальные"',
-                        price: 3500,
+                        price: 3550,
                         isAdded: false
                     }
                 ]

@@ -10,7 +10,7 @@ const CommonBlock = ({ name, children }) => {
     const [wipeClass, setWipeClass] = useState(
         localStorage.getItem(name) || "hideCommon"
     );
-    const [backIngClass, setBackImgClass] = useState("hidden");
+    const [backImgClass, setBackImgClass] = useState("hidden");
     const wipingBlock = useRef();
     function showBlocks() {
         if (!localStorage.getItem(name)) {
@@ -31,7 +31,7 @@ const CommonBlock = ({ name, children }) => {
         <div className={classes.commonBlock + " " + classes[name]}>
             {name === "reviews" && (
                 <div
-                    className={classes.backImageBlock + " " + backIngClass}
+                    className={classes.backImageBlock + " " + backImgClass}
                 ></div>
             )}
             <AnchorPoint anchor={name} />

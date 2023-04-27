@@ -22,6 +22,10 @@ const menu = [
         menu_name: "Отзывы"
     },
     {
+        anchor: "docs",
+        menu_name: "Документы"
+    },
+    {
         anchor: "contacts",
         menu_name: "Контакты"
     }

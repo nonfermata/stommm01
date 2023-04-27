@@ -1,14 +1,15 @@
+import { ToastContainer } from "react-toastify";
+import { Route, Switch } from "react-router-dom";
+import { connect } from "react-redux";
 import Header from "./components/header/header";
 import Main from "./components/main";
-import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer } from "react-toastify";
-import { connect } from "react-redux";
-import { isFullHeaderChange } from "../redux/isFullHeaderReducer";
-import Analysis from "./components/pricelists/analysis";
-import Selected from "./components/pricelists/selected";
 import Stomatology from "./components/pricelists/stomatology";
 import Cosmetology from "./components/pricelists/cosmetology";
-import { Route, Switch, Redirect } from "react-router-dom";
+import Docs from "./components/docs/docs";
+import Analysis from "./components/pricelists/analysis";
+import Selected from "./components/pricelists/selected";
+import { isFullHeaderChange } from "../redux/isFullHeaderReducer";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = ({ isFullHeader, isFullHeaderChange, visibleComp }) => {
     const handleScroll = () => {
@@ -24,7 +25,10 @@ const App = ({ isFullHeader, isFullHeaderChange, visibleComp }) => {
                 <Route path="/stomatology" component={Stomatology} />
                 <Route path="/analysis" component={Analysis} />
                 <Route path="/cosmetology" component={Cosmetology} />
+                {/*<Route path="/cosmetology-ann" component={CosmetologyAnn} />*/}
+                {/*<Route path="/cosmetology-ang" component={CosmetologyAng} />*/}
                 <Route path="/selected" component={Selected} />
+                <Route path="/docs" component={Docs} />
             </Switch>
             <ToastContainer />
         </div>

@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import classes from "./pricelists.module.css";
-import { isAddedChange } from "../../../redux/analysisPricesReducer";
-import { connect } from "react-redux";
+import {
+    getAnalysis,
+    toggleAddedAnalysis,
+    toggleOpenedCategory
+} from "../../../redux/analysisReducer";
 import addedToList from "../common/svg/addedToList";
-import { isOpenCatChange } from "../../../redux/analysisPricesReducer";
 import addToList from "../common/svg/addToList";
 import caretDown from "../common/svg/caretDown";
 import caretRight from "../common/svg/caretRight";
@@ -11,9 +14,11 @@ import options from "../../data/options";
 import TotalPriceFixedBlock from "./totalPriceFixedBlock";
 import { Link } from "react-router-dom";
 
-const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
+const Analysis = () => {
+    const dispatch = useDispatch();
+    const analysis = useSelector(getAnalysis());
     // To make all prices higher for 50RUB
-    // const newArr = analysisPrices.map((item) => ({
+    // const newArr = analysis.map((item) => ({
     //     ...item,
     //     value: item.value.map((item2) => ({
     //         ...item2,
@@ -29,7 +34,7 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
     const [fixedBlockClass, setFixedBlockClass] = useState("");
     useEffect(() => {
         const newList = [];
-        for (const cat of analysisPrices) {
+        for (const cat of analysis) {
             for (const subcat of cat.value) {
                 for (const item of subcat.value) {
                     if (item.isAdded) {
@@ -42,16 +47,13 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
         setFixedBlockClass("");
         setTimeout(() => {
             setFixedBlockClass(classes.fixedBlockHidden);
-        }, 1500);
-    }, [analysisPrices]);
+        }, 2000);
+    }, [analysis]);
 
     let totalPrice = 0;
     if (myList && myList.length > 0) {
         totalPrice = myList.reduce((acc, item) => acc + item.price, 0);
     }
-    const handleClick = (id) => {
-        isAddedChange(id);
-    };
     return (
         <div className={classes.mainWrap}>
             {totalPrice > 0 && (
@@ -83,13 +85,13 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
                 </div>
             </div>
             <ul className={classes.pricelist}>
-                {analysisPrices.map(
+                {analysis.map(
                     ({ cat_name, _id, value, description, isOpen }) => (
                         <ul key={_id}>
                             <div
                                 className={classes.catBlock}
                                 onClick={() => {
-                                    isOpenCatChange(_id);
+                                    dispatch(toggleOpenedCategory(_id));
                                 }}
                             >
                                 {cat_name} {isOpen ? caretDown : caretRight}
@@ -140,7 +142,11 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
                                                     <li
                                                         key={_id}
                                                         onClick={() => {
-                                                            handleClick(_id);
+                                                            dispatch(
+                                                                toggleAddedAnalysis(
+                                                                    _id
+                                                                )
+                                                            );
                                                         }}
                                                     >
                                                         <div
@@ -200,10 +206,4 @@ const Analysis = ({ analysisPrices, isAddedChange, isOpenCatChange }) => {
     );
 };
 
-const mapStateToProps = ({ analysisPrices }) => ({
-    analysisPrices
-});
-
-const mapDispatchToProps = { isAddedChange, isOpenCatChange };
-
-export default connect(mapStateToProps, mapDispatchToProps)(Analysis);
+export default Analysis;

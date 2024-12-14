@@ -21,7 +21,7 @@ const CommonBlock = ({ name, children }) => {
             setBackImgClass("");
             setTimeout(() => {
                 setBackImgClass(classes.showBackImageBlock);
-            }, 1000);
+            }, 300);
         }
     }
     useEffect(() => {

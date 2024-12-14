@@ -1,13 +1,18 @@
 import React, { useEffect, useState } from "react";
 import classes from "./pricelists.module.css";
-import { isAddedChange } from "../../../redux/analysisPricesReducer";
-import { connect } from "react-redux";
+import {
+    getAnalysis,
+    toggleAddedAnalysis
+} from "../../../redux/analysisReducer";
+import { useSelector, useDispatch } from "react-redux";
 import SelectedItem from "./selectedItem";
 import addToList from "../common/svg/addToList";
 import options from "../../data/options";
 import { Link } from "react-router-dom";
 
-const Selected = ({ analysisPrices, isAddedChange }) => {
+const Selected = () => {
+    const dispatch = useDispatch();
+    const analysisPrices = useSelector(getAnalysis());
     const servicesTitle = options.find((item) => item.id === "selected").name;
     const [myList, setMyList] = useState();
     useEffect(() => {
@@ -43,7 +48,9 @@ const Selected = ({ analysisPrices, isAddedChange }) => {
                                 name={name}
                                 price={price}
                                 id={_id}
-                                onClick={isAddedChange}
+                                onClick={() => {
+                                    dispatch(toggleAddedAnalysis(_id));
+                                }}
                             />
                         ))}
                     </ul>
@@ -66,13 +73,13 @@ const Selected = ({ analysisPrices, isAddedChange }) => {
                         className={classes.subTitleBottom}
                         style={{ margin: "20px 0 0 0" }}
                     >
-                        <p style={{ marginBottom: "10px"}}>
-                            <span style={{ color: "var(--orange-color)"}}>
+                        <p style={{ marginBottom: "10px" }}>
+                            <span style={{ color: "var(--orange-color)" }}>
                                 *
                             </span>{" "}
-                            к общей стоимости добавляются также услуги
-                            медсестры (забор крови, забор мазка), в зависимости
-                            от вида исследований – от 100 до 200 руб.
+                            к общей стоимости добавляются также услуги медсестры
+                            (забор крови, забор мазка), в зависимости от вида
+                            исследований – от 100 до 200 руб.
                         </p>
                         <Link to="/analysis" className={classes.spanLink}>
                             Добавить другие исследования
@@ -94,10 +101,4 @@ const Selected = ({ analysisPrices, isAddedChange }) => {
     );
 };
 
-const mapStateToProps = ({ analysisPrices }) => ({
-    analysisPrices
-});
-
-const mapDispatchToProps = { isAddedChange };
-
-export default connect(mapStateToProps, mapDispatchToProps)(Selected);
+export default Selected;

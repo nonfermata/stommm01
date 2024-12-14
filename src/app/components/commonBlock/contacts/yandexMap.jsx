@@ -38,7 +38,7 @@ const YandexMap = () => {
                 Косметология в Клину
             </a>
             <iframe
-                src="https://yandex.kz/map-widget/v1/-/CCUnMDbf~D"
+                src="https://yandex.ru/map-widget/v1/-/CCUnMDbf~D"
                 // width="560"
                 // height="400"
                 frameBorder="1"

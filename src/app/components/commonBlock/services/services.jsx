@@ -2,7 +2,7 @@ import React from "react";
 import Accordion from "./accordion";
 import services from "../../../data/services";
 import classes from "./services.module.css";
-import CommonBtn from "../../common/commonBtn";
+// import CommonBtn from "../../common/commonBtn";
 
 const Services = () => {
     return (
@@ -10,12 +10,12 @@ const Services = () => {
             <div className={classes.subtitle}>
                 Мы предлагаем нашим пациентам следующие виды услуг:
             </div>
-            {services.map(({ name, list, id }) => (
-                <Accordion key={id} title={name} list={list} id={id} />
+            {services.map(({name, list, id}) => (
+                <Accordion key={id} title={name} list={list} id={id}/>
             ))}
-            <div className={classes.btnWrap}>
-                <CommonBtn />
-            </div>
+            {/*<div className={classes.btnWrap}>*/}
+            {/*    <CommonBtn />*/}
+            {/*</div>*/}
         </div>
     );
 };

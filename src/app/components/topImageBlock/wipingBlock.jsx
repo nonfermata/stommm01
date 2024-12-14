@@ -7,7 +7,7 @@ const WipingBlock = ({ children, timeout }) => {
         setTimeout(() => {
             setWipeClass(classes.wipingShow);
         }, timeout);
-    }, []);
+    });
     return <div className={wipeClass}>{children}</div>;
 };
 

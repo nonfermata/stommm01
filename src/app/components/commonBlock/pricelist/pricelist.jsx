@@ -1,14 +1,16 @@
 import React from "react";
 import classes from "./pricelist.module.css";
 import services from "../../../data/services";
-import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
-import { connect } from "react-redux";
+import { getBurger, toggleBurger } from "../../../../redux/burgerReducer";
+import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
-const PriceList = ({ isBurgerActive, isBurgerActiveChange }) => {
+const PriceList = () => {
+    const dispatch = useDispatch();
+    const burger = useSelector(getBurger());
     const handleClick = () => {
-        if (isBurgerActive) {
-            isBurgerActiveChange();
+        if (burger) {
+            dispatch(toggleBurger());
         }
     };
     return (
@@ -29,10 +31,4 @@ const PriceList = ({ isBurgerActive, isBurgerActiveChange }) => {
     );
 };
 
-const mapStateToProps = ({ isBurgerActive }) => ({
-    isBurgerActive
-});
-
-const mapDispatchToProps = { isBurgerActiveChange };
-
-export default connect(mapStateToProps, mapDispatchToProps)(PriceList);
+export default PriceList;

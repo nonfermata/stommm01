@@ -2,14 +2,16 @@ import React from "react";
 import {Link} from "react-router-dom";
 import classes from "./menu.module.css";
 import menu from "../../../data/menu";
-import { isFullHeaderChange } from "../../../../redux/isFullHeaderReducer";
-import { connect } from "react-redux";
+import {getHeaderOpacity, setHeaderOpaque} from "../../../../redux/headerReducer";
+import { useSelector, useDispatch } from "react-redux";
 import { HashLink } from "react-router-hash-link";
 
-const Menu = ({ isFullHeader, isFullHeaderChange }) => {
+const Menu = () => {
+    const dispatch = useDispatch()
+    const isHeaderTransparent = useSelector(getHeaderOpacity())
     const handleMenuClick = () => {
-        if (!isFullHeader) {
-            isFullHeaderChange();
+        if (!isHeaderTransparent) {
+            dispatch(setHeaderOpaque());
         }
     };
     return (
@@ -36,10 +38,4 @@ const Menu = ({ isFullHeader, isFullHeaderChange }) => {
     );
 };
 
-const mapStateToProps = ({ isFullHeader }) => ({
-    isFullHeader
-});
-
-const mapDispatchToProps = { isFullHeaderChange };
-
-export default connect(mapStateToProps, mapDispatchToProps)(Menu);
+export default Menu;

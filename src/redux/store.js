@@ -1,14 +1,14 @@
-import { combineReducers, createStore } from "redux";
-import isFullHeaderReducer from "./isFullHeaderReducer";
-import analysisPricesReducer from "./analysisPricesReducer";
-import isBurgerActiveReducer from "./isBurgerActiveReducer";
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import headerReducer from "./headerReducer";
+import analysisReducer from "./analysisReducer";
+import burgerReducer from "./burgerReducer";
 
-const reducers = combineReducers({
-    isFullHeader: isFullHeaderReducer,
-    analysisPrices: analysisPricesReducer,
-    isBurgerActive: isBurgerActiveReducer
+const reducer = combineReducers({
+    header: headerReducer,
+    burger: burgerReducer,
+    analysis: analysisReducer
 });
 
-const store = createStore(reducers);
+const store = configureStore({ reducer });
 
 export default store;

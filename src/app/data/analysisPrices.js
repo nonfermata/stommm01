@@ -1151,7 +1151,7 @@ const analysisPrices = [
                         _id: "0409008",
                         code: "04.09.008",
                         name: "25-OH витамин D, суммарный (кальциферол)",
-                        price: 1150,
+                        price: 1300,
                         isAdded: false
                     },
                     {

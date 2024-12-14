@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import InputField from "./inputField";
 import validator from "../../utils/validator";
 import SubmitButton from "../common/submitButton";
@@ -9,7 +9,7 @@ import classes from "./consultForm.module.css";
 import CheckBoxField from "./checkBoxField";
 import policy from "../../assets/pdf/policy.pdf";
 
-const ConsultForm = ({ onClose }) => {
+const ConsultForm = ({onClose}) => {
     const [windowClass, setWindowClass] = useState("transparent");
     const [formClass, setFormClass] = useState("");
     useEffect(() => {
@@ -102,7 +102,7 @@ const ConsultForm = ({ onClose }) => {
             <div
                 className="transparentTotalWindow"
                 onClick={onClose}
-                style={{ top: window.scrollY, left: "0" }}
+                style={{top: window.scrollY, left: "0"}}
             >
                 <form
                     className={classes.form + " " + formClass}
@@ -145,14 +145,14 @@ const ConsultForm = ({ onClose }) => {
                         error={errors.agreement}
                     >
                         Я ознакомился(-лась) с условиями{" "}
-                        <a href={policy} target="_blank">
+                        <a href={policy} target="_blank" rel="noreferrer">
                             <span className={classes.form__policy}>
                                 Политики конфиденциальности
                             </span>
                         </a>{" "}
                         и принимаю их
                     </CheckBoxField>
-                    <EmptyBlock height="20" />
+                    <EmptyBlock height="20"/>
                     <SubmitButton
                         disabled={!isValid || data.phone.length !== 13}
                     />

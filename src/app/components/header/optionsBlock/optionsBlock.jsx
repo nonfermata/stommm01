@@ -1,17 +1,16 @@
 import React from "react";
 import classes from "./optionsBlock.module.css";
-import { connect } from "react-redux";
-import { isBurgerActiveChange } from "../../../../redux/isBurgerActiveReducer";
+import { useSelector, useDispatch } from "react-redux";
+import { getBurger, toggleBurger } from "../../../../redux/burgerReducer";
 import options from "../../../data/options";
 import { Link } from "react-router-dom";
 
-const OptionsBlock = ({
-    isBurgerActive,
-    isBurgerActiveChange
-}) => {
+const OptionsBlock = () => {
+    const dispatch = useDispatch();
+    const burger = useSelector(getBurger());
     const handleClick = () => {
-        if (isBurgerActive) {
-            isBurgerActiveChange();
+        if (burger) {
+            dispatch(toggleBurger());
         }
     };
     return (
@@ -31,10 +30,4 @@ const OptionsBlock = ({
     );
 };
 
-const mapStateToProps = ({ visibleComp, isBurgerActive }) => ({
-    isBurgerActive
-});
-
-const mapDispatchToProps = { isBurgerActiveChange };
-
-export default connect(mapStateToProps, mapDispatchToProps)(OptionsBlock);
+export default OptionsBlock;

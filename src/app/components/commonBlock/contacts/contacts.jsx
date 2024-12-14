@@ -3,8 +3,9 @@ import classes from "./contacts.module.css";
 import YandexMap from "./yandexMap";
 import instaLogo from "../../../assets/images/insta_logo.png";
 import telegramLogo from "../../../assets/images/telegram_logo.png";
+import whatsappLogo from "../../../assets/images/whatsapp_logo.png";
 import contacts from "../../../data/contacts";
-import CommonBtn from "../../common/commonBtn";
+// import CommonBtn from "../../common/commonBtn";
 
 const Contacts = () => {
     return (
@@ -86,9 +87,32 @@ const Contacts = () => {
                     </a>
                 </p>
             </div>
-            <div className={classes.btnWrap}>
-                <CommonBtn />
+            <div className={classes.socialWrap}>
+                <a
+                    href="https://wa.me/79966558190"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img
+                        className={classes.socialLogo}
+                        src={whatsappLogo}
+                        alt="WhatsApp"
+                        title="Мы в WhatsApp"
+                    />
+                </a>
+                <p>
+                    <a
+                        href="https://wa.me/79966558190"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Мы в WhatsApp
+                    </a>
+                </p>
             </div>
+            {/*<div className={classes.btnWrap}>*/}
+            {/*    <CommonBtn />*/}
+            {/*</div>*/}
             <YandexMap />
         </>
     );

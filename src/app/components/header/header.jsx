@@ -5,7 +5,7 @@ import Logo from "./logo";
 import BurgerMenu from "./burgerMenu/burgerMenu";
 import CalcBlock from "./optionsBlock/optionsBlock";
 
-const Header = ({ isFullHeader }) => {
+const Header = ({ isHeaderTransparent }) => {
     const [headerClass, setHeaderClass] = useState(classes.header);
     useEffect(() => {
         setTimeout(() => {
@@ -14,7 +14,7 @@ const Header = ({ isFullHeader }) => {
     }, []);
     useEffect(() => {
         setHeaderClass(classes.header + " " + classes.headerFullShow);
-    }, [isFullHeader]);
+    }, [isHeaderTransparent]);
     return (
         <header className={headerClass}>
             <div className={classes.header__content}>

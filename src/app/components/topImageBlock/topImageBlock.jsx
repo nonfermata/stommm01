@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import check from "../common/svg/check";
 import WipingBlock from "./wipingBlock";
-import CommonBtn from "../common/commonBtn";
+// import CommonBtn from "../common/commonBtn";
 import classes from "./topImageBlock.module.css";
 import contacts from "../../data/contacts";
 import logo from "../../assets/images/logo.png";
@@ -10,40 +10,40 @@ const TopImageBlock = () => {
     const [blockClass, setBlockClass] = useState("");
     useEffect(() => {
         setBlockClass(classes.topBlockVisible)
-    },[])
+    }, [])
     return (
         <div className={classes.topImageBlockWrap + " " + blockClass}>
             <div className={classes.topImageBlock}></div>
             <div className={classes.topImageBlock__content}>
                 <div className={classes.logoWrap}>
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo"/>
                 </div>
                 <div>
                     <WipingBlock timeout="300">
                         <h1 className={classes.mainTitle}>
                             {check} Стоматология
-                            <br />
+                            <br/>
                             {check} Медицинские анализы
-                            <br />
+                            <br/>
                             {check} Косметология
                         </h1>
                     </WipingBlock>
                     <WipingBlock timeout="550">
                         <p className={classes.subTitle}>
                             Центр «МеДДента»
-                            <br />
+                            <br/>
                             {contacts.address.city}, {contacts.address.street}
-                            <br />
+                            <br/>
                             {contacts.phones[0]}
-                            <br />
+                            <br/>
                             {contacts.phones[1]}
                         </p>{" "}
                     </WipingBlock>
-                    <WipingBlock timeout="800">
-                        <div className={classes.btnWrap}>
-                            <CommonBtn />
-                        </div>
-                    </WipingBlock>
+                    {/*<WipingBlock timeout="800">*/}
+                    {/*    <div className={classes.btnWrap}>*/}
+                    {/*        <CommonBtn />*/}
+                    {/*    </div>*/}
+                    {/*</WipingBlock>*/}
                 </div>
             </div>
         </div>
